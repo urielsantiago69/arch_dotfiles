@@ -1,0 +1,3 @@
+2024-08-07 17:25:29.711 [info] Started local extension host with pid 5364.
+2024-08-07 17:25:32.961 [info] [perf] Render performance baseline is 19ms
+2024-08-07 17:28:49.902 [warning] SettingsEditor2: Settings not included in settingsLayout.ts: issueReporter.experimental.auxWindow

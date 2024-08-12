@@ -1,0 +1,128 @@
+[23:06:53.507][Logger] New log placeholder %WS1% registered for /home/urielsantiago/Documents/GitHub/dissertation .
+[23:06:53.507][Extension] Initializing LaTeX Workshop.
+[23:06:53.554][Build][Recipe] Set $LATEXWORKSHOP_DOCKER_LATEX: ""
+[23:06:53.554][Build][Recipe] Set $LATEXWORKSHOP_DOCKER_PATH: "docker"
+[23:06:53.572][Server] Creating LaTeX Workshop http and websocket server.
+[23:06:53.601][Format][Bib] Bibtex format config: {"tab":"  ","case":"lowercase","left":"{","right":"}","trailingComma":false,"sort":["key"],"alignOnEqual":true,"sortFields":false,"fieldsOrder":[],"firstEntries":["string","xdata"]}
+[23:06:53.615][Server] Server successfully started: {"address":"127.0.0.1","family":"IPv4","port":37757} .
+[23:06:53.619][Extension] Extension root: /home/urielsantiago/.vscode-oss/extensions/james-yu.latex-workshop-10.1.0-universal
+[23:06:53.620][Extension] $PATH: /home/urielsantiago/go/bin:/home/urielsantiago/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/bin:/usr/lib/jvm/default/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl:/var/lib/snapd/snap/bin
+[23:06:53.620][Extension] $SHELL: /bin/bash
+[23:06:53.620][Extension] $LANG: en_US.UTF-8
+[23:06:53.620][Extension] $LC_ALL: undefined
+[23:06:53.620][Extension] process.platform: linux
+[23:06:53.620][Extension] process.arch: x64
+[23:06:53.620][Extension] vscode.env.appName: Code - OSS
+[23:06:53.620][Extension] vscode.env.remoteName: undefined
+[23:06:53.620][Extension] vscode.env.uiKind: 1
+[23:06:53.639][Extension] Trigger characters for intellisense of LaTeX documents: ["\\",",","{","}"]
+[23:06:53.640][Root] Current workspace folders: ["file://%WS1%"]
+[23:06:53.640][Extension] LaTeX Workshop initialized.
+[23:06:53.640][Root] Found root file from active editor: %WS1%/index.tex
+[23:06:53.640][Root] Root file changed: from %WS1%/index.tex to %WS1%/index.tex, langID latex . Refresh dependencies
+[23:06:53.640][Event] ROOT_FILE_CHANGED: "%WS1%/index.tex"
+[23:06:53.640][Cacher][Watcher] Reset.
+[23:06:53.640][Cacher][Watcher] Reset.
+[23:06:53.641][Cacher] Adding %WS1%/index.tex .
+[23:06:53.642][Cacher][Watcher] Watched %WS1%/index.tex with a new .* watcher on %WS1% .
+[23:06:53.642][Event] FILE_WATCHED: "%WS1%/index.tex"
+[23:06:53.643][Cacher] Caching %WS1%/index.tex .
+[23:06:53.643][Event] ROOT_FILE_SEARCHED
+[23:06:53.646][Server] valdOrigin is http://127.0.0.1:37757
+[23:06:53.666][Cacher] Input %WS1%/sections/01-introduction.tex from %WS1%/index.tex .
+[23:06:53.666][Cacher] Adding %WS1%/sections/01-introduction.tex .
+[23:06:53.667][Cacher][Watcher] Watched %WS1%/sections/01-introduction.tex with a new .* watcher on %WS1%/sections .
+[23:06:53.667][Event] FILE_WATCHED: "%WS1%/sections/01-introduction.tex"
+[23:06:53.667][Cacher] Caching %WS1%/sections/01-introduction.tex .
+[23:06:53.742][Viewer][Panel] Internal PDF viewer at http://127.0.0.1:37757/viewer.html?file=pdf..ZmlsZSUzQSUyRiUyRiUyRmhvbWUlMkZ1cmllbHNhbnRpYWdvJTJGRG9jdW1lbnRzJTJGR2l0SHViJTJGZGlzc2VydGF0aW9uJTJGaW5kZXgucGRm .
+[23:06:53.743][Cacher][Watcher] Watched %WS1%/index.pdf with a new .pdf watcher on %WS1% .
+[23:06:53.743][Event] FILE_WATCHED: "%WS1%/index.pdf"
+[23:06:53.761][Cacher] Input %WS1%/sections/02-computational_law.tex from %WS1%/index.tex .
+[23:06:53.762][Cacher] Adding %WS1%/sections/02-computational_law.tex .
+[23:06:53.762][Cacher][Watcher] Watched %WS1%/sections/02-computational_law.tex by the .* watcher.
+[23:06:53.762][Event] FILE_WATCHED: "%WS1%/sections/02-computational_law.tex"
+[23:06:53.762][Cacher] Caching %WS1%/sections/02-computational_law.tex .
+[23:06:53.765][Cacher] Updated inputs of %WS1%/sections/01-introduction.tex .
+[23:06:53.765][Cacher] Parse LaTeX AST: %WS1%/sections/01-introduction.tex .
+[23:06:53.793][Cacher] Input %WS1%/sections/03-legal_computability.tex from %WS1%/index.tex .
+[23:06:53.793][Cacher] Adding %WS1%/sections/03-legal_computability.tex .
+[23:06:53.794][Cacher][Watcher] Watched %WS1%/sections/03-legal_computability.tex by the .* watcher.
+[23:06:53.794][Event] FILE_WATCHED: "%WS1%/sections/03-legal_computability.tex"
+[23:06:53.794][Cacher] Caching %WS1%/sections/03-legal_computability.tex .
+[23:06:53.811][Cacher] Input %WS1%/sections/04-encoding_analysis_overview.tex from %WS1%/index.tex .
+[23:06:53.812][Cacher] Adding %WS1%/sections/04-encoding_analysis_overview.tex .
+[23:06:53.812][Cacher][Watcher] Watched %WS1%/sections/04-encoding_analysis_overview.tex by the .* watcher.
+[23:06:53.812][Event] FILE_WATCHED: "%WS1%/sections/04-encoding_analysis_overview.tex"
+[23:06:53.812][Cacher] Caching %WS1%/sections/04-encoding_analysis_overview.tex .
+[23:06:53.813][Cacher] Updated inputs of %WS1%/sections/02-computational_law.tex .
+[23:06:53.813][Cacher] Parse LaTeX AST: %WS1%/sections/02-computational_law.tex .
+[23:06:53.818][Cacher] Updated inputs of %WS1%/sections/03-legal_computability.tex .
+[23:06:53.818][Cacher] Parse LaTeX AST: %WS1%/sections/03-legal_computability.tex .
+[23:06:53.846][Cacher] Input %WS1%/sections/07-relevance_testing.tex from %WS1%/index.tex .
+[23:06:53.846][Cacher] Adding %WS1%/sections/07-relevance_testing.tex .
+[23:06:53.846][Cacher][Watcher] Watched %WS1%/sections/07-relevance_testing.tex by the .* watcher.
+[23:06:53.846][Event] FILE_WATCHED: "%WS1%/sections/07-relevance_testing.tex"
+[23:06:53.847][Cacher] Caching %WS1%/sections/07-relevance_testing.tex .
+[23:06:53.847][Cacher] Updated inputs of %WS1%/index.tex .
+[23:06:53.847][Cacher] Parse LaTeX AST: %WS1%/index.tex .
+[23:06:53.870][Cacher] Parsed LaTeX AST in 104.31 ms: %WS1%/sections/01-introduction.tex .
+[23:06:53.870][File] Calling kpsewhich to resolve subfiles.cls .
+[23:06:53.914][File] kpsewhich returned with '/usr/share/texmf-dist/tex/latex/subfiles/subfiles.cls'.
+[23:06:53.928][Cacher] Updated elements in 57.63 ms: %WS1%/sections/01-introduction.tex .
+[23:06:53.928][Event] FILE_PARSED: "%WS1%/sections/01-introduction.tex"
+[23:06:53.937][Cacher] Parsed LaTeX AST in 123.85 ms: %WS1%/sections/02-computational_law.tex .
+[23:06:53.937][File] kpsewhich cache hit on subfiles.cls: /usr/share/texmf-dist/tex/latex/subfiles/subfiles.cls .
+[23:06:53.942][Cacher] Updated elements in 4.41 ms: %WS1%/sections/02-computational_law.tex .
+[23:06:53.942][Event] FILE_PARSED: "%WS1%/sections/02-computational_law.tex"
+[23:06:53.943][Cacher] Updated inputs of %WS1%/sections/04-encoding_analysis_overview.tex .
+[23:06:53.943][Cacher] Parse LaTeX AST: %WS1%/sections/04-encoding_analysis_overview.tex .
+[23:06:54.006][Cacher] Parsed LaTeX AST in 188.09 ms: %WS1%/sections/03-legal_computability.tex .
+[23:06:54.007][File] kpsewhich cache hit on subfiles.cls: /usr/share/texmf-dist/tex/latex/subfiles/subfiles.cls .
+[23:06:54.009][Cacher] Updated elements in 2.06 ms: %WS1%/sections/03-legal_computability.tex .
+[23:06:54.009][Event] FILE_PARSED: "%WS1%/sections/03-legal_computability.tex"
+[23:06:54.015][Cacher] Updated inputs of %WS1%/sections/07-relevance_testing.tex .
+[23:06:54.016][Cacher] Parse LaTeX AST: %WS1%/sections/07-relevance_testing.tex .
+[23:06:54.018][Cacher] Parsed LaTeX AST in 171.44 ms: %WS1%/index.tex .
+[23:06:54.019][File] Calling kpsewhich to resolve article.cls .
+[23:06:54.061][File] kpsewhich returned with '/usr/share/texmf-dist/tex/latex/base/article.cls'.
+[23:06:54.062][Cacher] Bib %WS1%/bibliography.bib from %WS1%/index.tex .
+[23:06:54.063][Intelli][Citation] Parsing .bib entries from %WS1%/bibliography.bib
+[23:06:54.063][Intelli][Citation] Parse BibTeX AST from %WS1%/bibliography.bib .
+[23:06:54.063][Cacher][Watcher] Watched %WS1%/bibliography.bib with a new .bib watcher on %WS1% .
+[23:06:54.063][Event] FILE_WATCHED: "%WS1%/bibliography.bib"
+[23:06:54.063][Cacher] Updated elements in 44.27 ms: %WS1%/index.tex .
+[23:06:54.063][Event] FILE_PARSED: "%WS1%/index.tex"
+[23:06:54.089][Cacher] Parsing .fls %WS1%/index.fls .
+[23:06:54.105][Cacher] Parsed LaTeX AST in 161.89 ms: %WS1%/sections/04-encoding_analysis_overview.tex .
+[23:06:54.105][File] kpsewhich cache hit on subfiles.cls: /usr/share/texmf-dist/tex/latex/subfiles/subfiles.cls .
+[23:06:54.111][Cacher] Updated elements in 5.74 ms: %WS1%/sections/04-encoding_analysis_overview.tex .
+[23:06:54.112][Event] FILE_PARSED: "%WS1%/sections/04-encoding_analysis_overview.tex"
+[23:06:54.120][Cacher] Parsed LaTeX AST in 103.53 ms: %WS1%/sections/07-relevance_testing.tex .
+[23:06:54.120][File] kpsewhich cache hit on subfiles.cls: /usr/share/texmf-dist/tex/latex/subfiles/subfiles.cls .
+[23:06:54.121][Cacher] Updated elements in 0.80 ms: %WS1%/sections/07-relevance_testing.tex .
+[23:06:54.121][Event] FILE_PARSED: "%WS1%/sections/07-relevance_testing.tex"
+[23:06:54.124][Structure] Structure force updated with 0 root sections for %WS1%/index.tex .
+[23:06:54.124][Event] STRUCTURE_UPDATED
+[23:06:54.135][Intelli][Citation] Parsed 60 bib entries from %WS1%/bibliography.bib .
+[23:06:54.135][Event] FILE_PARSED: "%WS1%/bibliography.bib"
+[23:06:54.138][Structure] Structure force updated with 6 root sections for %WS1%/index.tex .
+[23:06:54.138][Event] STRUCTURE_UPDATED
+[23:06:54.204][Cacher] Adding %WS1%/images/box_threshold_tests.png .
+[23:06:54.205][Cacher][Watcher] Watched %WS1%/images/box_threshold_tests.png with a new .* watcher on %WS1%/images .
+[23:06:54.205][Event] FILE_WATCHED: "%WS1%/images/box_threshold_tests.png"
+[23:06:54.205][Cacher] Adding %WS1%/images/example_class_hierarchy.png .
+[23:06:54.206][Cacher][Watcher] Watched %WS1%/images/example_class_hierarchy.png by the .* watcher.
+[23:06:54.206][Event] FILE_WATCHED: "%WS1%/images/example_class_hierarchy.png"
+[23:06:54.206][Cacher] Adding %WS1%/images/init_class_diagram.png .
+[23:06:54.207][Cacher][Watcher] Watched %WS1%/images/init_class_diagram.png by the .* watcher.
+[23:06:54.207][Event] FILE_WATCHED: "%WS1%/images/init_class_diagram.png"
+[23:06:54.211][Cacher] Found .aux %WS1%/index.aux from .fls %WS1%/index.fls , parsing.
+[23:06:54.212][Cacher] Parsed .aux %WS1%/index.aux .
+[23:06:54.212][Cacher] Parsed .fls %WS1%/index.fls .
+[23:06:54.219][Viewer] Handle data type: open
+[23:06:54.264][Server] Preview PDF file: file://%WS1%/index.pdf
+[23:06:54.389][Viewer] Handle data type: loaded
+[23:06:54.389][Event] VIEWER_PAGE_LOADED
+[23:07:46.110][Event] STRUCTURE_UPDATED
+[23:07:48.504][Cacher][Watcher] Reset.
+[23:07:48.505][Cacher][Watcher] Reset.

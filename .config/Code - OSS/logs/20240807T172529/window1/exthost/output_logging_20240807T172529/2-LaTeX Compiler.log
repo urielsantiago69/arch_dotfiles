@@ -1,0 +1,936 @@
+ReadyLatexmk: Sometimes, the -f option can be used to get latexmk
+  to try to force complete processing.
+  But normally, you will need to correct the file(s) that caused the
+  error, and then rerun latexmk.
+  In some cases, it is best to clean out generated files before rerunning
+  latexmk after you've corrected the files.
+Rc files read:
+  NONE
+Latexmk: This is Latexmk, John Collins, 31 Jan. 2024. Version 4.83.
+Latexmk: Nothing to do for '/home/urielsantiago/Documents/GitHub/dissertation/sections/04-encoding_analysis_overview.tex'.
+Latexmk: All targets (sections/04-encoding_analysis_overview.pdf) are up-to-date
+Collected error summary (may duplicate other messages):
+  biber sections/04-encoding_analysis_overview: gave an error in previous invocation of latexmk.
+
+Rc files read:
+  NONE
+Latexmk: This is Latexmk, John Collins, 31 Jan. 2024. Version 4.83.
+No existing .aux file, so I'll make a simple one, and require run of *latex.
+Latexmk: applying rule 'pdflatex'...
+Rule 'pdflatex':  Reasons for rerun
+Category 'other':
+  Rerun of 'pdflatex' forced or previously required:
+    Reason or flag: 'Initial setup'
+
+------------
+Run number 1 of rule 'pdflatex'
+------------
+------------
+Running 'pdflatex  -synctex=1 -interaction=nonstopmode -file-line-error -recorder -output-directory="sections"  "/home/urielsantiago/Documents/GitHub/dissertation/sections/04-encoding_analysis_overview.tex"'
+------------
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024/Arch Linux) (preloaded format=pdflatex)
+ restricted \write18 enabled.
+entering extended mode
+(/home/urielsantiago/Documents/GitHub/dissertation/sections/04-encoding_analysis_overview.tex
+LaTeX2e <2023-11-01> patch level 1
+L3 programming layer <2024-02-20>
+(/usr/share/texmf-dist/tex/latex/subfiles/subfiles.cls
+Document Class: subfiles 2020/11/14 v2.2 Multi-file projects (class)
+Preamble taken from file `../index.tex'
+(/usr/share/texmf-dist/tex/latex/import/import.sty) (sections/../index.tex (/usr/share/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2023/05/17 v1.4n Standard LaTeX document class
+(/usr/share/texmf-dist/tex/latex/base/size12.clo)) (/usr/share/texmf-dist/tex/latex/base/inputenc.sty) (/usr/share/texmf-dist/tex/latex/amsmath/amsmath.sty
+For additional information on amsmath, use the `?' option.
+(/usr/share/texmf-dist/tex/latex/amsmath/amstext.sty (/usr/share/texmf-dist/tex/latex/amsmath/amsgen.sty)) (/usr/share/texmf-dist/tex/latex/amsmath/amsbsy.sty) (/usr/share/texmf-dist/tex/latex/amsmath/amsopn.sty)) (/usr/share/texmf-dist/tex/latex/amscls/amsthm.sty) (/usr/share/texmf-dist/tex/latex/amsfonts/amsfonts.sty) (/usr/share/texmf-dist/tex/latex/amsfonts/amssymb.sty) (/usr/share/texmf-dist/tex/latex/amsmath/amscd.sty) (/usr/share/texmf-dist/tex/latex/multirow/multirow.sty) (/usr/share/texmf-dist/tex/latex/booktabs/booktabs.sty) (/usr/share/texmf-dist/tex/latex/xcolor/xcolor.sty (/usr/share/texmf-dist/tex/latex/graphics-cfg/color.cfg) (/usr/share/texmf-dist/tex/latex/graphics-def/pdftex.def) (/usr/share/texmf-dist/tex/latex/graphics/mathcolor.ltx)) (/usr/share/texmf-dist/tex/latex/colortbl/colortbl.sty (/usr/share/texmf-dist/tex/latex/tools/array.sty)) (/usr/share/texmf-dist/tex/latex/preprint/fullpage.sty) (/usr/share/texmf-dist/tex/latex/lastpage/lastpage.sty (/usr/share/texmf-dist/tex/latex/lastpage/lastpage2e.sty (/usr/share/texmf-dist/tex/latex/lastpage/lastpagemodern.sty) 
+)) (/usr/share/texmf-dist/tex/latex/enumitem/enumitem.sty) (/usr/share/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty) (/usr/share/texmf-dist/tex/latex/jknapltx/mathrsfs.sty) (/usr/share/texmf-dist/tex/latex/wrapfig/wrapfig.sty) (/usr/share/texmf-dist/tex/latex/setspace/setspace.sty) (/usr/share/texmf-dist/tex/latex/tools/calc.sty) (/usr/share/texmf-dist/tex/latex/tools/multicol.sty) (/usr/share/texmf-dist/tex/latex/cancel/cancel.sty) (/usr/share/texmf-dist/tex/latex/ieeetran/IEEEtrantools.sty
+-- See the "IEEEtrantools_doc.txt" manual for usage information.
+-- http://www.michaelshell.org/tex/ieeetran/tools/
+) (/usr/share/texmf-dist/tex/latex/geometry/geometry.sty (/usr/share/texmf-dist/tex/latex/graphics/keyval.sty) (/usr/share/texmf-dist/tex/generic/iftex/ifvtex.sty (/usr/share/texmf-dist/tex/generic/iftex/iftex.sty))) (/usr/share/texmf-dist/tex/latex/csquotes/csquotes.sty (/usr/share/texmf-dist/tex/latex/etoolbox/etoolbox.sty) (/usr/share/texmf-dist/tex/latex/csquotes/csquotes.def) (/usr/share/texmf-dist/tex/latex/csquotes/csquotes.cfg)) (/usr/share/texmf-dist/tex/latex/mathtools/empheq.sty (/usr/share/texmf-dist/tex/latex/mathtools/mhsetup.sty) (/usr/share/texmf-dist/tex/latex/mathtools/mathtools.sty)) (/usr/share/texmf-dist/tex/latex/framed/framed.sty) (/usr/share/texmf-dist/tex/latex/tcolorbox/tcolorbox.sty (/usr/share/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty (/usr/share/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty (/usr/share/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.tex) (/usr/share/texmf-dist/tex/generic/pgf/utilities/pgfutil-latex.def) (/usr/share/texmf-dist/tex/generic/pgf/utilities/pgfrcs.code.tex (/usr/share/texmf-dist/tex/generic/pgf/pgf.revision.tex))) (/usr/share/texmf-dist/tex/latex/pgf/basiclayer/pgfcore.sty (/usr/share/texmf-dist/tex/latex/graphics/graphicx.sty (/usr/share/texmf-dist/tex/latex/graphics/graphics.sty (/usr/share/texmf-dist/tex/latex/graphics/trig.sty) (/usr/share/texmf-dist/tex/latex/graphics-cfg/graphics.cfg))) (/usr/share/texmf-dist/tex/latex/pgf/systemlayer/pgfsys.sty (/usr/share/texmf-dist/tex/generic/pgf/systemlayer/pgfsys.code.tex (/usr/share/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex (/usr/share/texmf-dist/tex/generic/pgf/utilities/pgfkeyslibraryfiltered.code.tex)) (/usr/share/texmf-dist/tex/generic/pgf/systemlayer/pgf.cfg) (/usr/share/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-pdftex.def (/usr/share/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-common-pdf.def))) (/usr/share/texmf-dist/tex/generic/pgf/systemlayer/pgfsyssoftpath.code.tex) (/usr/share/texmf-dist/tex/generic/pgf/systemlayer/pgfsysprotocol.code.tex)) (/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcore.code.tex (/usr/share/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex (/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathutil.code.tex) (/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathparser.code.tex) (/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.code.tex) (/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.basic.code.tex) (/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.trigonometric.code.tex) (/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.random.code.tex) (/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.comparison.code.tex) (/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.base.code.tex) (/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.round.code.tex) (/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.misc.code.tex) (/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.integerarithmetics.code.tex) (/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathcalc.code.tex) (/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathfloat.code.tex)) (/usr/share/texmf-dist/tex/generic/pgf/math/pgfint.code.tex) (/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepoints.code.tex) (/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathconstruct.code.tex) (/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathusage.code.tex) (/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcorescopes.code.tex) (/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcoregraphicstate.code.tex) (/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransformations.code.tex) (/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcorequick.code.tex) (/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreobjects.code.tex) (/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathprocessing.code.tex) (/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcorearrows.code.tex) (/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreshade.code.tex) (/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreimage.code.tex) (/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreexternal.code.tex) (/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcorelayers.code.tex) (/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransparency.code.tex) (/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepatterns.code.tex) (/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcorerdf.code.tex))) (/usr/share/texmf-dist/tex/generic/pgf/modules/pgfmoduleshapes.code.tex) (/usr/share/texmf-dist/tex/generic/pgf/modules/pgfmoduleplot.code.tex) (/usr/share/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-0-65.sty) (/usr/share/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-1-18.sty)) (/usr/share/texmf-dist/tex/latex/tools/verbatim.sty) (/usr/share/texmf-dist/tex/latex/environ/environ.sty (/usr/share/texmf-dist/tex/latex/trimspaces/trimspaces.sty)) (/usr/share/texmf-dist/tex/latex/tcolorbox/tcbraster.code.tex
+Library (tcolorbox): 'tcbraster.code.tex' version '6.2.0'
+) (/usr/share/texmf-dist/tex/latex/tcolorbox/tcbskins.code.tex
+Library (tcolorbox): 'tcbskins.code.tex' version '6.2.0'
+(/usr/share/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty (/usr/share/texmf-dist/tex/latex/pgf/utilities/pgffor.sty (/usr/share/texmf-dist/tex/latex/pgf/utilities/pgfkeys.sty (/usr/share/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex)) (/usr/share/texmf-dist/tex/latex/pgf/math/pgfmath.sty (/usr/share/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex)) (/usr/share/texmf-dist/tex/generic/pgf/utilities/pgffor.code.tex)) (/usr/share/texmf-dist/tex/generic/pgf/frontendlayer/tikz/tikz.code.tex (/usr/share/texmf-dist/tex/generic/pgf/libraries/pgflibraryplothandlers.code.tex) (/usr/share/texmf-dist/tex/generic/pgf/modules/pgfmodulematrix.code.tex) (/usr/share/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarytopaths.code.tex))) (/usr/share/texmf-dist/tex/latex/tikzfill/tikzfill.image.sty (/usr/share/texmf-dist/tex/latex/tikzfill/tikzfill-common.sty) (/usr/share/texmf-dist/tex/latex/tikzfill/tikzlibraryfill.image.code.tex)) (/usr/share/texmf-dist/tex/latex/tcolorbox/tcbskinsjigsaw.code.tex
+Library (tcolorbox): 'tcbskinsjigsaw.code.tex' version '6.2.0'
+)) (/usr/share/texmf-dist/tex/latex/tcolorbox/tcbbreakable.code.tex
+Library (tcolorbox): 'tcbbreakable.code.tex' version '6.2.0'
+(/usr/share/texmf-dist/tex/latex/pdfcol/pdfcol.sty (/usr/share/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty) (/usr/share/texmf-dist/tex/generic/infwarerr/infwarerr.sty))) (/usr/share/texmf-dist/tex/latex/tcolorbox/tcbhooks.code.tex
+Library (tcolorbox): 'tcbhooks.code.tex' version '6.2.0'
+) (/usr/share/texmf-dist/tex/latex/tcolorbox/tcbtheorems.code.tex
+Library (tcolorbox): 'tcbtheorems.code.tex' version '6.2.0'
+) (/usr/share/texmf-dist/tex/latex/tcolorbox/tcbfitting.code.tex
+Library (tcolorbox): 'tcbfitting.code.tex' version '6.2.0'
+) (/usr/share/texmf-dist/tex/latex/tcolorbox/tcblistingsutf8.code.tex
+Library (tcolorbox): 'tcblistingsutf8.code.tex' version '6.2.0'
+(/usr/share/texmf-dist/tex/latex/tcolorbox/tcblistings.code.tex
+Library (tcolorbox): 'tcblistings.code.tex' version '6.2.0'
+(/usr/share/texmf-dist/tex/latex/listings/listings.sty (/usr/share/texmf-dist/tex/latex/listings/lstpatch.sty) (/usr/share/texmf-dist/tex/latex/listings/lstmisc.sty) (/usr/share/texmf-dist/tex/latex/listings/listings.cfg)) (/usr/share/texmf-dist/tex/latex/tcolorbox/tcblistingscore.code.tex
+Library (tcolorbox): 'tcblistingscore.code.tex' version '6.2.0'
+(/usr/share/texmf-dist/tex/latex/tcolorbox/tcbprocessing.code.tex
+Library (tcolorbox): 'tcbprocessing.code.tex' version '6.2.0'
+))) (/usr/share/texmf-dist/tex/latex/listingsutf8/listingsutf8.sty (/usr/share/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty) (/usr/share/texmf-dist/tex/generic/stringenc/stringenc.sty (/usr/share/texmf-dist/tex/generic/pdfescape/pdfescape.sty)))) (/usr/share/texmf-dist/tex/latex/tcolorbox/tcbexternal.code.tex
+Library (tcolorbox): 'tcbexternal.code.tex' version '6.2.0'
+) (/usr/share/texmf-dist/tex/latex/tcolorbox/tcbmagazine.code.tex
+Library (tcolorbox): 'tcbmagazine.code.tex' version '6.2.0'
+) (/usr/share/texmf-dist/tex/latex/tcolorbox/tcbvignette.code.tex
+Library (tcolorbox): 'tcbvignette.code.tex' version '6.2.0'
+(/usr/share/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibraryfadings.code.tex (/usr/share/texmf-dist/tex/generic/pgf/libraries/pgflibraryfadings.code.tex))) (/usr/share/texmf-dist/tex/latex/tcolorbox/tcbposter.code.tex
+Library (tcolorbox): 'tcbposter.code.tex' version '6.2.0'
+)) (/usr/share/texmf-dist/tex/generic/babel/babel.sty (/usr/share/texmf-dist/tex/generic/babel/txtbabel.def) (/usr/share/texmf-dist/tex/generic/babel-english/english.ldf)) (/usr/share/texmf-dist/tex/generic/babel/locale/en/babel-english.tex) (/usr/share/texmf-dist/tex/latex/blindtext/blindtext.sty (/usr/share/texmf-dist/tex/latex/tools/xspace.sty)) (/usr/share/texmf-dist/tex/latex/epigraph/epigraph.sty (/usr/share/texmf-dist/tex/latex/nextpage/nextpage.sty)) (/usr/share/texmf-dist/tex/latex/biblatex/biblatex.sty (/usr/share/texmf-dist/tex/latex/kvoptions/kvoptions.sty (/usr/share/texmf-dist/tex/latex/kvsetkeys/kvsetkeys.sty)) (/usr/share/texmf-dist/tex/latex/logreq/logreq.sty (/usr/share/texmf-dist/tex/latex/logreq/logreq.def)) (/usr/share/texmf-dist/tex/latex/base/ifthen.sty) (/usr/share/texmf-dist/tex/latex/url/url.sty) (/usr/share/texmf-dist/tex/latex/biblatex/blx-dm.def) (/usr/share/texmf-dist/tex/latex/biblatex/blx-compat.def) (/usr/share/texmf-dist/tex/latex/biblatex/biblatex.def) (/usr/share/texmf-dist/tex/latex/biblatex/bbx/verbose-ibid.bbx (/usr/share/texmf-dist/tex/latex/biblatex/bbx/authortitle.bbx (/usr/share/texmf-dist/tex/latex/biblatex/bbx/standard.bbx))) (/usr/share/texmf-dist/tex/latex/biblatex/cbx/verbose-ibid.cbx) (/usr/share/texmf-dist/tex/latex/biblatex/biblatex.cfg) (/usr/share/texmf-dist/tex/latex/l3kernel/expl3.sty (/usr/share/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def)) (/usr/share/texmf-dist/tex/latex/biblatex/blx-case-expl3.sty (/usr/share/texmf-dist/tex/latex/l3packages/xparse/xparse.sty))) (/usr/share/texmf-dist/tex/latex/subfiles/subfiles.sty) (/usr/share/texmf-dist/tex/latex/outlines/outlines.sty) (/usr/share/texmf-dist/tex/latex/lineno/lineno.sty
+
+LaTeX Warning: Command \@parboxrestore  has changed.
+               Check if current package is valid.
+
+))) (sections/04-encoding_analysis_overview.aux) (/usr/share/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+) (/usr/share/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty (/usr/share/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg))
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+(/usr/share/texmf-dist/tex/latex/biblatex/lbx/english.lbx) (sections/04-encoding_analysis_overview.bbl) (/usr/share/texmf-dist/tex/latex/amsfonts/umsa.fd) (/usr/share/texmf-dist/tex/latex/amsfonts/umsb.fd) (/usr/share/texmf-dist/tex/latex/jknapltx/ursfs.fd)
+Underfull \hbox (badness 1655) in paragraph at lines 24--24
+\OT1/cmr/m/n/12 the in-dus-try be-ing as-
+
+Overfull \hbox (12.0pt too wide) in paragraph at lines 24--24
+[]|[]| 
+
+Underfull \hbox (badness 10000) in paragraph at lines 24--24
+[]|\OT1/cmr/m/n/12 Ontologies (On-tol-ogy
+
+Overfull \hbox (12.0pt too wide) in paragraph at lines 24--24
+[]|[]| 
+
+Underfull \hbox (badness 6608) in paragraph at lines 25--25
+[]|\OT1/cmr/m/n/12 Given a spe-cific rule
+
+Overfull \hbox (12.0pt too wide) in paragraph at lines 25--25
+[]|[]| 
+
+Underfull \hbox (badness 10000) in paragraph at lines 25--25
+[]|\OT1/cmr/m/n/12 Argumentation Frame-
+
+Overfull \hbox (12.0pt too wide) in paragraph at lines 25--25
+[]|[]| 
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] [2] [3{/usr/share/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}] [4] [5] [6]
+Underfull \hbox (badness 1895) in paragraph at lines 87--87
+[][][]\OT1/cmr/m/n/10 Oasis Open. \OT1/cmr/m/it/10 Legal-RuleML Core Spec-i-fi-ca-tion Ver-sion 1.0\OT1/cmr/m/n/10 . Aug. 30, 2021. \OT1/cmr/m/sc/10 url\OT1/cmr/m/n/10 :
+
+Underfull \hbox (badness 2065) in paragraph at lines 87--87
+\OT1/cmtt/m/n/10 http : / / docs . oasis -[] open . org / legalruleml / legalruleml -[] core -[] spec / v1 .
+
+Underfull \hbox (badness 2894) in paragraph at lines 87--87
+\OT1/cmtt/m/n/10 0 / legalruleml -[] core -[] spec -[] v1 . 0 . html$ \OT1/cmr/m/n/10 (vis-ited on 10/06/2023), See also See
+[7] [8 <sections/../images/box_threshold_tests.png>] [9] [10] [11] [12 <sections/../images/example_class_hierarchy.png>] [13] [14] [15 <sections/../images/init_class_diagram.png>] [16] [17] [18] [19] [20] [21] 
+enddocument/afterlastpage: lastpage setting LastPage.
+(sections/04-encoding_analysis_overview.aux)
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+
+Package lastpage Warning: Rerun to get the references right on input line 235.
+
+
+Package biblatex Warning: Please (re)run Biber on the file:
+(biblatex)                04-encoding_analysis_overview
+(biblatex)                and rerun LaTeX afterwards.
+
+ )
+(see the transcript file for additional information)</usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb>
+Output written on sections/04-encoding_analysis_overview.pdf (21 pages, 560412 bytes).
+SyncTeX written on sections/04-encoding_analysis_overview.synctex.gz.
+Transcript written on sections/04-encoding_analysis_overview.log.
+Latexmk: Getting log file 'sections/04-encoding_analysis_overview.log'
+Latexmk: Examining 'sections/04-encoding_analysis_overview.fls'
+Latexmk: Examining 'sections/04-encoding_analysis_overview.log'
+Latexmk: Found input bbl file 'sections/04-encoding_analysis_overview.bbl'
+Latexmk: References changed.
+Latexmk: References changed.
+Latexmk: Log file says output to 'sections/04-encoding_analysis_overview.pdf'
+Latexmk: Bibliography file(s) from .bcf file:
+  bibliography.bib
+Latexmk: applying rule 'pdflatex'...
+Rule 'pdflatex':  Reasons for rerun
+Changed files or newly in use/created:
+  sections/04-encoding_analysis_overview.aux
+
+------------
+Run number 2 of rule 'pdflatex'
+------------
+------------
+Running 'pdflatex  -synctex=1 -interaction=nonstopmode -file-line-error -recorder -output-directory="sections"  "/home/urielsantiago/Documents/GitHub/dissertation/sections/04-encoding_analysis_overview.tex"'
+------------
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024/Arch Linux) (preloaded format=pdflatex)
+ restricted \write18 enabled.
+entering extended mode
+(/home/urielsantiago/Documents/GitHub/dissertation/sections/04-encoding_analysis_overview.tex
+LaTeX2e <2023-11-01> patch level 1
+L3 programming layer <2024-02-20>
+(/usr/share/texmf-dist/tex/latex/subfiles/subfiles.cls
+Document Class: subfiles 2020/11/14 v2.2 Multi-file projects (class)
+Preamble taken from file `../index.tex'
+(/usr/share/texmf-dist/tex/latex/import/import.sty) (sections/../index.tex (/usr/share/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2023/05/17 v1.4n Standard LaTeX document class
+(/usr/share/texmf-dist/tex/latex/base/size12.clo)) (/usr/share/texmf-dist/tex/latex/base/inputenc.sty) (/usr/share/texmf-dist/tex/latex/amsmath/amsmath.sty
+For additional information on amsmath, use the `?' option.
+(/usr/share/texmf-dist/tex/latex/amsmath/amstext.sty (/usr/share/texmf-dist/tex/latex/amsmath/amsgen.sty)) (/usr/share/texmf-dist/tex/latex/amsmath/amsbsy.sty) (/usr/share/texmf-dist/tex/latex/amsmath/amsopn.sty)) (/usr/share/texmf-dist/tex/latex/amscls/amsthm.sty) (/usr/share/texmf-dist/tex/latex/amsfonts/amsfonts.sty) (/usr/share/texmf-dist/tex/latex/amsfonts/amssymb.sty) (/usr/share/texmf-dist/tex/latex/amsmath/amscd.sty) (/usr/share/texmf-dist/tex/latex/multirow/multirow.sty) (/usr/share/texmf-dist/tex/latex/booktabs/booktabs.sty) (/usr/share/texmf-dist/tex/latex/xcolor/xcolor.sty (/usr/share/texmf-dist/tex/latex/graphics-cfg/color.cfg) (/usr/share/texmf-dist/tex/latex/graphics-def/pdftex.def) (/usr/share/texmf-dist/tex/latex/graphics/mathcolor.ltx)) (/usr/share/texmf-dist/tex/latex/colortbl/colortbl.sty (/usr/share/texmf-dist/tex/latex/tools/array.sty)) (/usr/share/texmf-dist/tex/latex/preprint/fullpage.sty) (/usr/share/texmf-dist/tex/latex/lastpage/lastpage.sty (/usr/share/texmf-dist/tex/latex/lastpage/lastpage2e.sty (/usr/share/texmf-dist/tex/latex/lastpage/lastpagemodern.sty) 
+)) (/usr/share/texmf-dist/tex/latex/enumitem/enumitem.sty) (/usr/share/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty) (/usr/share/texmf-dist/tex/latex/jknapltx/mathrsfs.sty) (/usr/share/texmf-dist/tex/latex/wrapfig/wrapfig.sty) (/usr/share/texmf-dist/tex/latex/setspace/setspace.sty) (/usr/share/texmf-dist/tex/latex/tools/calc.sty) (/usr/share/texmf-dist/tex/latex/tools/multicol.sty) (/usr/share/texmf-dist/tex/latex/cancel/cancel.sty) (/usr/share/texmf-dist/tex/latex/ieeetran/IEEEtrantools.sty
+-- See the "IEEEtrantools_doc.txt" manual for usage information.
+-- http://www.michaelshell.org/tex/ieeetran/tools/
+) (/usr/share/texmf-dist/tex/latex/geometry/geometry.sty (/usr/share/texmf-dist/tex/latex/graphics/keyval.sty) (/usr/share/texmf-dist/tex/generic/iftex/ifvtex.sty (/usr/share/texmf-dist/tex/generic/iftex/iftex.sty))) (/usr/share/texmf-dist/tex/latex/csquotes/csquotes.sty (/usr/share/texmf-dist/tex/latex/etoolbox/etoolbox.sty) (/usr/share/texmf-dist/tex/latex/csquotes/csquotes.def) (/usr/share/texmf-dist/tex/latex/csquotes/csquotes.cfg)) (/usr/share/texmf-dist/tex/latex/mathtools/empheq.sty (/usr/share/texmf-dist/tex/latex/mathtools/mhsetup.sty) (/usr/share/texmf-dist/tex/latex/mathtools/mathtools.sty)) (/usr/share/texmf-dist/tex/latex/framed/framed.sty) (/usr/share/texmf-dist/tex/latex/tcolorbox/tcolorbox.sty (/usr/share/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty (/usr/share/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty (/usr/share/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.tex) (/usr/share/texmf-dist/tex/generic/pgf/utilities/pgfutil-latex.def) (/usr/share/texmf-dist/tex/generic/pgf/utilities/pgfrcs.code.tex (/usr/share/texmf-dist/tex/generic/pgf/pgf.revision.tex))) (/usr/share/texmf-dist/tex/latex/pgf/basiclayer/pgfcore.sty (/usr/share/texmf-dist/tex/latex/graphics/graphicx.sty (/usr/share/texmf-dist/tex/latex/graphics/graphics.sty (/usr/share/texmf-dist/tex/latex/graphics/trig.sty) (/usr/share/texmf-dist/tex/latex/graphics-cfg/graphics.cfg))) (/usr/share/texmf-dist/tex/latex/pgf/systemlayer/pgfsys.sty (/usr/share/texmf-dist/tex/generic/pgf/systemlayer/pgfsys.code.tex (/usr/share/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex (/usr/share/texmf-dist/tex/generic/pgf/utilities/pgfkeyslibraryfiltered.code.tex)) (/usr/share/texmf-dist/tex/generic/pgf/systemlayer/pgf.cfg) (/usr/share/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-pdftex.def (/usr/share/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-common-pdf.def))) (/usr/share/texmf-dist/tex/generic/pgf/systemlayer/pgfsyssoftpath.code.tex) (/usr/share/texmf-dist/tex/generic/pgf/systemlayer/pgfsysprotocol.code.tex)) (/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcore.code.tex (/usr/share/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex (/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathutil.code.tex) (/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathparser.code.tex) (/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.code.tex) (/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.basic.code.tex) (/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.trigonometric.code.tex) (/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.random.code.tex) (/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.comparison.code.tex) (/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.base.code.tex) (/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.round.code.tex) (/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.misc.code.tex) (/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.integerarithmetics.code.tex) (/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathcalc.code.tex) (/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathfloat.code.tex)) (/usr/share/texmf-dist/tex/generic/pgf/math/pgfint.code.tex) (/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepoints.code.tex) (/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathconstruct.code.tex) (/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathusage.code.tex) (/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcorescopes.code.tex) (/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcoregraphicstate.code.tex) (/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransformations.code.tex) (/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcorequick.code.tex) (/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreobjects.code.tex) (/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathprocessing.code.tex) (/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcorearrows.code.tex) (/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreshade.code.tex) (/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreimage.code.tex) (/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreexternal.code.tex) (/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcorelayers.code.tex) (/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransparency.code.tex) (/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepatterns.code.tex) (/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcorerdf.code.tex))) (/usr/share/texmf-dist/tex/generic/pgf/modules/pgfmoduleshapes.code.tex) (/usr/share/texmf-dist/tex/generic/pgf/modules/pgfmoduleplot.code.tex) (/usr/share/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-0-65.sty) (/usr/share/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-1-18.sty)) (/usr/share/texmf-dist/tex/latex/tools/verbatim.sty) (/usr/share/texmf-dist/tex/latex/environ/environ.sty (/usr/share/texmf-dist/tex/latex/trimspaces/trimspaces.sty)) (/usr/share/texmf-dist/tex/latex/tcolorbox/tcbraster.code.tex
+Library (tcolorbox): 'tcbraster.code.tex' version '6.2.0'
+) (/usr/share/texmf-dist/tex/latex/tcolorbox/tcbskins.code.tex
+Library (tcolorbox): 'tcbskins.code.tex' version '6.2.0'
+(/usr/share/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty (/usr/share/texmf-dist/tex/latex/pgf/utilities/pgffor.sty (/usr/share/texmf-dist/tex/latex/pgf/utilities/pgfkeys.sty (/usr/share/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex)) (/usr/share/texmf-dist/tex/latex/pgf/math/pgfmath.sty (/usr/share/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex)) (/usr/share/texmf-dist/tex/generic/pgf/utilities/pgffor.code.tex)) (/usr/share/texmf-dist/tex/generic/pgf/frontendlayer/tikz/tikz.code.tex (/usr/share/texmf-dist/tex/generic/pgf/libraries/pgflibraryplothandlers.code.tex) (/usr/share/texmf-dist/tex/generic/pgf/modules/pgfmodulematrix.code.tex) (/usr/share/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarytopaths.code.tex))) (/usr/share/texmf-dist/tex/latex/tikzfill/tikzfill.image.sty (/usr/share/texmf-dist/tex/latex/tikzfill/tikzfill-common.sty) (/usr/share/texmf-dist/tex/latex/tikzfill/tikzlibraryfill.image.code.tex)) (/usr/share/texmf-dist/tex/latex/tcolorbox/tcbskinsjigsaw.code.tex
+Library (tcolorbox): 'tcbskinsjigsaw.code.tex' version '6.2.0'
+)) (/usr/share/texmf-dist/tex/latex/tcolorbox/tcbbreakable.code.tex
+Library (tcolorbox): 'tcbbreakable.code.tex' version '6.2.0'
+(/usr/share/texmf-dist/tex/latex/pdfcol/pdfcol.sty (/usr/share/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty) (/usr/share/texmf-dist/tex/generic/infwarerr/infwarerr.sty))) (/usr/share/texmf-dist/tex/latex/tcolorbox/tcbhooks.code.tex
+Library (tcolorbox): 'tcbhooks.code.tex' version '6.2.0'
+) (/usr/share/texmf-dist/tex/latex/tcolorbox/tcbtheorems.code.tex
+Library (tcolorbox): 'tcbtheorems.code.tex' version '6.2.0'
+) (/usr/share/texmf-dist/tex/latex/tcolorbox/tcbfitting.code.tex
+Library (tcolorbox): 'tcbfitting.code.tex' version '6.2.0'
+) (/usr/share/texmf-dist/tex/latex/tcolorbox/tcblistingsutf8.code.tex
+Library (tcolorbox): 'tcblistingsutf8.code.tex' version '6.2.0'
+(/usr/share/texmf-dist/tex/latex/tcolorbox/tcblistings.code.tex
+Library (tcolorbox): 'tcblistings.code.tex' version '6.2.0'
+(/usr/share/texmf-dist/tex/latex/listings/listings.sty (/usr/share/texmf-dist/tex/latex/listings/lstpatch.sty) (/usr/share/texmf-dist/tex/latex/listings/lstmisc.sty) (/usr/share/texmf-dist/tex/latex/listings/listings.cfg)) (/usr/share/texmf-dist/tex/latex/tcolorbox/tcblistingscore.code.tex
+Library (tcolorbox): 'tcblistingscore.code.tex' version '6.2.0'
+(/usr/share/texmf-dist/tex/latex/tcolorbox/tcbprocessing.code.tex
+Library (tcolorbox): 'tcbprocessing.code.tex' version '6.2.0'
+))) (/usr/share/texmf-dist/tex/latex/listingsutf8/listingsutf8.sty (/usr/share/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty) (/usr/share/texmf-dist/tex/generic/stringenc/stringenc.sty (/usr/share/texmf-dist/tex/generic/pdfescape/pdfescape.sty)))) (/usr/share/texmf-dist/tex/latex/tcolorbox/tcbexternal.code.tex
+Library (tcolorbox): 'tcbexternal.code.tex' version '6.2.0'
+) (/usr/share/texmf-dist/tex/latex/tcolorbox/tcbmagazine.code.tex
+Library (tcolorbox): 'tcbmagazine.code.tex' version '6.2.0'
+) (/usr/share/texmf-dist/tex/latex/tcolorbox/tcbvignette.code.tex
+Library (tcolorbox): 'tcbvignette.code.tex' version '6.2.0'
+(/usr/share/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibraryfadings.code.tex (/usr/share/texmf-dist/tex/generic/pgf/libraries/pgflibraryfadings.code.tex))) (/usr/share/texmf-dist/tex/latex/tcolorbox/tcbposter.code.tex
+Library (tcolorbox): 'tcbposter.code.tex' version '6.2.0'
+)) (/usr/share/texmf-dist/tex/generic/babel/babel.sty (/usr/share/texmf-dist/tex/generic/babel/txtbabel.def) (/usr/share/texmf-dist/tex/generic/babel-english/english.ldf)) (/usr/share/texmf-dist/tex/generic/babel/locale/en/babel-english.tex) (/usr/share/texmf-dist/tex/latex/blindtext/blindtext.sty (/usr/share/texmf-dist/tex/latex/tools/xspace.sty)) (/usr/share/texmf-dist/tex/latex/epigraph/epigraph.sty (/usr/share/texmf-dist/tex/latex/nextpage/nextpage.sty)) (/usr/share/texmf-dist/tex/latex/biblatex/biblatex.sty (/usr/share/texmf-dist/tex/latex/kvoptions/kvoptions.sty (/usr/share/texmf-dist/tex/latex/kvsetkeys/kvsetkeys.sty)) (/usr/share/texmf-dist/tex/latex/logreq/logreq.sty (/usr/share/texmf-dist/tex/latex/logreq/logreq.def)) (/usr/share/texmf-dist/tex/latex/base/ifthen.sty) (/usr/share/texmf-dist/tex/latex/url/url.sty) (/usr/share/texmf-dist/tex/latex/biblatex/blx-dm.def) (/usr/share/texmf-dist/tex/latex/biblatex/blx-compat.def) (/usr/share/texmf-dist/tex/latex/biblatex/biblatex.def) (/usr/share/texmf-dist/tex/latex/biblatex/bbx/verbose-ibid.bbx (/usr/share/texmf-dist/tex/latex/biblatex/bbx/authortitle.bbx (/usr/share/texmf-dist/tex/latex/biblatex/bbx/standard.bbx))) (/usr/share/texmf-dist/tex/latex/biblatex/cbx/verbose-ibid.cbx) (/usr/share/texmf-dist/tex/latex/biblatex/biblatex.cfg) (/usr/share/texmf-dist/tex/latex/l3kernel/expl3.sty (/usr/share/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def)) (/usr/share/texmf-dist/tex/latex/biblatex/blx-case-expl3.sty (/usr/share/texmf-dist/tex/latex/l3packages/xparse/xparse.sty))) (/usr/share/texmf-dist/tex/latex/subfiles/subfiles.sty) (/usr/share/texmf-dist/tex/latex/outlines/outlines.sty) (/usr/share/texmf-dist/tex/latex/lineno/lineno.sty
+
+LaTeX Warning: Command \@parboxrestore  has changed.
+               Check if current package is valid.
+
+))) (sections/04-encoding_analysis_overview.aux) (/usr/share/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+) (/usr/share/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty (/usr/share/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg))
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+(/usr/share/texmf-dist/tex/latex/biblatex/lbx/english.lbx) (sections/04-encoding_analysis_overview.bbl) (/usr/share/texmf-dist/tex/latex/amsfonts/umsa.fd) (/usr/share/texmf-dist/tex/latex/amsfonts/umsb.fd) (/usr/share/texmf-dist/tex/latex/jknapltx/ursfs.fd)
+Underfull \hbox (badness 1655) in paragraph at lines 24--24
+\OT1/cmr/m/n/12 the in-dus-try be-ing as-
+
+Overfull \hbox (12.0pt too wide) in paragraph at lines 24--24
+[]|[]| 
+
+Underfull \hbox (badness 10000) in paragraph at lines 24--24
+[]|\OT1/cmr/m/n/12 Ontologies (On-tol-ogy
+
+Overfull \hbox (12.0pt too wide) in paragraph at lines 24--24
+[]|[]| 
+
+Underfull \hbox (badness 6608) in paragraph at lines 25--25
+[]|\OT1/cmr/m/n/12 Given a spe-cific rule
+
+Overfull \hbox (12.0pt too wide) in paragraph at lines 25--25
+[]|[]| 
+
+Underfull \hbox (badness 10000) in paragraph at lines 25--25
+[]|\OT1/cmr/m/n/12 Argumentation Frame-
+
+Overfull \hbox (12.0pt too wide) in paragraph at lines 25--25
+[]|[]| 
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] [2] [3{/usr/share/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}] [4] [5] [6]
+Underfull \hbox (badness 1895) in paragraph at lines 87--87
+[][][]\OT1/cmr/m/n/10 Oasis Open. \OT1/cmr/m/it/10 Legal-RuleML Core Spec-i-fi-ca-tion Ver-sion 1.0\OT1/cmr/m/n/10 . Aug. 30, 2021. \OT1/cmr/m/sc/10 url\OT1/cmr/m/n/10 :
+
+Underfull \hbox (badness 2065) in paragraph at lines 87--87
+\OT1/cmtt/m/n/10 http : / / docs . oasis -[] open . org / legalruleml / legalruleml -[] core -[] spec / v1 .
+
+Underfull \hbox (badness 2894) in paragraph at lines 87--87
+\OT1/cmtt/m/n/10 0 / legalruleml -[] core -[] spec -[] v1 . 0 . html$ \OT1/cmr/m/n/10 (vis-ited on 10/06/2023), See also See
+[7] [8 <sections/../images/box_threshold_tests.png>] [9] [10] [11] [12 <sections/../images/example_class_hierarchy.png>] [13] [14] [15 <sections/../images/init_class_diagram.png>] [16] [17] [18] [19] [20] [21] 
+enddocument/afterlastpage: lastpage setting LastPage.
+(sections/04-encoding_analysis_overview.aux) )
+(see the transcript file for additional information)</usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb>
+Output written on sections/04-encoding_analysis_overview.pdf (21 pages, 560488 bytes).
+SyncTeX written on sections/04-encoding_analysis_overview.synctex.gz.
+Transcript written on sections/04-encoding_analysis_overview.log.
+Latexmk: Getting log file 'sections/04-encoding_analysis_overview.log'
+Latexmk: Examining 'sections/04-encoding_analysis_overview.fls'
+Latexmk: Examining 'sections/04-encoding_analysis_overview.log'
+Latexmk: Found input bbl file 'sections/04-encoding_analysis_overview.bbl'
+Latexmk: Log file says output to 'sections/04-encoding_analysis_overview.pdf'
+Latexmk: Bibliography file(s) from .bcf file:
+  bibliography.bib
+Latexmk: applying rule 'pdflatex'...
+Rule 'pdflatex':  Reasons for rerun
+Changed files or newly in use/created:
+  sections/04-encoding_analysis_overview.aux
+  sections/04-encoding_analysis_overview.run.xml
+
+------------
+Run number 3 of rule 'pdflatex'
+------------
+------------
+Running 'pdflatex  -synctex=1 -interaction=nonstopmode -file-line-error -recorder -output-directory="sections"  "/home/urielsantiago/Documents/GitHub/dissertation/sections/04-encoding_analysis_overview.tex"'
+------------
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024/Arch Linux) (preloaded format=pdflatex)
+ restricted \write18 enabled.
+entering extended mode
+(/home/urielsantiago/Documents/GitHub/dissertation/sections/04-encoding_analysis_overview.tex
+LaTeX2e <2023-11-01> patch level 1
+L3 programming layer <2024-02-20>
+(/usr/share/texmf-dist/tex/latex/subfiles/subfiles.cls
+Document Class: subfiles 2020/11/14 v2.2 Multi-file projects (class)
+Preamble taken from file `../index.tex'
+(/usr/share/texmf-dist/tex/latex/import/import.sty) (sections/../index.tex (/usr/share/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2023/05/17 v1.4n Standard LaTeX document class
+(/usr/share/texmf-dist/tex/latex/base/size12.clo)) (/usr/share/texmf-dist/tex/latex/base/inputenc.sty) (/usr/share/texmf-dist/tex/latex/amsmath/amsmath.sty
+For additional information on amsmath, use the `?' option.
+(/usr/share/texmf-dist/tex/latex/amsmath/amstext.sty (/usr/share/texmf-dist/tex/latex/amsmath/amsgen.sty)) (/usr/share/texmf-dist/tex/latex/amsmath/amsbsy.sty) (/usr/share/texmf-dist/tex/latex/amsmath/amsopn.sty)) (/usr/share/texmf-dist/tex/latex/amscls/amsthm.sty) (/usr/share/texmf-dist/tex/latex/amsfonts/amsfonts.sty) (/usr/share/texmf-dist/tex/latex/amsfonts/amssymb.sty) (/usr/share/texmf-dist/tex/latex/amsmath/amscd.sty) (/usr/share/texmf-dist/tex/latex/multirow/multirow.sty) (/usr/share/texmf-dist/tex/latex/booktabs/booktabs.sty) (/usr/share/texmf-dist/tex/latex/xcolor/xcolor.sty (/usr/share/texmf-dist/tex/latex/graphics-cfg/color.cfg) (/usr/share/texmf-dist/tex/latex/graphics-def/pdftex.def) (/usr/share/texmf-dist/tex/latex/graphics/mathcolor.ltx)) (/usr/share/texmf-dist/tex/latex/colortbl/colortbl.sty (/usr/share/texmf-dist/tex/latex/tools/array.sty)) (/usr/share/texmf-dist/tex/latex/preprint/fullpage.sty) (/usr/share/texmf-dist/tex/latex/lastpage/lastpage.sty (/usr/share/texmf-dist/tex/latex/lastpage/lastpage2e.sty (/usr/share/texmf-dist/tex/latex/lastpage/lastpagemodern.sty) 
+)) (/usr/share/texmf-dist/tex/latex/enumitem/enumitem.sty) (/usr/share/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty) (/usr/share/texmf-dist/tex/latex/jknapltx/mathrsfs.sty) (/usr/share/texmf-dist/tex/latex/wrapfig/wrapfig.sty) (/usr/share/texmf-dist/tex/latex/setspace/setspace.sty) (/usr/share/texmf-dist/tex/latex/tools/calc.sty) (/usr/share/texmf-dist/tex/latex/tools/multicol.sty) (/usr/share/texmf-dist/tex/latex/cancel/cancel.sty) (/usr/share/texmf-dist/tex/latex/ieeetran/IEEEtrantools.sty
+-- See the "IEEEtrantools_doc.txt" manual for usage information.
+-- http://www.michaelshell.org/tex/ieeetran/tools/
+) (/usr/share/texmf-dist/tex/latex/geometry/geometry.sty (/usr/share/texmf-dist/tex/latex/graphics/keyval.sty) (/usr/share/texmf-dist/tex/generic/iftex/ifvtex.sty (/usr/share/texmf-dist/tex/generic/iftex/iftex.sty))) (/usr/share/texmf-dist/tex/latex/csquotes/csquotes.sty (/usr/share/texmf-dist/tex/latex/etoolbox/etoolbox.sty) (/usr/share/texmf-dist/tex/latex/csquotes/csquotes.def) (/usr/share/texmf-dist/tex/latex/csquotes/csquotes.cfg)) (/usr/share/texmf-dist/tex/latex/mathtools/empheq.sty (/usr/share/texmf-dist/tex/latex/mathtools/mhsetup.sty) (/usr/share/texmf-dist/tex/latex/mathtools/mathtools.sty)) (/usr/share/texmf-dist/tex/latex/framed/framed.sty) (/usr/share/texmf-dist/tex/latex/tcolorbox/tcolorbox.sty (/usr/share/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty (/usr/share/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty (/usr/share/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.tex) (/usr/share/texmf-dist/tex/generic/pgf/utilities/pgfutil-latex.def) (/usr/share/texmf-dist/tex/generic/pgf/utilities/pgfrcs.code.tex (/usr/share/texmf-dist/tex/generic/pgf/pgf.revision.tex))) (/usr/share/texmf-dist/tex/latex/pgf/basiclayer/pgfcore.sty (/usr/share/texmf-dist/tex/latex/graphics/graphicx.sty (/usr/share/texmf-dist/tex/latex/graphics/graphics.sty (/usr/share/texmf-dist/tex/latex/graphics/trig.sty) (/usr/share/texmf-dist/tex/latex/graphics-cfg/graphics.cfg))) (/usr/share/texmf-dist/tex/latex/pgf/systemlayer/pgfsys.sty (/usr/share/texmf-dist/tex/generic/pgf/systemlayer/pgfsys.code.tex (/usr/share/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex (/usr/share/texmf-dist/tex/generic/pgf/utilities/pgfkeyslibraryfiltered.code.tex)) (/usr/share/texmf-dist/tex/generic/pgf/systemlayer/pgf.cfg) (/usr/share/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-pdftex.def (/usr/share/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-common-pdf.def))) (/usr/share/texmf-dist/tex/generic/pgf/systemlayer/pgfsyssoftpath.code.tex) (/usr/share/texmf-dist/tex/generic/pgf/systemlayer/pgfsysprotocol.code.tex)) (/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcore.code.tex (/usr/share/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex (/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathutil.code.tex) (/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathparser.code.tex) (/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.code.tex) (/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.basic.code.tex) (/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.trigonometric.code.tex) (/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.random.code.tex) (/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.comparison.code.tex) (/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.base.code.tex) (/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.round.code.tex) (/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.misc.code.tex) (/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.integerarithmetics.code.tex) (/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathcalc.code.tex) (/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathfloat.code.tex)) (/usr/share/texmf-dist/tex/generic/pgf/math/pgfint.code.tex) (/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepoints.code.tex) (/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathconstruct.code.tex) (/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathusage.code.tex) (/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcorescopes.code.tex) (/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcoregraphicstate.code.tex) (/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransformations.code.tex) (/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcorequick.code.tex) (/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreobjects.code.tex) (/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathprocessing.code.tex) (/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcorearrows.code.tex) (/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreshade.code.tex) (/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreimage.code.tex) (/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreexternal.code.tex) (/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcorelayers.code.tex) (/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransparency.code.tex) (/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepatterns.code.tex) (/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcorerdf.code.tex))) (/usr/share/texmf-dist/tex/generic/pgf/modules/pgfmoduleshapes.code.tex) (/usr/share/texmf-dist/tex/generic/pgf/modules/pgfmoduleplot.code.tex) (/usr/share/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-0-65.sty) (/usr/share/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-1-18.sty)) (/usr/share/texmf-dist/tex/latex/tools/verbatim.sty) (/usr/share/texmf-dist/tex/latex/environ/environ.sty (/usr/share/texmf-dist/tex/latex/trimspaces/trimspaces.sty)) (/usr/share/texmf-dist/tex/latex/tcolorbox/tcbraster.code.tex
+Library (tcolorbox): 'tcbraster.code.tex' version '6.2.0'
+) (/usr/share/texmf-dist/tex/latex/tcolorbox/tcbskins.code.tex
+Library (tcolorbox): 'tcbskins.code.tex' version '6.2.0'
+(/usr/share/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty (/usr/share/texmf-dist/tex/latex/pgf/utilities/pgffor.sty (/usr/share/texmf-dist/tex/latex/pgf/utilities/pgfkeys.sty (/usr/share/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex)) (/usr/share/texmf-dist/tex/latex/pgf/math/pgfmath.sty (/usr/share/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex)) (/usr/share/texmf-dist/tex/generic/pgf/utilities/pgffor.code.tex)) (/usr/share/texmf-dist/tex/generic/pgf/frontendlayer/tikz/tikz.code.tex (/usr/share/texmf-dist/tex/generic/pgf/libraries/pgflibraryplothandlers.code.tex) (/usr/share/texmf-dist/tex/generic/pgf/modules/pgfmodulematrix.code.tex) (/usr/share/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarytopaths.code.tex))) (/usr/share/texmf-dist/tex/latex/tikzfill/tikzfill.image.sty (/usr/share/texmf-dist/tex/latex/tikzfill/tikzfill-common.sty) (/usr/share/texmf-dist/tex/latex/tikzfill/tikzlibraryfill.image.code.tex)) (/usr/share/texmf-dist/tex/latex/tcolorbox/tcbskinsjigsaw.code.tex
+Library (tcolorbox): 'tcbskinsjigsaw.code.tex' version '6.2.0'
+)) (/usr/share/texmf-dist/tex/latex/tcolorbox/tcbbreakable.code.tex
+Library (tcolorbox): 'tcbbreakable.code.tex' version '6.2.0'
+(/usr/share/texmf-dist/tex/latex/pdfcol/pdfcol.sty (/usr/share/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty) (/usr/share/texmf-dist/tex/generic/infwarerr/infwarerr.sty))) (/usr/share/texmf-dist/tex/latex/tcolorbox/tcbhooks.code.tex
+Library (tcolorbox): 'tcbhooks.code.tex' version '6.2.0'
+) (/usr/share/texmf-dist/tex/latex/tcolorbox/tcbtheorems.code.tex
+Library (tcolorbox): 'tcbtheorems.code.tex' version '6.2.0'
+) (/usr/share/texmf-dist/tex/latex/tcolorbox/tcbfitting.code.tex
+Library (tcolorbox): 'tcbfitting.code.tex' version '6.2.0'
+) (/usr/share/texmf-dist/tex/latex/tcolorbox/tcblistingsutf8.code.tex
+Library (tcolorbox): 'tcblistingsutf8.code.tex' version '6.2.0'
+(/usr/share/texmf-dist/tex/latex/tcolorbox/tcblistings.code.tex
+Library (tcolorbox): 'tcblistings.code.tex' version '6.2.0'
+(/usr/share/texmf-dist/tex/latex/listings/listings.sty (/usr/share/texmf-dist/tex/latex/listings/lstpatch.sty) (/usr/share/texmf-dist/tex/latex/listings/lstmisc.sty) (/usr/share/texmf-dist/tex/latex/listings/listings.cfg)) (/usr/share/texmf-dist/tex/latex/tcolorbox/tcblistingscore.code.tex
+Library (tcolorbox): 'tcblistingscore.code.tex' version '6.2.0'
+(/usr/share/texmf-dist/tex/latex/tcolorbox/tcbprocessing.code.tex
+Library (tcolorbox): 'tcbprocessing.code.tex' version '6.2.0'
+))) (/usr/share/texmf-dist/tex/latex/listingsutf8/listingsutf8.sty (/usr/share/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty) (/usr/share/texmf-dist/tex/generic/stringenc/stringenc.sty (/usr/share/texmf-dist/tex/generic/pdfescape/pdfescape.sty)))) (/usr/share/texmf-dist/tex/latex/tcolorbox/tcbexternal.code.tex
+Library (tcolorbox): 'tcbexternal.code.tex' version '6.2.0'
+) (/usr/share/texmf-dist/tex/latex/tcolorbox/tcbmagazine.code.tex
+Library (tcolorbox): 'tcbmagazine.code.tex' version '6.2.0'
+) (/usr/share/texmf-dist/tex/latex/tcolorbox/tcbvignette.code.tex
+Library (tcolorbox): 'tcbvignette.code.tex' version '6.2.0'
+(/usr/share/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibraryfadings.code.tex (/usr/share/texmf-dist/tex/generic/pgf/libraries/pgflibraryfadings.code.tex))) (/usr/share/texmf-dist/tex/latex/tcolorbox/tcbposter.code.tex
+Library (tcolorbox): 'tcbposter.code.tex' version '6.2.0'
+)) (/usr/share/texmf-dist/tex/generic/babel/babel.sty (/usr/share/texmf-dist/tex/generic/babel/txtbabel.def) (/usr/share/texmf-dist/tex/generic/babel-english/english.ldf)) (/usr/share/texmf-dist/tex/generic/babel/locale/en/babel-english.tex) (/usr/share/texmf-dist/tex/latex/blindtext/blindtext.sty (/usr/share/texmf-dist/tex/latex/tools/xspace.sty)) (/usr/share/texmf-dist/tex/latex/epigraph/epigraph.sty (/usr/share/texmf-dist/tex/latex/nextpage/nextpage.sty)) (/usr/share/texmf-dist/tex/latex/biblatex/biblatex.sty (/usr/share/texmf-dist/tex/latex/kvoptions/kvoptions.sty (/usr/share/texmf-dist/tex/latex/kvsetkeys/kvsetkeys.sty)) (/usr/share/texmf-dist/tex/latex/logreq/logreq.sty (/usr/share/texmf-dist/tex/latex/logreq/logreq.def)) (/usr/share/texmf-dist/tex/latex/base/ifthen.sty) (/usr/share/texmf-dist/tex/latex/url/url.sty) (/usr/share/texmf-dist/tex/latex/biblatex/blx-dm.def) (/usr/share/texmf-dist/tex/latex/biblatex/blx-compat.def) (/usr/share/texmf-dist/tex/latex/biblatex/biblatex.def) (/usr/share/texmf-dist/tex/latex/biblatex/bbx/verbose-ibid.bbx (/usr/share/texmf-dist/tex/latex/biblatex/bbx/authortitle.bbx (/usr/share/texmf-dist/tex/latex/biblatex/bbx/standard.bbx))) (/usr/share/texmf-dist/tex/latex/biblatex/cbx/verbose-ibid.cbx) (/usr/share/texmf-dist/tex/latex/biblatex/biblatex.cfg) (/usr/share/texmf-dist/tex/latex/l3kernel/expl3.sty (/usr/share/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def)) (/usr/share/texmf-dist/tex/latex/biblatex/blx-case-expl3.sty (/usr/share/texmf-dist/tex/latex/l3packages/xparse/xparse.sty))) (/usr/share/texmf-dist/tex/latex/subfiles/subfiles.sty) (/usr/share/texmf-dist/tex/latex/outlines/outlines.sty) (/usr/share/texmf-dist/tex/latex/lineno/lineno.sty
+
+LaTeX Warning: Command \@parboxrestore  has changed.
+               Check if current package is valid.
+
+))) (sections/04-encoding_analysis_overview.aux) (/usr/share/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+) (/usr/share/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty (/usr/share/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg))
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+(/usr/share/texmf-dist/tex/latex/biblatex/lbx/english.lbx) (sections/04-encoding_analysis_overview.bbl) (/usr/share/texmf-dist/tex/latex/amsfonts/umsa.fd) (/usr/share/texmf-dist/tex/latex/amsfonts/umsb.fd) (/usr/share/texmf-dist/tex/latex/jknapltx/ursfs.fd)
+Underfull \hbox (badness 1655) in paragraph at lines 24--24
+\OT1/cmr/m/n/12 the in-dus-try be-ing as-
+
+Overfull \hbox (12.0pt too wide) in paragraph at lines 24--24
+[]|[]| 
+
+Underfull \hbox (badness 10000) in paragraph at lines 24--24
+[]|\OT1/cmr/m/n/12 Ontologies (On-tol-ogy
+
+Overfull \hbox (12.0pt too wide) in paragraph at lines 24--24
+[]|[]| 
+
+Underfull \hbox (badness 6608) in paragraph at lines 25--25
+[]|\OT1/cmr/m/n/12 Given a spe-cific rule
+
+Overfull \hbox (12.0pt too wide) in paragraph at lines 25--25
+[]|[]| 
+
+Underfull \hbox (badness 10000) in paragraph at lines 25--25
+[]|\OT1/cmr/m/n/12 Argumentation Frame-
+
+Overfull \hbox (12.0pt too wide) in paragraph at lines 25--25
+[]|[]| 
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] [2] [3{/usr/share/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}] [4] [5] [6]
+Underfull \hbox (badness 1895) in paragraph at lines 87--87
+[][][]\OT1/cmr/m/n/10 Oasis Open. \OT1/cmr/m/it/10 Legal-RuleML Core Spec-i-fi-ca-tion Ver-sion 1.0\OT1/cmr/m/n/10 . Aug. 30, 2021. \OT1/cmr/m/sc/10 url\OT1/cmr/m/n/10 :
+
+Underfull \hbox (badness 2065) in paragraph at lines 87--87
+\OT1/cmtt/m/n/10 http : / / docs . oasis -[] open . org / legalruleml / legalruleml -[] core -[] spec / v1 .
+
+Underfull \hbox (badness 2894) in paragraph at lines 87--87
+\OT1/cmtt/m/n/10 0 / legalruleml -[] core -[] spec -[] v1 . 0 . html$ \OT1/cmr/m/n/10 (vis-ited on 10/06/2023), See also See
+[7] [8 <sections/../images/box_threshold_tests.png>] [9] [10] [11] [12 <sections/../images/example_class_hierarchy.png>] [13] [14] [15 <sections/../images/init_class_diagram.png>] [16] [17] [18] [19] [20] [21] 
+enddocument/afterlastpage: lastpage setting LastPage.
+(sections/04-encoding_analysis_overview.aux) )
+(see the transcript file for additional information)</usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb>
+Output written on sections/04-encoding_analysis_overview.pdf (21 pages, 560488 bytes).
+SyncTeX written on sections/04-encoding_analysis_overview.synctex.gz.
+Transcript written on sections/04-encoding_analysis_overview.log.
+Latexmk: Sometimes, the -f option can be used to get latexmk
+  to try to force complete processing.
+  But normally, you will need to correct the file(s) that caused the
+  error, and then rerun latexmk.
+  In some cases, it is best to clean out generated files before rerunning
+  latexmk after you've corrected the files.
+Latexmk: Getting log file 'sections/04-encoding_analysis_overview.log'
+Latexmk: Examining 'sections/04-encoding_analysis_overview.fls'
+Latexmk: Examining 'sections/04-encoding_analysis_overview.log'
+Latexmk: Found input bbl file 'sections/04-encoding_analysis_overview.bbl'
+Latexmk: Log file says output to 'sections/04-encoding_analysis_overview.pdf'
+Latexmk: Bibliography file(s) from .bcf file:
+  bibliography.bib
+Latexmk: All targets (sections/04-encoding_analysis_overview.pdf) are up-to-date
+Collected error summary (may duplicate other messages):
+  biber sections/04-encoding_analysis_overview: gave an error in previous invocation of latexmk.
+
+Rc files read:
+  NONE
+Latexmk: This is Latexmk, John Collins, 31 Jan. 2024. Version 4.83.
+No existing .aux file, so I'll make a simple one, and require run of *latex.
+Latexmk: applying rule 'pdflatex'...
+Rule 'pdflatex':  Reasons for rerun
+Category 'other':
+  Rerun of 'pdflatex' forced or previously required:
+    Reason or flag: 'Initial setup'
+
+------------
+Run number 1 of rule 'pdflatex'
+------------
+------------
+Running 'pdflatex  -synctex=1 -interaction=nonstopmode -file-line-error -recorder  "/home/urielsantiago/Documents/GitHub/dissertation/index.tex"'
+------------
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024/Arch Linux) (preloaded format=pdflatex)
+ restricted \write18 enabled.
+entering extended mode
+(/home/urielsantiago/Documents/GitHub/dissertation/index.tex
+LaTeX2e <2023-11-01> patch level 1
+L3 programming layer <2024-02-20>
+(/usr/share/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2023/05/17 v1.4n Standard LaTeX document class
+(/usr/share/texmf-dist/tex/latex/base/size12.clo)) (/usr/share/texmf-dist/tex/latex/base/inputenc.sty) (/usr/share/texmf-dist/tex/latex/amsmath/amsmath.sty
+For additional information on amsmath, use the `?' option.
+(/usr/share/texmf-dist/tex/latex/amsmath/amstext.sty (/usr/share/texmf-dist/tex/latex/amsmath/amsgen.sty)) (/usr/share/texmf-dist/tex/latex/amsmath/amsbsy.sty) (/usr/share/texmf-dist/tex/latex/amsmath/amsopn.sty)) (/usr/share/texmf-dist/tex/latex/amscls/amsthm.sty) (/usr/share/texmf-dist/tex/latex/amsfonts/amsfonts.sty) (/usr/share/texmf-dist/tex/latex/amsfonts/amssymb.sty) (/usr/share/texmf-dist/tex/latex/amsmath/amscd.sty) (/usr/share/texmf-dist/tex/latex/multirow/multirow.sty) (/usr/share/texmf-dist/tex/latex/booktabs/booktabs.sty) (/usr/share/texmf-dist/tex/latex/xcolor/xcolor.sty (/usr/share/texmf-dist/tex/latex/graphics-cfg/color.cfg) (/usr/share/texmf-dist/tex/latex/graphics-def/pdftex.def) (/usr/share/texmf-dist/tex/latex/graphics/mathcolor.ltx)) (/usr/share/texmf-dist/tex/latex/colortbl/colortbl.sty (/usr/share/texmf-dist/tex/latex/tools/array.sty)) (/usr/share/texmf-dist/tex/latex/preprint/fullpage.sty) (/usr/share/texmf-dist/tex/latex/lastpage/lastpage.sty (/usr/share/texmf-dist/tex/latex/lastpage/lastpage2e.sty (/usr/share/texmf-dist/tex/latex/lastpage/lastpagemodern.sty) 
+)) (/usr/share/texmf-dist/tex/latex/enumitem/enumitem.sty) (/usr/share/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty) (/usr/share/texmf-dist/tex/latex/jknapltx/mathrsfs.sty) (/usr/share/texmf-dist/tex/latex/wrapfig/wrapfig.sty) (/usr/share/texmf-dist/tex/latex/setspace/setspace.sty) (/usr/share/texmf-dist/tex/latex/tools/calc.sty) (/usr/share/texmf-dist/tex/latex/tools/multicol.sty) (/usr/share/texmf-dist/tex/latex/cancel/cancel.sty) (/usr/share/texmf-dist/tex/latex/ieeetran/IEEEtrantools.sty
+-- See the "IEEEtrantools_doc.txt" manual for usage information.
+-- http://www.michaelshell.org/tex/ieeetran/tools/
+) (/usr/share/texmf-dist/tex/latex/geometry/geometry.sty (/usr/share/texmf-dist/tex/latex/graphics/keyval.sty) (/usr/share/texmf-dist/tex/generic/iftex/ifvtex.sty (/usr/share/texmf-dist/tex/generic/iftex/iftex.sty))) (/usr/share/texmf-dist/tex/latex/csquotes/csquotes.sty (/usr/share/texmf-dist/tex/latex/etoolbox/etoolbox.sty) (/usr/share/texmf-dist/tex/latex/csquotes/csquotes.def) (/usr/share/texmf-dist/tex/latex/csquotes/csquotes.cfg)) (/usr/share/texmf-dist/tex/latex/mathtools/empheq.sty (/usr/share/texmf-dist/tex/latex/mathtools/mhsetup.sty) (/usr/share/texmf-dist/tex/latex/mathtools/mathtools.sty)) (/usr/share/texmf-dist/tex/latex/framed/framed.sty) (/usr/share/texmf-dist/tex/latex/tcolorbox/tcolorbox.sty (/usr/share/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty (/usr/share/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty (/usr/share/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.tex) (/usr/share/texmf-dist/tex/generic/pgf/utilities/pgfutil-latex.def) (/usr/share/texmf-dist/tex/generic/pgf/utilities/pgfrcs.code.tex (/usr/share/texmf-dist/tex/generic/pgf/pgf.revision.tex))) (/usr/share/texmf-dist/tex/latex/pgf/basiclayer/pgfcore.sty (/usr/share/texmf-dist/tex/latex/graphics/graphicx.sty (/usr/share/texmf-dist/tex/latex/graphics/graphics.sty (/usr/share/texmf-dist/tex/latex/graphics/trig.sty) (/usr/share/texmf-dist/tex/latex/graphics-cfg/graphics.cfg))) (/usr/share/texmf-dist/tex/latex/pgf/systemlayer/pgfsys.sty (/usr/share/texmf-dist/tex/generic/pgf/systemlayer/pgfsys.code.tex (/usr/share/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex (/usr/share/texmf-dist/tex/generic/pgf/utilities/pgfkeyslibraryfiltered.code.tex)) (/usr/share/texmf-dist/tex/generic/pgf/systemlayer/pgf.cfg) (/usr/share/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-pdftex.def (/usr/share/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-common-pdf.def))) (/usr/share/texmf-dist/tex/generic/pgf/systemlayer/pgfsyssoftpath.code.tex) (/usr/share/texmf-dist/tex/generic/pgf/systemlayer/pgfsysprotocol.code.tex)) (/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcore.code.tex (/usr/share/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex (/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathutil.code.tex) (/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathparser.code.tex) (/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.code.tex) (/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.basic.code.tex) (/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.trigonometric.code.tex) (/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.random.code.tex) (/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.comparison.code.tex) (/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.base.code.tex) (/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.round.code.tex) (/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.misc.code.tex) (/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.integerarithmetics.code.tex) (/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathcalc.code.tex) (/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathfloat.code.tex)) (/usr/share/texmf-dist/tex/generic/pgf/math/pgfint.code.tex) (/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepoints.code.tex) (/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathconstruct.code.tex) (/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathusage.code.tex) (/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcorescopes.code.tex) (/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcoregraphicstate.code.tex) (/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransformations.code.tex) (/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcorequick.code.tex) (/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreobjects.code.tex) (/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathprocessing.code.tex) (/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcorearrows.code.tex) (/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreshade.code.tex) (/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreimage.code.tex) (/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreexternal.code.tex) (/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcorelayers.code.tex) (/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransparency.code.tex) (/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepatterns.code.tex) (/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcorerdf.code.tex))) (/usr/share/texmf-dist/tex/generic/pgf/modules/pgfmoduleshapes.code.tex) (/usr/share/texmf-dist/tex/generic/pgf/modules/pgfmoduleplot.code.tex) (/usr/share/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-0-65.sty) (/usr/share/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-1-18.sty)) (/usr/share/texmf-dist/tex/latex/tools/verbatim.sty) (/usr/share/texmf-dist/tex/latex/environ/environ.sty (/usr/share/texmf-dist/tex/latex/trimspaces/trimspaces.sty)) (/usr/share/texmf-dist/tex/latex/tcolorbox/tcbraster.code.tex
+Library (tcolorbox): 'tcbraster.code.tex' version '6.2.0'
+) (/usr/share/texmf-dist/tex/latex/tcolorbox/tcbskins.code.tex
+Library (tcolorbox): 'tcbskins.code.tex' version '6.2.0'
+(/usr/share/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty (/usr/share/texmf-dist/tex/latex/pgf/utilities/pgffor.sty (/usr/share/texmf-dist/tex/latex/pgf/utilities/pgfkeys.sty (/usr/share/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex)) (/usr/share/texmf-dist/tex/latex/pgf/math/pgfmath.sty (/usr/share/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex)) (/usr/share/texmf-dist/tex/generic/pgf/utilities/pgffor.code.tex)) (/usr/share/texmf-dist/tex/generic/pgf/frontendlayer/tikz/tikz.code.tex (/usr/share/texmf-dist/tex/generic/pgf/libraries/pgflibraryplothandlers.code.tex) (/usr/share/texmf-dist/tex/generic/pgf/modules/pgfmodulematrix.code.tex) (/usr/share/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarytopaths.code.tex))) (/usr/share/texmf-dist/tex/latex/tikzfill/tikzfill.image.sty (/usr/share/texmf-dist/tex/latex/tikzfill/tikzfill-common.sty) (/usr/share/texmf-dist/tex/latex/tikzfill/tikzlibraryfill.image.code.tex)) (/usr/share/texmf-dist/tex/latex/tcolorbox/tcbskinsjigsaw.code.tex
+Library (tcolorbox): 'tcbskinsjigsaw.code.tex' version '6.2.0'
+)) (/usr/share/texmf-dist/tex/latex/tcolorbox/tcbbreakable.code.tex
+Library (tcolorbox): 'tcbbreakable.code.tex' version '6.2.0'
+(/usr/share/texmf-dist/tex/latex/pdfcol/pdfcol.sty (/usr/share/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty) (/usr/share/texmf-dist/tex/generic/infwarerr/infwarerr.sty))) (/usr/share/texmf-dist/tex/latex/tcolorbox/tcbhooks.code.tex
+Library (tcolorbox): 'tcbhooks.code.tex' version '6.2.0'
+) (/usr/share/texmf-dist/tex/latex/tcolorbox/tcbtheorems.code.tex
+Library (tcolorbox): 'tcbtheorems.code.tex' version '6.2.0'
+) (/usr/share/texmf-dist/tex/latex/tcolorbox/tcbfitting.code.tex
+Library (tcolorbox): 'tcbfitting.code.tex' version '6.2.0'
+) (/usr/share/texmf-dist/tex/latex/tcolorbox/tcblistingsutf8.code.tex
+Library (tcolorbox): 'tcblistingsutf8.code.tex' version '6.2.0'
+(/usr/share/texmf-dist/tex/latex/tcolorbox/tcblistings.code.tex
+Library (tcolorbox): 'tcblistings.code.tex' version '6.2.0'
+(/usr/share/texmf-dist/tex/latex/listings/listings.sty (/usr/share/texmf-dist/tex/latex/listings/lstpatch.sty) (/usr/share/texmf-dist/tex/latex/listings/lstmisc.sty) (/usr/share/texmf-dist/tex/latex/listings/listings.cfg)) (/usr/share/texmf-dist/tex/latex/tcolorbox/tcblistingscore.code.tex
+Library (tcolorbox): 'tcblistingscore.code.tex' version '6.2.0'
+(/usr/share/texmf-dist/tex/latex/tcolorbox/tcbprocessing.code.tex
+Library (tcolorbox): 'tcbprocessing.code.tex' version '6.2.0'
+))) (/usr/share/texmf-dist/tex/latex/listingsutf8/listingsutf8.sty (/usr/share/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty) (/usr/share/texmf-dist/tex/generic/stringenc/stringenc.sty (/usr/share/texmf-dist/tex/generic/pdfescape/pdfescape.sty)))) (/usr/share/texmf-dist/tex/latex/tcolorbox/tcbexternal.code.tex
+Library (tcolorbox): 'tcbexternal.code.tex' version '6.2.0'
+) (/usr/share/texmf-dist/tex/latex/tcolorbox/tcbmagazine.code.tex
+Library (tcolorbox): 'tcbmagazine.code.tex' version '6.2.0'
+) (/usr/share/texmf-dist/tex/latex/tcolorbox/tcbvignette.code.tex
+Library (tcolorbox): 'tcbvignette.code.tex' version '6.2.0'
+(/usr/share/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibraryfadings.code.tex (/usr/share/texmf-dist/tex/generic/pgf/libraries/pgflibraryfadings.code.tex))) (/usr/share/texmf-dist/tex/latex/tcolorbox/tcbposter.code.tex
+Library (tcolorbox): 'tcbposter.code.tex' version '6.2.0'
+)) (/usr/share/texmf-dist/tex/generic/babel/babel.sty (/usr/share/texmf-dist/tex/generic/babel/txtbabel.def) (/usr/share/texmf-dist/tex/generic/babel-english/english.ldf)) (/usr/share/texmf-dist/tex/generic/babel/locale/en/babel-english.tex) (/usr/share/texmf-dist/tex/latex/blindtext/blindtext.sty (/usr/share/texmf-dist/tex/latex/tools/xspace.sty)) (/usr/share/texmf-dist/tex/latex/epigraph/epigraph.sty (/usr/share/texmf-dist/tex/latex/nextpage/nextpage.sty)) (/usr/share/texmf-dist/tex/latex/biblatex/biblatex.sty (/usr/share/texmf-dist/tex/latex/kvoptions/kvoptions.sty (/usr/share/texmf-dist/tex/latex/kvsetkeys/kvsetkeys.sty)) (/usr/share/texmf-dist/tex/latex/logreq/logreq.sty (/usr/share/texmf-dist/tex/latex/logreq/logreq.def)) (/usr/share/texmf-dist/tex/latex/base/ifthen.sty) (/usr/share/texmf-dist/tex/latex/url/url.sty) (/usr/share/texmf-dist/tex/latex/biblatex/blx-dm.def) (/usr/share/texmf-dist/tex/latex/biblatex/blx-compat.def) (/usr/share/texmf-dist/tex/latex/biblatex/biblatex.def) (/usr/share/texmf-dist/tex/latex/biblatex/bbx/verbose-ibid.bbx (/usr/share/texmf-dist/tex/latex/biblatex/bbx/authortitle.bbx (/usr/share/texmf-dist/tex/latex/biblatex/bbx/standard.bbx))) (/usr/share/texmf-dist/tex/latex/biblatex/cbx/verbose-ibid.cbx) (/usr/share/texmf-dist/tex/latex/biblatex/biblatex.cfg) (/usr/share/texmf-dist/tex/latex/l3kernel/expl3.sty (/usr/share/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def)) (/usr/share/texmf-dist/tex/latex/biblatex/blx-case-expl3.sty (/usr/share/texmf-dist/tex/latex/l3packages/xparse/xparse.sty))) (/usr/share/texmf-dist/tex/latex/subfiles/subfiles.sty (/usr/share/texmf-dist/tex/latex/import/import.sty)) (/usr/share/texmf-dist/tex/latex/outlines/outlines.sty) (/usr/share/texmf-dist/tex/latex/lineno/lineno.sty
+
+LaTeX Warning: Command \@parboxrestore  has changed.
+               Check if current package is valid.
+
+) (./index.aux) (/usr/share/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+) (/usr/share/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty (/usr/share/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg))
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+(/usr/share/texmf-dist/tex/latex/biblatex/lbx/english.lbx) (./index.bbl) (/usr/share/texmf-dist/tex/latex/amsfonts/umsa.fd) (/usr/share/texmf-dist/tex/latex/amsfonts/umsb.fd) (/usr/share/texmf-dist/tex/latex/jknapltx/ursfs.fd) [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}{/usr/share/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}] (./sections/01-introduction.tex [2] [3] [4] [5] [6] [7] [8] [9] [10] [11]) [12] (./sections/02-computational_law.tex [13] [14] [15] [16] [17] [18] [19] [20] [21]) [22] (./sections/03-legal_computability.tex [23] [24] [25] [26] [27] [28] [29] [30] [31]) [32] (./sections/04-encoding_analysis_overview.tex
+Underfull \hbox (badness 1655) in paragraph at lines 24--24
+\OT1/cmr/m/n/12 the in-dus-try be-ing as-
+
+Overfull \hbox (12.0pt too wide) in paragraph at lines 24--24
+[]|[]| 
+
+Underfull \hbox (badness 10000) in paragraph at lines 24--24
+[]|\OT1/cmr/m/n/12 Ontologies (On-tol-ogy
+
+Overfull \hbox (12.0pt too wide) in paragraph at lines 24--24
+[]|[]| 
+
+Underfull \hbox (badness 6608) in paragraph at lines 25--25
+[]|\OT1/cmr/m/n/12 Given a spe-cific rule
+
+Overfull \hbox (12.0pt too wide) in paragraph at lines 25--25
+[]|[]| 
+
+Underfull \hbox (badness 10000) in paragraph at lines 25--25
+[]|\OT1/cmr/m/n/12 Argumentation Frame-
+
+Overfull \hbox (12.0pt too wide) in paragraph at lines 25--25
+[]|[]| 
+[33] [34] [35] [36] [37] [38]
+Underfull \hbox (badness 1895) in paragraph at lines 87--87
+[][][]\OT1/cmr/m/n/10 Oasis Open. \OT1/cmr/m/it/10 Legal-RuleML Core Spec-i-fi-ca-tion Ver-sion 1.0\OT1/cmr/m/n/10 . Aug. 30, 2021. \OT1/cmr/m/sc/10 url\OT1/cmr/m/n/10 :
+
+Underfull \hbox (badness 2065) in paragraph at lines 87--87
+\OT1/cmtt/m/n/10 http : / / docs . oasis -[] open . org / legalruleml / legalruleml -[] core -[] spec / v1 .
+
+Underfull \hbox (badness 2894) in paragraph at lines 87--87
+\OT1/cmtt/m/n/10 0 / legalruleml -[] core -[] spec -[] v1 . 0 . html$ \OT1/cmr/m/n/10 (vis-ited on 10/06/2023), See also See
+[39]
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[40 <./images/box_threshold_tests.png>] [41] [42] [43 <./images/example_class_hierarchy.png>] [44] [45] [46 <./images/init_class_diagram.png>] [47] [48] [49] [50]) [51] (./sections/07-relevance_testing.tex [52]) [53]
+Overfull \hbox (1.65416pt too wide) in paragraph at lines 111--111
+[][]\OT1/cmr/m/n/12 Competition & Mar-kets Au-thor-ity. \OT1/cmr/m/it/12 Com-pe-ti-tion As-sess-ment Guide-lines Part 2: Guide-
+
+Overfull \hbox (24.00284pt too wide) in paragraph at lines 111--111
+\OT1/cmr/m/it/12 lines\OT1/cmr/m/n/12 . UK Gov-ern-ment, 2023. \OT1/cmr/m/sc/12 url\OT1/cmr/m/n/12 : $\OT1/cmtt/m/n/12 https : / / www . gov . uk / government / publications /
+[54]
+Overfull \hbox (6.90503pt too wide) in paragraph at lines 111--111
+\OT1/cmtt/m/n/12 stanford . edu / publications / computational -[] law -[] the -[] cop -[] in -[] the -[] backseat/$
+[55]
+Overfull \hbox (10.80379pt too wide) in paragraph at lines 111--111
+[][]\OT1/cmr/m/n/12 Hasan, Iftekhar and Matej Marin^^Tc. \  Should Com-pe-ti-tion Pol-icy in Bank-ing Be Amended
+
+Overfull \hbox (148.01855pt too wide) in paragraph at lines 111--111
+\OT1/cmr/m/n/12 In: ICN 14th An-nual Con-fer-ence. Syd-ney, Apr. 2015. \OT1/cmr/m/sc/12 url\OT1/cmr/m/n/12 : $\OT1/cmtt/m/n/12 https : / / www . internationalcompetitionnetwork .
+
+Overfull \hbox (35.28004pt too wide) in paragraph at lines 111--111
+\OT1/cmtt/m/n/12 org / wp -[] content / uploads / 2018 / 09 / AWG _ FrameworkCompetitionAssessmentRegimes .
+
+Overfull \hbox (1.60495pt too wide) in paragraph at lines 111--111
+[][]\OT1/cmr/m/n/12 Medalla, Er-linda M. \  Un-der-stand-ing the New Philip-pine Com-pe-ti-tion Act". In: \OT1/cmr/m/it/12 Philip-
+[56]
+Overfull \hbox (13.50804pt too wide) in paragraph at lines 111--111
+\OT1/cmr/m/sc/12 url\OT1/cmr/m/n/12 : $\OT1/cmtt/m/n/12 https : / / www . oecd . org / daf / competition / oecd -[] competition -[] assessment -[]
+
+Overfull \hbox (6.7485pt too wide) in paragraph at lines 111--111
+\OT1/cmr/m/it/12 pines\OT1/cmr/m/n/12 . 2020. \OT1/cmr/m/sc/12 url\OT1/cmr/m/n/12 : $\OT1/cmtt/m/n/12 https : / / www . oecd . org / daf / competition / oecd -[] competitive -[]
+[57] [58]
+Overfull \hbox (8.17146pt too wide) in paragraph at lines 111--111
+[][]\OT1/cmr/m/n/12 Wikimedia Foun-da-tion. \OT1/cmr/m/it/12 Wiki-data\OT1/cmr/m/n/12 . \OT1/cmr/m/sc/12 url\OT1/cmr/m/n/12 : $\OT1/cmtt/m/n/12 https : / / www . wikidata . org / wiki / Wikidata :
+
+Overfull \hbox (3.52252pt too wide) in paragraph at lines 111--111
+[][][]\OT1/cmr/m/it/12 A Project to Find the Fun-da-men-tal The-ory of Physics\OT1/cmr/m/n/12 . Cham-paign, Illi-nois: Stephen
+
+Overfull \hbox (4.05386pt too wide) in paragraph at lines 111--111
+[][][]\OT1/cmr/m/n/12 \  AI Law and Com-pu-ta-tional Ir-re-ducibil-ity". Fu-tureLaw 2023, Stan-ford Law School.
+
+Overfull \hbox (13.58003pt too wide) in paragraph at lines 111--111
+\OT1/cmtt/m/n/12 2016 / 10 / computational -[] law -[] symbolic -[] discourse -[] and -[] the -[] ai -[] constitution/$
+
+Overfull \hbox (3.28291pt too wide) in paragraph at lines 111--111
+[][]\OT1/cmr/m/n/12 World Bank Group. \OT1/cmr/m/it/12 En-hanc-ing Com-pe-ti-tion Con-di-tions and Com-pet-i-tive-ness of Philip-
+[59] [60] 
+enddocument/afterlastpage: lastpage setting LastPage.
+(./index.aux)
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+
+Package lastpage Warning: Rerun to get the references right on input line 113.
+
+
+Package biblatex Warning: Please (re)run Biber on the file:
+(biblatex)                index
+(biblatex)                and rerun LaTeX afterwards.
+
+ )
+(see the transcript file for additional information)</usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbxti10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfrm0700.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfrm1095.pfb>
+Output written on index.pdf (60 pages, 734807 bytes).
+SyncTeX written on index.synctex.gz.
+Transcript written on index.log.
+Latexmk: Getting log file 'index.log'
+Latexmk: Examining 'index.fls'
+Latexmk: Examining 'index.log'
+Latexmk: Found input bbl file 'index.bbl'
+Latexmk: References changed.
+Latexmk: References changed.
+Latexmk: Log file says output to 'index.pdf'
+Latexmk: Bibliography file(s) from .bcf file:
+  bibliography.bib
+Latexmk: applying rule 'biber index'...
+Rule 'biber index':  Reasons for rerun
+Category 'other':
+  Rerun of 'biber index' forced or previously required:
+    Reason or flag: 'Initial set up of rule'
+
+------------
+Run number 1 of rule 'biber index'
+------------
+------------
+Running 'biber  "index.bcf"'
+------------
+INFO - This is Biber 2.19
+INFO - Logfile is 'index.blg'
+INFO - Reading 'index.bcf'
+INFO - Using all citekeys in bib section 0
+INFO - Processing section 0
+INFO - Looking for bibtex file 'bibliography.bib' for section 0
+INFO - LaTeX decoding ...
+INFO - Found BibTeX data source 'bibliography.bib'
+INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+INFO - Sorting list 'nty/global//global/global' of type 'entry' with template 'nty' and locale 'en-US'
+INFO - No sort tailoring available for locale 'en-US'
+INFO - Writing 'index.bbl' with encoding 'UTF-8'
+INFO - Output to index.bbl
+WARN - ISBN '13: 978-1-4987-6665-4' in entry 'Wolfram2019Computational' is invalid - run biber with '--validate_datamodel' for details.
+WARN - ISBN '978-90-481-9472-8 978-90-481-9473-5' in entry 'VanEemeren2014Handbook' is invalid - run biber with '--validate_datamodel' for details.
+WARN - ISBN '978-3-319-16020-7 978-3-319-16021-4' in entry 'Armgardt2015Present' is invalid - run biber with '--validate_datamodel' for details.
+WARN - ISBN '978-1-4842-6551-2 978-1-4842-6552-9' in entry 'Baptiste2021Ontologies' is invalid - run biber with '--validate_datamodel' for details.
+INFO - WARNINGS: 4
+Biber warning: [321] Biber.pm:131> WARN - ISBN '13: 978-1-4987-6665-4' in entry 'Wolfram2019Computational' is invalid - run biber with '--validate_datamodel' for details.
+Biber warning: [321] Biber.pm:131> WARN - ISBN '978-90-481-9472-8 978-90-481-9473-5' in entry 'VanEemeren2014Handbook' is invalid - run biber with '--validate_datamodel' for details.
+Biber warning: [321] Biber.pm:131> WARN - ISBN '978-3-319-16020-7 978-3-319-16021-4' in entry 'Armgardt2015Present' is invalid - run biber with '--validate_datamodel' for details.
+Biber warning: [321] Biber.pm:131> WARN - ISBN '978-1-4842-6551-2 978-1-4842-6552-9' in entry 'Baptiste2021Ontologies' is invalid - run biber with '--validate_datamodel' for details.
+Latexmk: Found biber source file(s) [bibliography.bib, index.bcf]
+Latexmk: applying rule 'pdflatex'...
+Rule 'pdflatex':  Reasons for rerun
+Changed files or newly in use/created:
+  index.aux
+
+------------
+Run number 2 of rule 'pdflatex'
+------------
+------------
+Running 'pdflatex  -synctex=1 -interaction=nonstopmode -file-line-error -recorder  "/home/urielsantiago/Documents/GitHub/dissertation/index.tex"'
+------------
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024/Arch Linux) (preloaded format=pdflatex)
+ restricted \write18 enabled.
+entering extended mode
+(/home/urielsantiago/Documents/GitHub/dissertation/index.tex
+LaTeX2e <2023-11-01> patch level 1
+L3 programming layer <2024-02-20>
+(/usr/share/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2023/05/17 v1.4n Standard LaTeX document class
+(/usr/share/texmf-dist/tex/latex/base/size12.clo)) (/usr/share/texmf-dist/tex/latex/base/inputenc.sty) (/usr/share/texmf-dist/tex/latex/amsmath/amsmath.sty
+For additional information on amsmath, use the `?' option.
+(/usr/share/texmf-dist/tex/latex/amsmath/amstext.sty (/usr/share/texmf-dist/tex/latex/amsmath/amsgen.sty)) (/usr/share/texmf-dist/tex/latex/amsmath/amsbsy.sty) (/usr/share/texmf-dist/tex/latex/amsmath/amsopn.sty)) (/usr/share/texmf-dist/tex/latex/amscls/amsthm.sty) (/usr/share/texmf-dist/tex/latex/amsfonts/amsfonts.sty) (/usr/share/texmf-dist/tex/latex/amsfonts/amssymb.sty) (/usr/share/texmf-dist/tex/latex/amsmath/amscd.sty) (/usr/share/texmf-dist/tex/latex/multirow/multirow.sty) (/usr/share/texmf-dist/tex/latex/booktabs/booktabs.sty) (/usr/share/texmf-dist/tex/latex/xcolor/xcolor.sty (/usr/share/texmf-dist/tex/latex/graphics-cfg/color.cfg) (/usr/share/texmf-dist/tex/latex/graphics-def/pdftex.def) (/usr/share/texmf-dist/tex/latex/graphics/mathcolor.ltx)) (/usr/share/texmf-dist/tex/latex/colortbl/colortbl.sty (/usr/share/texmf-dist/tex/latex/tools/array.sty)) (/usr/share/texmf-dist/tex/latex/preprint/fullpage.sty) (/usr/share/texmf-dist/tex/latex/lastpage/lastpage.sty (/usr/share/texmf-dist/tex/latex/lastpage/lastpage2e.sty (/usr/share/texmf-dist/tex/latex/lastpage/lastpagemodern.sty) 
+)) (/usr/share/texmf-dist/tex/latex/enumitem/enumitem.sty) (/usr/share/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty) (/usr/share/texmf-dist/tex/latex/jknapltx/mathrsfs.sty) (/usr/share/texmf-dist/tex/latex/wrapfig/wrapfig.sty) (/usr/share/texmf-dist/tex/latex/setspace/setspace.sty) (/usr/share/texmf-dist/tex/latex/tools/calc.sty) (/usr/share/texmf-dist/tex/latex/tools/multicol.sty) (/usr/share/texmf-dist/tex/latex/cancel/cancel.sty) (/usr/share/texmf-dist/tex/latex/ieeetran/IEEEtrantools.sty
+-- See the "IEEEtrantools_doc.txt" manual for usage information.
+-- http://www.michaelshell.org/tex/ieeetran/tools/
+) (/usr/share/texmf-dist/tex/latex/geometry/geometry.sty (/usr/share/texmf-dist/tex/latex/graphics/keyval.sty) (/usr/share/texmf-dist/tex/generic/iftex/ifvtex.sty (/usr/share/texmf-dist/tex/generic/iftex/iftex.sty))) (/usr/share/texmf-dist/tex/latex/csquotes/csquotes.sty (/usr/share/texmf-dist/tex/latex/etoolbox/etoolbox.sty) (/usr/share/texmf-dist/tex/latex/csquotes/csquotes.def) (/usr/share/texmf-dist/tex/latex/csquotes/csquotes.cfg)) (/usr/share/texmf-dist/tex/latex/mathtools/empheq.sty (/usr/share/texmf-dist/tex/latex/mathtools/mhsetup.sty) (/usr/share/texmf-dist/tex/latex/mathtools/mathtools.sty)) (/usr/share/texmf-dist/tex/latex/framed/framed.sty) (/usr/share/texmf-dist/tex/latex/tcolorbox/tcolorbox.sty (/usr/share/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty (/usr/share/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty (/usr/share/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.tex) (/usr/share/texmf-dist/tex/generic/pgf/utilities/pgfutil-latex.def) (/usr/share/texmf-dist/tex/generic/pgf/utilities/pgfrcs.code.tex (/usr/share/texmf-dist/tex/generic/pgf/pgf.revision.tex))) (/usr/share/texmf-dist/tex/latex/pgf/basiclayer/pgfcore.sty (/usr/share/texmf-dist/tex/latex/graphics/graphicx.sty (/usr/share/texmf-dist/tex/latex/graphics/graphics.sty (/usr/share/texmf-dist/tex/latex/graphics/trig.sty) (/usr/share/texmf-dist/tex/latex/graphics-cfg/graphics.cfg))) (/usr/share/texmf-dist/tex/latex/pgf/systemlayer/pgfsys.sty (/usr/share/texmf-dist/tex/generic/pgf/systemlayer/pgfsys.code.tex (/usr/share/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex (/usr/share/texmf-dist/tex/generic/pgf/utilities/pgfkeyslibraryfiltered.code.tex)) (/usr/share/texmf-dist/tex/generic/pgf/systemlayer/pgf.cfg) (/usr/share/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-pdftex.def (/usr/share/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-common-pdf.def))) (/usr/share/texmf-dist/tex/generic/pgf/systemlayer/pgfsyssoftpath.code.tex) (/usr/share/texmf-dist/tex/generic/pgf/systemlayer/pgfsysprotocol.code.tex)) (/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcore.code.tex (/usr/share/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex (/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathutil.code.tex) (/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathparser.code.tex) (/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.code.tex) (/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.basic.code.tex) (/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.trigonometric.code.tex) (/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.random.code.tex) (/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.comparison.code.tex) (/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.base.code.tex) (/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.round.code.tex) (/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.misc.code.tex) (/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.integerarithmetics.code.tex) (/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathcalc.code.tex) (/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathfloat.code.tex)) (/usr/share/texmf-dist/tex/generic/pgf/math/pgfint.code.tex) (/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepoints.code.tex) (/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathconstruct.code.tex) (/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathusage.code.tex) (/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcorescopes.code.tex) (/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcoregraphicstate.code.tex) (/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransformations.code.tex) (/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcorequick.code.tex) (/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreobjects.code.tex) (/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathprocessing.code.tex) (/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcorearrows.code.tex) (/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreshade.code.tex) (/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreimage.code.tex) (/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreexternal.code.tex) (/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcorelayers.code.tex) (/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransparency.code.tex) (/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepatterns.code.tex) (/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcorerdf.code.tex))) (/usr/share/texmf-dist/tex/generic/pgf/modules/pgfmoduleshapes.code.tex) (/usr/share/texmf-dist/tex/generic/pgf/modules/pgfmoduleplot.code.tex) (/usr/share/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-0-65.sty) (/usr/share/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-1-18.sty)) (/usr/share/texmf-dist/tex/latex/tools/verbatim.sty) (/usr/share/texmf-dist/tex/latex/environ/environ.sty (/usr/share/texmf-dist/tex/latex/trimspaces/trimspaces.sty)) (/usr/share/texmf-dist/tex/latex/tcolorbox/tcbraster.code.tex
+Library (tcolorbox): 'tcbraster.code.tex' version '6.2.0'
+) (/usr/share/texmf-dist/tex/latex/tcolorbox/tcbskins.code.tex
+Library (tcolorbox): 'tcbskins.code.tex' version '6.2.0'
+(/usr/share/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty (/usr/share/texmf-dist/tex/latex/pgf/utilities/pgffor.sty (/usr/share/texmf-dist/tex/latex/pgf/utilities/pgfkeys.sty (/usr/share/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex)) (/usr/share/texmf-dist/tex/latex/pgf/math/pgfmath.sty (/usr/share/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex)) (/usr/share/texmf-dist/tex/generic/pgf/utilities/pgffor.code.tex)) (/usr/share/texmf-dist/tex/generic/pgf/frontendlayer/tikz/tikz.code.tex (/usr/share/texmf-dist/tex/generic/pgf/libraries/pgflibraryplothandlers.code.tex) (/usr/share/texmf-dist/tex/generic/pgf/modules/pgfmodulematrix.code.tex) (/usr/share/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarytopaths.code.tex))) (/usr/share/texmf-dist/tex/latex/tikzfill/tikzfill.image.sty (/usr/share/texmf-dist/tex/latex/tikzfill/tikzfill-common.sty) (/usr/share/texmf-dist/tex/latex/tikzfill/tikzlibraryfill.image.code.tex)) (/usr/share/texmf-dist/tex/latex/tcolorbox/tcbskinsjigsaw.code.tex
+Library (tcolorbox): 'tcbskinsjigsaw.code.tex' version '6.2.0'
+)) (/usr/share/texmf-dist/tex/latex/tcolorbox/tcbbreakable.code.tex
+Library (tcolorbox): 'tcbbreakable.code.tex' version '6.2.0'
+(/usr/share/texmf-dist/tex/latex/pdfcol/pdfcol.sty (/usr/share/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty) (/usr/share/texmf-dist/tex/generic/infwarerr/infwarerr.sty))) (/usr/share/texmf-dist/tex/latex/tcolorbox/tcbhooks.code.tex
+Library (tcolorbox): 'tcbhooks.code.tex' version '6.2.0'
+) (/usr/share/texmf-dist/tex/latex/tcolorbox/tcbtheorems.code.tex
+Library (tcolorbox): 'tcbtheorems.code.tex' version '6.2.0'
+) (/usr/share/texmf-dist/tex/latex/tcolorbox/tcbfitting.code.tex
+Library (tcolorbox): 'tcbfitting.code.tex' version '6.2.0'
+) (/usr/share/texmf-dist/tex/latex/tcolorbox/tcblistingsutf8.code.tex
+Library (tcolorbox): 'tcblistingsutf8.code.tex' version '6.2.0'
+(/usr/share/texmf-dist/tex/latex/tcolorbox/tcblistings.code.tex
+Library (tcolorbox): 'tcblistings.code.tex' version '6.2.0'
+(/usr/share/texmf-dist/tex/latex/listings/listings.sty (/usr/share/texmf-dist/tex/latex/listings/lstpatch.sty) (/usr/share/texmf-dist/tex/latex/listings/lstmisc.sty) (/usr/share/texmf-dist/tex/latex/listings/listings.cfg)) (/usr/share/texmf-dist/tex/latex/tcolorbox/tcblistingscore.code.tex
+Library (tcolorbox): 'tcblistingscore.code.tex' version '6.2.0'
+(/usr/share/texmf-dist/tex/latex/tcolorbox/tcbprocessing.code.tex
+Library (tcolorbox): 'tcbprocessing.code.tex' version '6.2.0'
+))) (/usr/share/texmf-dist/tex/latex/listingsutf8/listingsutf8.sty (/usr/share/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty) (/usr/share/texmf-dist/tex/generic/stringenc/stringenc.sty (/usr/share/texmf-dist/tex/generic/pdfescape/pdfescape.sty)))) (/usr/share/texmf-dist/tex/latex/tcolorbox/tcbexternal.code.tex
+Library (tcolorbox): 'tcbexternal.code.tex' version '6.2.0'
+) (/usr/share/texmf-dist/tex/latex/tcolorbox/tcbmagazine.code.tex
+Library (tcolorbox): 'tcbmagazine.code.tex' version '6.2.0'
+) (/usr/share/texmf-dist/tex/latex/tcolorbox/tcbvignette.code.tex
+Library (tcolorbox): 'tcbvignette.code.tex' version '6.2.0'
+(/usr/share/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibraryfadings.code.tex (/usr/share/texmf-dist/tex/generic/pgf/libraries/pgflibraryfadings.code.tex))) (/usr/share/texmf-dist/tex/latex/tcolorbox/tcbposter.code.tex
+Library (tcolorbox): 'tcbposter.code.tex' version '6.2.0'
+)) (/usr/share/texmf-dist/tex/generic/babel/babel.sty (/usr/share/texmf-dist/tex/generic/babel/txtbabel.def) (/usr/share/texmf-dist/tex/generic/babel-english/english.ldf)) (/usr/share/texmf-dist/tex/generic/babel/locale/en/babel-english.tex) (/usr/share/texmf-dist/tex/latex/blindtext/blindtext.sty (/usr/share/texmf-dist/tex/latex/tools/xspace.sty)) (/usr/share/texmf-dist/tex/latex/epigraph/epigraph.sty (/usr/share/texmf-dist/tex/latex/nextpage/nextpage.sty)) (/usr/share/texmf-dist/tex/latex/biblatex/biblatex.sty (/usr/share/texmf-dist/tex/latex/kvoptions/kvoptions.sty (/usr/share/texmf-dist/tex/latex/kvsetkeys/kvsetkeys.sty)) (/usr/share/texmf-dist/tex/latex/logreq/logreq.sty (/usr/share/texmf-dist/tex/latex/logreq/logreq.def)) (/usr/share/texmf-dist/tex/latex/base/ifthen.sty) (/usr/share/texmf-dist/tex/latex/url/url.sty) (/usr/share/texmf-dist/tex/latex/biblatex/blx-dm.def) (/usr/share/texmf-dist/tex/latex/biblatex/blx-compat.def) (/usr/share/texmf-dist/tex/latex/biblatex/biblatex.def) (/usr/share/texmf-dist/tex/latex/biblatex/bbx/verbose-ibid.bbx (/usr/share/texmf-dist/tex/latex/biblatex/bbx/authortitle.bbx (/usr/share/texmf-dist/tex/latex/biblatex/bbx/standard.bbx))) (/usr/share/texmf-dist/tex/latex/biblatex/cbx/verbose-ibid.cbx) (/usr/share/texmf-dist/tex/latex/biblatex/biblatex.cfg) (/usr/share/texmf-dist/tex/latex/l3kernel/expl3.sty (/usr/share/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def)) (/usr/share/texmf-dist/tex/latex/biblatex/blx-case-expl3.sty (/usr/share/texmf-dist/tex/latex/l3packages/xparse/xparse.sty))) (/usr/share/texmf-dist/tex/latex/subfiles/subfiles.sty (/usr/share/texmf-dist/tex/latex/import/import.sty)) (/usr/share/texmf-dist/tex/latex/outlines/outlines.sty) (/usr/share/texmf-dist/tex/latex/lineno/lineno.sty
+
+LaTeX Warning: Command \@parboxrestore  has changed.
+               Check if current package is valid.
+
+) (./index.aux) (/usr/share/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+) (/usr/share/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty (/usr/share/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg))
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+(/usr/share/texmf-dist/tex/latex/biblatex/lbx/english.lbx) (./index.bbl) (/usr/share/texmf-dist/tex/latex/amsfonts/umsa.fd) (/usr/share/texmf-dist/tex/latex/amsfonts/umsb.fd) (/usr/share/texmf-dist/tex/latex/jknapltx/ursfs.fd) [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}{/usr/share/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}] (./sections/01-introduction.tex [2] [3] [4] [5] [6] [7] [8] [9] [10] [11]) [12] (./sections/02-computational_law.tex [13] [14] [15] [16] [17] [18] [19] [20] [21]) [22] (./sections/03-legal_computability.tex [23] [24] [25] [26] [27] [28] [29] [30] [31]) [32] (./sections/04-encoding_analysis_overview.tex
+Underfull \hbox (badness 1655) in paragraph at lines 24--24
+\OT1/cmr/m/n/12 the in-dus-try be-ing as-
+
+Overfull \hbox (12.0pt too wide) in paragraph at lines 24--24
+[]|[]| 
+
+Underfull \hbox (badness 10000) in paragraph at lines 24--24
+[]|\OT1/cmr/m/n/12 Ontologies (On-tol-ogy
+
+Overfull \hbox (12.0pt too wide) in paragraph at lines 24--24
+[]|[]| 
+
+Underfull \hbox (badness 6608) in paragraph at lines 25--25
+[]|\OT1/cmr/m/n/12 Given a spe-cific rule
+
+Overfull \hbox (12.0pt too wide) in paragraph at lines 25--25
+[]|[]| 
+
+Underfull \hbox (badness 10000) in paragraph at lines 25--25
+[]|\OT1/cmr/m/n/12 Argumentation Frame-
+
+Overfull \hbox (12.0pt too wide) in paragraph at lines 25--25
+[]|[]| 
+[33] [34] [35] [36] [37] [38]
+Underfull \hbox (badness 1895) in paragraph at lines 87--87
+[][][]\OT1/cmr/m/n/10 Oasis Open. \OT1/cmr/m/it/10 Legal-RuleML Core Spec-i-fi-ca-tion Ver-sion 1.0\OT1/cmr/m/n/10 . Aug. 30, 2021. \OT1/cmr/m/sc/10 url\OT1/cmr/m/n/10 :
+
+Underfull \hbox (badness 2065) in paragraph at lines 87--87
+\OT1/cmtt/m/n/10 http : / / docs . oasis -[] open . org / legalruleml / legalruleml -[] core -[] spec / v1 .
+
+Underfull \hbox (badness 2894) in paragraph at lines 87--87
+\OT1/cmtt/m/n/10 0 / legalruleml -[] core -[] spec -[] v1 . 0 . html$ \OT1/cmr/m/n/10 (vis-ited on 10/06/2023), See also See
+[39]
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[40 <./images/box_threshold_tests.png>] [41] [42] [43 <./images/example_class_hierarchy.png>] [44] [45] [46 <./images/init_class_diagram.png>] [47] [48] [49] [50]) [51] (./sections/07-relevance_testing.tex [52]) [53]
+Overfull \hbox (1.65416pt too wide) in paragraph at lines 111--111
+[][]\OT1/cmr/m/n/12 Competition & Mar-kets Au-thor-ity. \OT1/cmr/m/it/12 Com-pe-ti-tion As-sess-ment Guide-lines Part 2: Guide-
+
+Overfull \hbox (24.00284pt too wide) in paragraph at lines 111--111
+\OT1/cmr/m/it/12 lines\OT1/cmr/m/n/12 . UK Gov-ern-ment, 2023. \OT1/cmr/m/sc/12 url\OT1/cmr/m/n/12 : $\OT1/cmtt/m/n/12 https : / / www . gov . uk / government / publications /
+[54]
+Overfull \hbox (6.90503pt too wide) in paragraph at lines 111--111
+\OT1/cmtt/m/n/12 stanford . edu / publications / computational -[] law -[] the -[] cop -[] in -[] the -[] backseat/$
+[55]
+Overfull \hbox (10.80379pt too wide) in paragraph at lines 111--111
+[][]\OT1/cmr/m/n/12 Hasan, Iftekhar and Matej Marin^^Tc. \  Should Com-pe-ti-tion Pol-icy in Bank-ing Be Amended
+
+Overfull \hbox (148.01855pt too wide) in paragraph at lines 111--111
+\OT1/cmr/m/n/12 In: ICN 14th An-nual Con-fer-ence. Syd-ney, Apr. 2015. \OT1/cmr/m/sc/12 url\OT1/cmr/m/n/12 : $\OT1/cmtt/m/n/12 https : / / www . internationalcompetitionnetwork .
+
+Overfull \hbox (35.28004pt too wide) in paragraph at lines 111--111
+\OT1/cmtt/m/n/12 org / wp -[] content / uploads / 2018 / 09 / AWG _ FrameworkCompetitionAssessmentRegimes .
+
+Overfull \hbox (1.60495pt too wide) in paragraph at lines 111--111
+[][]\OT1/cmr/m/n/12 Medalla, Er-linda M. \  Un-der-stand-ing the New Philip-pine Com-pe-ti-tion Act". In: \OT1/cmr/m/it/12 Philip-
+[56]
+Overfull \hbox (13.50804pt too wide) in paragraph at lines 111--111
+\OT1/cmr/m/sc/12 url\OT1/cmr/m/n/12 : $\OT1/cmtt/m/n/12 https : / / www . oecd . org / daf / competition / oecd -[] competition -[] assessment -[]
+
+Overfull \hbox (6.7485pt too wide) in paragraph at lines 111--111
+\OT1/cmr/m/it/12 pines\OT1/cmr/m/n/12 . 2020. \OT1/cmr/m/sc/12 url\OT1/cmr/m/n/12 : $\OT1/cmtt/m/n/12 https : / / www . oecd . org / daf / competition / oecd -[] competitive -[]
+[57] [58]
+Overfull \hbox (8.17146pt too wide) in paragraph at lines 111--111
+[][]\OT1/cmr/m/n/12 Wikimedia Foun-da-tion. \OT1/cmr/m/it/12 Wiki-data\OT1/cmr/m/n/12 . \OT1/cmr/m/sc/12 url\OT1/cmr/m/n/12 : $\OT1/cmtt/m/n/12 https : / / www . wikidata . org / wiki / Wikidata :
+
+Overfull \hbox (3.52252pt too wide) in paragraph at lines 111--111
+[][][]\OT1/cmr/m/it/12 A Project to Find the Fun-da-men-tal The-ory of Physics\OT1/cmr/m/n/12 . Cham-paign, Illi-nois: Stephen
+
+Overfull \hbox (4.05386pt too wide) in paragraph at lines 111--111
+[][][]\OT1/cmr/m/n/12 \  AI Law and Com-pu-ta-tional Ir-re-ducibil-ity". Fu-tureLaw 2023, Stan-ford Law School.
+
+Overfull \hbox (13.58003pt too wide) in paragraph at lines 111--111
+\OT1/cmtt/m/n/12 2016 / 10 / computational -[] law -[] symbolic -[] discourse -[] and -[] the -[] ai -[] constitution/$
+
+Overfull \hbox (3.28291pt too wide) in paragraph at lines 111--111
+[][]\OT1/cmr/m/n/12 World Bank Group. \OT1/cmr/m/it/12 En-hanc-ing Com-pe-ti-tion Con-di-tions and Com-pet-i-tive-ness of Philip-
+[59] [60] 
+enddocument/afterlastpage: lastpage setting LastPage.
+(./index.aux) )
+(see the transcript file for additional information)</usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbxti10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfrm0700.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfrm1095.pfb>
+Output written on index.pdf (60 pages, 735100 bytes).
+SyncTeX written on index.synctex.gz.
+Transcript written on index.log.
+Latexmk: Getting log file 'index.log'
+Latexmk: Examining 'index.fls'
+Latexmk: Examining 'index.log'
+Latexmk: Found input bbl file 'index.bbl'
+Latexmk: Log file says output to 'index.pdf'
+Latexmk: Bibliography file(s) from .bcf file:
+  bibliography.bib
+Latexmk: applying rule 'pdflatex'...
+Rule 'pdflatex':  Reasons for rerun
+Changed files or newly in use/created:
+  index.aux
+  index.run.xml
+
+------------
+Run number 3 of rule 'pdflatex'
+------------
+------------
+Running 'pdflatex  -synctex=1 -interaction=nonstopmode -file-line-error -recorder  "/home/urielsantiago/Documents/GitHub/dissertation/index.tex"'
+------------
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024/Arch Linux) (preloaded format=pdflatex)
+ restricted \write18 enabled.
+entering extended mode
+(/home/urielsantiago/Documents/GitHub/dissertation/index.tex
+LaTeX2e <2023-11-01> patch level 1
+L3 programming layer <2024-02-20>
+(/usr/share/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2023/05/17 v1.4n Standard LaTeX document class
+(/usr/share/texmf-dist/tex/latex/base/size12.clo)) (/usr/share/texmf-dist/tex/latex/base/inputenc.sty) (/usr/share/texmf-dist/tex/latex/amsmath/amsmath.sty
+For additional information on amsmath, use the `?' option.
+(/usr/share/texmf-dist/tex/latex/amsmath/amstext.sty (/usr/share/texmf-dist/tex/latex/amsmath/amsgen.sty)) (/usr/share/texmf-dist/tex/latex/amsmath/amsbsy.sty) (/usr/share/texmf-dist/tex/latex/amsmath/amsopn.sty)) (/usr/share/texmf-dist/tex/latex/amscls/amsthm.sty) (/usr/share/texmf-dist/tex/latex/amsfonts/amsfonts.sty) (/usr/share/texmf-dist/tex/latex/amsfonts/amssymb.sty) (/usr/share/texmf-dist/tex/latex/amsmath/amscd.sty) (/usr/share/texmf-dist/tex/latex/multirow/multirow.sty) (/usr/share/texmf-dist/tex/latex/booktabs/booktabs.sty) (/usr/share/texmf-dist/tex/latex/xcolor/xcolor.sty (/usr/share/texmf-dist/tex/latex/graphics-cfg/color.cfg) (/usr/share/texmf-dist/tex/latex/graphics-def/pdftex.def) (/usr/share/texmf-dist/tex/latex/graphics/mathcolor.ltx)) (/usr/share/texmf-dist/tex/latex/colortbl/colortbl.sty (/usr/share/texmf-dist/tex/latex/tools/array.sty)) (/usr/share/texmf-dist/tex/latex/preprint/fullpage.sty) (/usr/share/texmf-dist/tex/latex/lastpage/lastpage.sty (/usr/share/texmf-dist/tex/latex/lastpage/lastpage2e.sty (/usr/share/texmf-dist/tex/latex/lastpage/lastpagemodern.sty) 
+)) (/usr/share/texmf-dist/tex/latex/enumitem/enumitem.sty) (/usr/share/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty) (/usr/share/texmf-dist/tex/latex/jknapltx/mathrsfs.sty) (/usr/share/texmf-dist/tex/latex/wrapfig/wrapfig.sty) (/usr/share/texmf-dist/tex/latex/setspace/setspace.sty) (/usr/share/texmf-dist/tex/latex/tools/calc.sty) (/usr/share/texmf-dist/tex/latex/tools/multicol.sty) (/usr/share/texmf-dist/tex/latex/cancel/cancel.sty) (/usr/share/texmf-dist/tex/latex/ieeetran/IEEEtrantools.sty
+-- See the "IEEEtrantools_doc.txt" manual for usage information.
+-- http://www.michaelshell.org/tex/ieeetran/tools/
+) (/usr/share/texmf-dist/tex/latex/geometry/geometry.sty (/usr/share/texmf-dist/tex/latex/graphics/keyval.sty) (/usr/share/texmf-dist/tex/generic/iftex/ifvtex.sty (/usr/share/texmf-dist/tex/generic/iftex/iftex.sty))) (/usr/share/texmf-dist/tex/latex/csquotes/csquotes.sty (/usr/share/texmf-dist/tex/latex/etoolbox/etoolbox.sty) (/usr/share/texmf-dist/tex/latex/csquotes/csquotes.def) (/usr/share/texmf-dist/tex/latex/csquotes/csquotes.cfg)) (/usr/share/texmf-dist/tex/latex/mathtools/empheq.sty (/usr/share/texmf-dist/tex/latex/mathtools/mhsetup.sty) (/usr/share/texmf-dist/tex/latex/mathtools/mathtools.sty)) (/usr/share/texmf-dist/tex/latex/framed/framed.sty) (/usr/share/texmf-dist/tex/latex/tcolorbox/tcolorbox.sty (/usr/share/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty (/usr/share/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty (/usr/share/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.tex) (/usr/share/texmf-dist/tex/generic/pgf/utilities/pgfutil-latex.def) (/usr/share/texmf-dist/tex/generic/pgf/utilities/pgfrcs.code.tex (/usr/share/texmf-dist/tex/generic/pgf/pgf.revision.tex))) (/usr/share/texmf-dist/tex/latex/pgf/basiclayer/pgfcore.sty (/usr/share/texmf-dist/tex/latex/graphics/graphicx.sty (/usr/share/texmf-dist/tex/latex/graphics/graphics.sty (/usr/share/texmf-dist/tex/latex/graphics/trig.sty) (/usr/share/texmf-dist/tex/latex/graphics-cfg/graphics.cfg))) (/usr/share/texmf-dist/tex/latex/pgf/systemlayer/pgfsys.sty (/usr/share/texmf-dist/tex/generic/pgf/systemlayer/pgfsys.code.tex (/usr/share/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex (/usr/share/texmf-dist/tex/generic/pgf/utilities/pgfkeyslibraryfiltered.code.tex)) (/usr/share/texmf-dist/tex/generic/pgf/systemlayer/pgf.cfg) (/usr/share/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-pdftex.def (/usr/share/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-common-pdf.def))) (/usr/share/texmf-dist/tex/generic/pgf/systemlayer/pgfsyssoftpath.code.tex) (/usr/share/texmf-dist/tex/generic/pgf/systemlayer/pgfsysprotocol.code.tex)) (/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcore.code.tex (/usr/share/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex (/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathutil.code.tex) (/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathparser.code.tex) (/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.code.tex) (/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.basic.code.tex) (/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.trigonometric.code.tex) (/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.random.code.tex) (/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.comparison.code.tex) (/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.base.code.tex) (/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.round.code.tex) (/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.misc.code.tex) (/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.integerarithmetics.code.tex) (/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathcalc.code.tex) (/usr/share/texmf-dist/tex/generic/pgf/math/pgfmathfloat.code.tex)) (/usr/share/texmf-dist/tex/generic/pgf/math/pgfint.code.tex) (/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepoints.code.tex) (/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathconstruct.code.tex) (/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathusage.code.tex) (/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcorescopes.code.tex) (/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcoregraphicstate.code.tex) (/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransformations.code.tex) (/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcorequick.code.tex) (/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreobjects.code.tex) (/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathprocessing.code.tex) (/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcorearrows.code.tex) (/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreshade.code.tex) (/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreimage.code.tex) (/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreexternal.code.tex) (/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcorelayers.code.tex) (/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransparency.code.tex) (/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepatterns.code.tex) (/usr/share/texmf-dist/tex/generic/pgf/basiclayer/pgfcorerdf.code.tex))) (/usr/share/texmf-dist/tex/generic/pgf/modules/pgfmoduleshapes.code.tex) (/usr/share/texmf-dist/tex/generic/pgf/modules/pgfmoduleplot.code.tex) (/usr/share/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-0-65.sty) (/usr/share/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-1-18.sty)) (/usr/share/texmf-dist/tex/latex/tools/verbatim.sty) (/usr/share/texmf-dist/tex/latex/environ/environ.sty (/usr/share/texmf-dist/tex/latex/trimspaces/trimspaces.sty)) (/usr/share/texmf-dist/tex/latex/tcolorbox/tcbraster.code.tex
+Library (tcolorbox): 'tcbraster.code.tex' version '6.2.0'
+) (/usr/share/texmf-dist/tex/latex/tcolorbox/tcbskins.code.tex
+Library (tcolorbox): 'tcbskins.code.tex' version '6.2.0'
+(/usr/share/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty (/usr/share/texmf-dist/tex/latex/pgf/utilities/pgffor.sty (/usr/share/texmf-dist/tex/latex/pgf/utilities/pgfkeys.sty (/usr/share/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex)) (/usr/share/texmf-dist/tex/latex/pgf/math/pgfmath.sty (/usr/share/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex)) (/usr/share/texmf-dist/tex/generic/pgf/utilities/pgffor.code.tex)) (/usr/share/texmf-dist/tex/generic/pgf/frontendlayer/tikz/tikz.code.tex (/usr/share/texmf-dist/tex/generic/pgf/libraries/pgflibraryplothandlers.code.tex) (/usr/share/texmf-dist/tex/generic/pgf/modules/pgfmodulematrix.code.tex) (/usr/share/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarytopaths.code.tex))) (/usr/share/texmf-dist/tex/latex/tikzfill/tikzfill.image.sty (/usr/share/texmf-dist/tex/latex/tikzfill/tikzfill-common.sty) (/usr/share/texmf-dist/tex/latex/tikzfill/tikzlibraryfill.image.code.tex)) (/usr/share/texmf-dist/tex/latex/tcolorbox/tcbskinsjigsaw.code.tex
+Library (tcolorbox): 'tcbskinsjigsaw.code.tex' version '6.2.0'
+)) (/usr/share/texmf-dist/tex/latex/tcolorbox/tcbbreakable.code.tex
+Library (tcolorbox): 'tcbbreakable.code.tex' version '6.2.0'
+(/usr/share/texmf-dist/tex/latex/pdfcol/pdfcol.sty (/usr/share/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty) (/usr/share/texmf-dist/tex/generic/infwarerr/infwarerr.sty))) (/usr/share/texmf-dist/tex/latex/tcolorbox/tcbhooks.code.tex
+Library (tcolorbox): 'tcbhooks.code.tex' version '6.2.0'
+) (/usr/share/texmf-dist/tex/latex/tcolorbox/tcbtheorems.code.tex
+Library (tcolorbox): 'tcbtheorems.code.tex' version '6.2.0'
+) (/usr/share/texmf-dist/tex/latex/tcolorbox/tcbfitting.code.tex
+Library (tcolorbox): 'tcbfitting.code.tex' version '6.2.0'
+) (/usr/share/texmf-dist/tex/latex/tcolorbox/tcblistingsutf8.code.tex
+Library (tcolorbox): 'tcblistingsutf8.code.tex' version '6.2.0'
+(/usr/share/texmf-dist/tex/latex/tcolorbox/tcblistings.code.tex
+Library (tcolorbox): 'tcblistings.code.tex' version '6.2.0'
+(/usr/share/texmf-dist/tex/latex/listings/listings.sty (/usr/share/texmf-dist/tex/latex/listings/lstpatch.sty) (/usr/share/texmf-dist/tex/latex/listings/lstmisc.sty) (/usr/share/texmf-dist/tex/latex/listings/listings.cfg)) (/usr/share/texmf-dist/tex/latex/tcolorbox/tcblistingscore.code.tex
+Library (tcolorbox): 'tcblistingscore.code.tex' version '6.2.0'
+(/usr/share/texmf-dist/tex/latex/tcolorbox/tcbprocessing.code.tex
+Library (tcolorbox): 'tcbprocessing.code.tex' version '6.2.0'
+))) (/usr/share/texmf-dist/tex/latex/listingsutf8/listingsutf8.sty (/usr/share/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty) (/usr/share/texmf-dist/tex/generic/stringenc/stringenc.sty (/usr/share/texmf-dist/tex/generic/pdfescape/pdfescape.sty)))) (/usr/share/texmf-dist/tex/latex/tcolorbox/tcbexternal.code.tex
+Library (tcolorbox): 'tcbexternal.code.tex' version '6.2.0'
+) (/usr/share/texmf-dist/tex/latex/tcolorbox/tcbmagazine.code.tex
+Library (tcolorbox): 'tcbmagazine.code.tex' version '6.2.0'
+) (/usr/share/texmf-dist/tex/latex/tcolorbox/tcbvignette.code.tex
+Library (tcolorbox): 'tcbvignette.code.tex' version '6.2.0'
+(/usr/share/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibraryfadings.code.tex (/usr/share/texmf-dist/tex/generic/pgf/libraries/pgflibraryfadings.code.tex))) (/usr/share/texmf-dist/tex/latex/tcolorbox/tcbposter.code.tex
+Library (tcolorbox): 'tcbposter.code.tex' version '6.2.0'
+)) (/usr/share/texmf-dist/tex/generic/babel/babel.sty (/usr/share/texmf-dist/tex/generic/babel/txtbabel.def) (/usr/share/texmf-dist/tex/generic/babel-english/english.ldf)) (/usr/share/texmf-dist/tex/generic/babel/locale/en/babel-english.tex) (/usr/share/texmf-dist/tex/latex/blindtext/blindtext.sty (/usr/share/texmf-dist/tex/latex/tools/xspace.sty)) (/usr/share/texmf-dist/tex/latex/epigraph/epigraph.sty (/usr/share/texmf-dist/tex/latex/nextpage/nextpage.sty)) (/usr/share/texmf-dist/tex/latex/biblatex/biblatex.sty (/usr/share/texmf-dist/tex/latex/kvoptions/kvoptions.sty (/usr/share/texmf-dist/tex/latex/kvsetkeys/kvsetkeys.sty)) (/usr/share/texmf-dist/tex/latex/logreq/logreq.sty (/usr/share/texmf-dist/tex/latex/logreq/logreq.def)) (/usr/share/texmf-dist/tex/latex/base/ifthen.sty) (/usr/share/texmf-dist/tex/latex/url/url.sty) (/usr/share/texmf-dist/tex/latex/biblatex/blx-dm.def) (/usr/share/texmf-dist/tex/latex/biblatex/blx-compat.def) (/usr/share/texmf-dist/tex/latex/biblatex/biblatex.def) (/usr/share/texmf-dist/tex/latex/biblatex/bbx/verbose-ibid.bbx (/usr/share/texmf-dist/tex/latex/biblatex/bbx/authortitle.bbx (/usr/share/texmf-dist/tex/latex/biblatex/bbx/standard.bbx))) (/usr/share/texmf-dist/tex/latex/biblatex/cbx/verbose-ibid.cbx) (/usr/share/texmf-dist/tex/latex/biblatex/biblatex.cfg) (/usr/share/texmf-dist/tex/latex/l3kernel/expl3.sty (/usr/share/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def)) (/usr/share/texmf-dist/tex/latex/biblatex/blx-case-expl3.sty (/usr/share/texmf-dist/tex/latex/l3packages/xparse/xparse.sty))) (/usr/share/texmf-dist/tex/latex/subfiles/subfiles.sty (/usr/share/texmf-dist/tex/latex/import/import.sty)) (/usr/share/texmf-dist/tex/latex/outlines/outlines.sty) (/usr/share/texmf-dist/tex/latex/lineno/lineno.sty
+
+LaTeX Warning: Command \@parboxrestore  has changed.
+               Check if current package is valid.
+
+) (./index.aux) (/usr/share/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+) (/usr/share/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty (/usr/share/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg))
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+(/usr/share/texmf-dist/tex/latex/biblatex/lbx/english.lbx) (./index.bbl) (/usr/share/texmf-dist/tex/latex/amsfonts/umsa.fd) (/usr/share/texmf-dist/tex/latex/amsfonts/umsb.fd) (/usr/share/texmf-dist/tex/latex/jknapltx/ursfs.fd) [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}{/usr/share/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}] (./sections/01-introduction.tex [2] [3] [4] [5] [6] [7] [8] [9] [10] [11]) [12] (./sections/02-computational_law.tex [13] [14] [15] [16] [17] [18] [19] [20] [21]) [22] (./sections/03-legal_computability.tex [23] [24] [25] [26] [27] [28] [29] [30] [31]) [32] (./sections/04-encoding_analysis_overview.tex
+Underfull \hbox (badness 1655) in paragraph at lines 24--24
+\OT1/cmr/m/n/12 the in-dus-try be-ing as-
+
+Overfull \hbox (12.0pt too wide) in paragraph at lines 24--24
+[]|[]| 
+
+Underfull \hbox (badness 10000) in paragraph at lines 24--24
+[]|\OT1/cmr/m/n/12 Ontologies (On-tol-ogy
+
+Overfull \hbox (12.0pt too wide) in paragraph at lines 24--24
+[]|[]| 
+
+Underfull \hbox (badness 6608) in paragraph at lines 25--25
+[]|\OT1/cmr/m/n/12 Given a spe-cific rule
+
+Overfull \hbox (12.0pt too wide) in paragraph at lines 25--25
+[]|[]| 
+
+Underfull \hbox (badness 10000) in paragraph at lines 25--25
+[]|\OT1/cmr/m/n/12 Argumentation Frame-
+
+Overfull \hbox (12.0pt too wide) in paragraph at lines 25--25
+[]|[]| 
+[33] [34] [35] [36] [37] [38]
+Underfull \hbox (badness 1895) in paragraph at lines 87--87
+[][][]\OT1/cmr/m/n/10 Oasis Open. \OT1/cmr/m/it/10 Legal-RuleML Core Spec-i-fi-ca-tion Ver-sion 1.0\OT1/cmr/m/n/10 . Aug. 30, 2021. \OT1/cmr/m/sc/10 url\OT1/cmr/m/n/10 :
+
+Underfull \hbox (badness 2065) in paragraph at lines 87--87
+\OT1/cmtt/m/n/10 http : / / docs . oasis -[] open . org / legalruleml / legalruleml -[] core -[] spec / v1 .
+
+Underfull \hbox (badness 2894) in paragraph at lines 87--87
+\OT1/cmtt/m/n/10 0 / legalruleml -[] core -[] spec -[] v1 . 0 . html$ \OT1/cmr/m/n/10 (vis-ited on 10/06/2023), See also See
+[39]
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[40 <./images/box_threshold_tests.png>] [41] [42] [43 <./images/example_class_hierarchy.png>] [44] [45] [46 <./images/init_class_diagram.png>] [47] [48] [49] [50]) [51] (./sections/07-relevance_testing.tex [52]) [53]
+Overfull \hbox (1.65416pt too wide) in paragraph at lines 111--111
+[][]\OT1/cmr/m/n/12 Competition & Mar-kets Au-thor-ity. \OT1/cmr/m/it/12 Com-pe-ti-tion As-sess-ment Guide-lines Part 2: Guide-
+
+Overfull \hbox (24.00284pt too wide) in paragraph at lines 111--111
+\OT1/cmr/m/it/12 lines\OT1/cmr/m/n/12 . UK Gov-ern-ment, 2023. \OT1/cmr/m/sc/12 url\OT1/cmr/m/n/12 : $\OT1/cmtt/m/n/12 https : / / www . gov . uk / government / publications /
+[54]
+Overfull \hbox (6.90503pt too wide) in paragraph at lines 111--111
+\OT1/cmtt/m/n/12 stanford . edu / publications / computational -[] law -[] the -[] cop -[] in -[] the -[] backseat/$
+[55]
+Overfull \hbox (10.80379pt too wide) in paragraph at lines 111--111
+[][]\OT1/cmr/m/n/12 Hasan, Iftekhar and Matej Marin^^Tc. \  Should Com-pe-ti-tion Pol-icy in Bank-ing Be Amended
+
+Overfull \hbox (148.01855pt too wide) in paragraph at lines 111--111
+\OT1/cmr/m/n/12 In: ICN 14th An-nual Con-fer-ence. Syd-ney, Apr. 2015. \OT1/cmr/m/sc/12 url\OT1/cmr/m/n/12 : $\OT1/cmtt/m/n/12 https : / / www . internationalcompetitionnetwork .
+
+Overfull \hbox (35.28004pt too wide) in paragraph at lines 111--111
+\OT1/cmtt/m/n/12 org / wp -[] content / uploads / 2018 / 09 / AWG _ FrameworkCompetitionAssessmentRegimes .
+
+Overfull \hbox (1.60495pt too wide) in paragraph at lines 111--111
+[][]\OT1/cmr/m/n/12 Medalla, Er-linda M. \  Un-der-stand-ing the New Philip-pine Com-pe-ti-tion Act". In: \OT1/cmr/m/it/12 Philip-
+[56]
+Overfull \hbox (13.50804pt too wide) in paragraph at lines 111--111
+\OT1/cmr/m/sc/12 url\OT1/cmr/m/n/12 : $\OT1/cmtt/m/n/12 https : / / www . oecd . org / daf / competition / oecd -[] competition -[] assessment -[]
+
+Overfull \hbox (6.7485pt too wide) in paragraph at lines 111--111
+\OT1/cmr/m/it/12 pines\OT1/cmr/m/n/12 . 2020. \OT1/cmr/m/sc/12 url\OT1/cmr/m/n/12 : $\OT1/cmtt/m/n/12 https : / / www . oecd . org / daf / competition / oecd -[] competitive -[]
+[57] [58]
+Overfull \hbox (8.17146pt too wide) in paragraph at lines 111--111
+[][]\OT1/cmr/m/n/12 Wikimedia Foun-da-tion. \OT1/cmr/m/it/12 Wiki-data\OT1/cmr/m/n/12 . \OT1/cmr/m/sc/12 url\OT1/cmr/m/n/12 : $\OT1/cmtt/m/n/12 https : / / www . wikidata . org / wiki / Wikidata :
+
+Overfull \hbox (3.52252pt too wide) in paragraph at lines 111--111
+[][][]\OT1/cmr/m/it/12 A Project to Find the Fun-da-men-tal The-ory of Physics\OT1/cmr/m/n/12 . Cham-paign, Illi-nois: Stephen
+
+Overfull \hbox (4.05386pt too wide) in paragraph at lines 111--111
+[][][]\OT1/cmr/m/n/12 \  AI Law and Com-pu-ta-tional Ir-re-ducibil-ity". Fu-tureLaw 2023, Stan-ford Law School.
+
+Overfull \hbox (13.58003pt too wide) in paragraph at lines 111--111
+\OT1/cmtt/m/n/12 2016 / 10 / computational -[] law -[] symbolic -[] discourse -[] and -[] the -[] ai -[] constitution/$
+
+Overfull \hbox (3.28291pt too wide) in paragraph at lines 111--111
+[][]\OT1/cmr/m/n/12 World Bank Group. \OT1/cmr/m/it/12 En-hanc-ing Com-pe-ti-tion Con-di-tions and Com-pet-i-tive-ness of Philip-
+[59] [60] 
+enddocument/afterlastpage: lastpage setting LastPage.
+(./index.aux) )
+(see the transcript file for additional information)</usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbxti10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfrm0700.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfrm1095.pfb>
+Output written on index.pdf (60 pages, 735100 bytes).
+SyncTeX written on index.synctex.gz.
+Transcript written on index.log.
+Latexmk: Getting log file 'index.log'
+Latexmk: Examining 'index.fls'
+Latexmk: Examining 'index.log'
+Latexmk: Found input bbl file 'index.bbl'
+Latexmk: Log file says output to 'index.pdf'
+Latexmk: Bibliography file(s) from .bcf file:
+  bibliography.bib
+Latexmk: All targets (index.pdf) are up-to-date
+

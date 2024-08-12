@@ -1,0 +1,84 @@
+2024-08-12T06:11:19.909Z - info: [ui] [AppStore] loading 3 repositories from store
+2024-08-12T06:11:19.910Z - info: [ui] [AppStore] found account: urielsantiago69 (urielsantiago69)
+2024-08-12T06:11:20.008Z - info: [ui] [BranchPruner] No branches to prune.
+2024-08-12T06:11:20.189Z - info: [ui] launching: 3.4.2-linux1 (Linux 6.10.3-arch1-2)
+2024-08-12T06:11:20.190Z - info: [ui] execPath: '/opt/github-desktop/github-desktop'
+2024-08-12T06:11:20.571Z - info: [ui] Subscribed 'urielsantiago69' to Alive channel
+2024-08-12T06:11:25.289Z - info: [ui] Stats reported.
+2024-08-12T06:11:36.446Z - info: [ui] [BranchPruner] No branches to prune.
+2024-08-12T06:12:12.194Z - info: [ui] [RepositoryIndicatorUpdater]: Refreshing sidebar indicators for 1 repositories took 0.6s of which 0.0s paused, total 0.6s
+2024-08-12T06:15:35.190Z - info: [ui] [BranchPruner] No branches to prune.
+2024-08-12T06:15:35.406Z - info: [ui] credential-helper: found GitHub credential for https://github.com/ in store
+2024-08-12T06:15:36.379Z - info: [ui] Executing fetch: git fetch --progress --prune --recurse-submodules=on-demand origin (took 1.280s)
+2024-08-12T06:15:36.784Z - info: [ui] credential-helper: found GitHub credential for https://github.com/ in store
+2024-08-12T06:15:37.604Z - info: [ui] Executing updateRemoteHEAD: git remote set-head -a origin (took 1.224s)
+2024-08-12T06:16:43.453Z - info: [ui] [AppStore] adding repository at /home/urielsantiago/arch_dotfiles to store
+2024-08-12T06:17:17.544Z - info: [ui] [BranchPruner] Last prune took place 6 minutes ago - skipping
+2024-08-12T06:17:17.825Z - info: [ui] credential-helper: found GitHub credential for https://github.com/ in store
+2024-08-12T06:17:18.570Z - info: [ui] Executing fetch: git fetch --progress --prune --recurse-submodules=on-demand origin (took 1.070s)
+2024-08-12T06:17:19.285Z - info: [ui] credential-helper: found GitHub credential for https://github.com/ in store
+2024-08-12T06:17:19.895Z - info: [ui] Executing updateRemoteHEAD: git remote set-head -a origin (took 1.323s)
+2024-08-12T06:21:39.367Z - info: [main] Received possible protocol arguments: 2
+2024-08-12T06:21:56.700Z - info: [ui] [AppStore] adding repository at /home/urielsantiago/Documents/GitHub/dotfiles to store
+2024-08-12T06:21:57.084Z - warn: [ui] fetchRepository: 'urielsantiago69/dotfiles' returned a 404
+2024-08-12T06:21:57.172Z - info: [ui] [BranchPruner] Last prune took place 11 minutes ago - skipping
+2024-08-12T06:21:57.859Z - info: [ui] [fetchProtectedBranches] unable to list protected branches
+Error: Not Found
+    at dn (/home/urielsantiago/webpack:/app/src/lib/http.ts:178:11)
+    at er.fetchProtectedBranches (/home/urielsantiago/webpack:/app/src/lib/api.ts:1644:7)
+    at Lp.updateBranchProtectionsFromAPI (/home/urielsantiago/webpack:/app/src/lib/stores/app-store.ts:4185:11)
+2024-08-12T06:21:57.864Z - warn: [ui] fetchRepository: 'urielsantiago69/dotfiles' returned a 404
+2024-08-12T06:21:57.864Z - warn: [ui] fetchAll: 'repos/urielsantiago69/dotfiles/issues?state=open' returned a 404
+2024-08-12T06:21:57.894Z - warn: [ui] fetchMentionables: 'repos/urielsantiago69/dotfiles/mentionables/users' returned a 404
+2024-08-12T06:21:57.894Z - warn: [ui] fetchAll: 'repos/urielsantiago69/dotfiles/pulls?state=open' returned a 404
+2024-08-12T06:22:17.060Z - info: [ui] credential-helper: found GitHub credential for https://github.com/ in store
+2024-08-12T06:22:17.357Z - error: [ui] `git fetch --progress --prune --recurse-submodules=on-demand origin` exited with an unexpected code: 128.
+stderr:
+remote: Repository not found.
+fatal: repository 'https://github.com/urielsantiago69/dotfiles.git/' not found
+
+(The error was parsed as 9: The repository does not seem to exist anymore. You may not have access, or it may have been deleted or renamed.)
+2024-08-12T06:22:17.765Z - info: [ui] [fetchPushControl] unable to check if branch is potentially pushable
+Error: Not Found
+    at dn (/home/urielsantiago/webpack:/app/src/lib/http.ts:178:11)
+    at er.fetchPushControl (/home/urielsantiago/webpack:/app/src/lib/api.ts:1618:7)
+    at Lp.refreshBranchProtectionState (/home/urielsantiago/webpack:/app/src/lib/stores/app-store.ts:1219:39)
+    at /home/urielsantiago/webpack:/app/src/lib/stores/app-store.ts:5107:32
+    at Lp.withPushPullFetch (/home/urielsantiago/webpack:/app/src/lib/stores/app-store.ts:4607:5)
+    at Lp.performFetch (/home/urielsantiago/webpack:/app/src/lib/stores/app-store.ts:5064:5)
+2024-08-12T06:22:18.075Z - info: [ui] [fetchAllRepoRulesets] unable to fetch all repo rulesets | repos/urielsantiago69/dotfiles/rulesets
+Error: Not Found
+    at dn (/home/urielsantiago/webpack:/app/src/lib/http.ts:178:11)
+    at er.fetchAllRepoRulesets (/home/urielsantiago/webpack:/app/src/lib/api.ts:1688:7)
+    at Lp.refreshBranchProtectionState (/home/urielsantiago/webpack:/app/src/lib/stores/app-store.ts:1223:15)
+    at /home/urielsantiago/webpack:/app/src/lib/stores/app-store.ts:5107:32
+    at Lp.withPushPullFetch (/home/urielsantiago/webpack:/app/src/lib/stores/app-store.ts:4607:5)
+    at Lp.performFetch (/home/urielsantiago/webpack:/app/src/lib/stores/app-store.ts:5064:5)
+2024-08-12T06:22:18.385Z - info: [ui] [fetchRepoRulesForBranch] unable to fetch repo rules for branch: main | repos/urielsantiago69/dotfiles/rules/branches/main
+Error: Not Found
+    at dn (/home/urielsantiago/webpack:/app/src/lib/http.ts:178:11)
+    at er.fetchRepoRulesForBranch (/home/urielsantiago/webpack:/app/src/lib/api.ts:1667:7)
+    at Lp.refreshBranchProtectionState (/home/urielsantiago/webpack:/app/src/lib/stores/app-store.ts:1244:15)
+    at /home/urielsantiago/webpack:/app/src/lib/stores/app-store.ts:5107:32
+    at Lp.withPushPullFetch (/home/urielsantiago/webpack:/app/src/lib/stores/app-store.ts:4607:5)
+    at Lp.performFetch (/home/urielsantiago/webpack:/app/src/lib/stores/app-store.ts:5064:5)
+2024-08-12T06:22:18.795Z - warn: [ui] fetchAll: 'repos/urielsantiago69/dotfiles/issues?state=open' returned a 404
+2024-08-12T06:22:38.456Z - info: [ui] [AppStore] loading 3 repositories from store
+2024-08-12T06:22:38.458Z - info: [ui] [AppStore] found account: urielsantiago69 (urielsantiago69)
+2024-08-12T06:22:38.477Z - info: [ui] [BranchPruner] Last prune took place 11 minutes ago - skipping
+2024-08-12T06:22:38.522Z - info: [ui] launching: 3.4.2-linux1 (Linux 6.10.3-arch1-2)
+2024-08-12T06:22:38.523Z - info: [ui] execPath: '/opt/github-desktop/github-desktop'
+2024-08-12T06:22:39.141Z - info: [ui] [fetchProtectedBranches] unable to list protected branches
+Error: Not Found
+    at dn (/home/urielsantiago/webpack:/app/src/lib/http.ts:178:11)
+    at er.fetchProtectedBranches (/home/urielsantiago/webpack:/app/src/lib/api.ts:1644:7)
+    at Lp.updateBranchProtectionsFromAPI (/home/urielsantiago/webpack:/app/src/lib/stores/app-store.ts:4185:11)
+2024-08-12T06:22:39.143Z - warn: [ui] fetchAll: 'repos/urielsantiago69/dotfiles/pulls?state=open' returned a 404
+2024-08-12T06:22:39.143Z - warn: [ui] fetchAll: 'repos/urielsantiago69/dotfiles/issues?state=open' returned a 404
+2024-08-12T06:22:39.473Z - info: [ui] Subscribed 'urielsantiago69' to Alive channel
+2024-08-12T06:22:42.598Z - info: [ui] [BranchPruner] Last prune took place 11 minutes ago - skipping
+2024-08-12T06:22:46.033Z - info: [ui] [RepositoryIndicatorUpdater]: Refreshing sidebar indicators for 1 repositories took 0.4s of which 0.0s paused, total 0.4s
+2024-08-12T06:23:20.693Z - info: [ui] [AppStore] adding repository at /home/urielsantiago/Documents/GitHub/arch_dotfiles to store
+2024-08-12T06:23:40.300Z - info: [ui] credential-helper: found GitHub credential for https://github.com/ in store
+2024-08-12T06:23:41.638Z - info: [ui] Executing push: git push origin main --set-upstream --progress (took 1.689s)
+2024-08-12T06:23:43.830Z - info: [ui] [BranchPruner] No branches to prune.

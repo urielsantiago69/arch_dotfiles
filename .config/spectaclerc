@@ -1,0 +1,10 @@
+[GuiConfig]
+captureMode=5
+
+[ImageSave]
+lastImageSaveAsLocation=file:///home/urielsantiago/Downloads/LPOTP.png
+lastImageSaveLocation=file:///home/urielsantiago/Pictures/Screenshots/Screenshot_20240804_173937.png
+translatedScreenshotsFolder=Screenshots
+
+[VideoSave]
+translatedScreencastsFolder=Screencasts

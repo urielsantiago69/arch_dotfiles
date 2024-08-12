@@ -1,0 +1,39 @@
+2024-08-10 10:15:24.458 [info] [main] Log level: Info
+2024-08-10 10:15:24.458 [info] [main] Validating found git in: "git"
+2024-08-10 10:15:24.458 [info] [main] Using git "2.46.0" from "git"
+2024-08-10 10:15:24.458 [info] [Model][doInitialScan] Initial repository scan started
+2024-08-10 10:15:24.458 [info] > git rev-parse --show-toplevel [4ms]
+2024-08-10 10:15:24.458 [info] > git rev-parse --git-dir --git-common-dir [1ms]
+2024-08-10 10:15:24.458 [info] [Model][openRepository] Opened repository: /home/urielsantiago/Documents/GitHub/dissertation
+2024-08-10 10:15:24.458 [info] > git config --get commit.template [7ms]
+2024-08-10 10:15:24.465 [info] > git rev-parse --show-toplevel [2ms]
+2024-08-10 10:15:24.466 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [8ms]
+2024-08-10 10:15:24.476 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/urielsantiago/Documents/GitHub/dissertation/.git/refs/remotes/origin/main'
+2024-08-10 10:15:24.477 [info] > git rev-parse --show-toplevel [5ms]
+2024-08-10 10:15:24.483 [info] > git rev-parse refs/remotes/origin/main [7ms]
+2024-08-10 10:15:24.489 [info] > git status -z -uall [2ms]
+2024-08-10 10:15:24.489 [info] > git rev-parse --show-toplevel [7ms]
+2024-08-10 10:15:24.505 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [6ms]
+2024-08-10 10:15:24.509 [info] > git rev-parse --show-toplevel [15ms]
+2024-08-10 10:15:24.517 [info] > git config --local branch.main.vscode-merge-base [8ms]
+2024-08-10 10:15:24.522 [info] > git config --get commit.template [17ms]
+2024-08-10 10:15:24.524 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/main refs/remotes/origin/main [2ms]
+2024-08-10 10:15:24.528 [info] > git rev-parse --show-toplevel [11ms]
+2024-08-10 10:15:24.544 [info] > git rev-parse --show-toplevel [8ms]
+2024-08-10 10:15:24.545 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [13ms]
+2024-08-10 10:15:24.545 [info] > git merge-base refs/heads/main refs/remotes/origin/main [17ms]
+2024-08-10 10:15:24.558 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/urielsantiago/Documents/GitHub/dissertation/.git/refs/remotes/origin/main'
+2024-08-10 10:15:24.559 [info] > git rev-list --count --left-right refs/heads/main...refs/remotes/origin/main [10ms]
+2024-08-10 10:15:24.567 [info] > git rev-parse refs/remotes/origin/main [9ms]
+2024-08-10 10:15:24.570 [info] > git rev-parse --show-toplevel [15ms]
+2024-08-10 10:15:24.574 [info] > git diff --name-status -z --diff-filter=ADMR 2edc31bc99c66441035a7adae196f3b3998eaeac...refs/remotes/origin/main [12ms]
+2024-08-10 10:15:24.575 [info] > git status -z -uall [5ms]
+2024-08-10 10:15:24.575 [info] > git rev-parse --show-toplevel [2ms]
+2024-08-10 10:15:24.575 [info] [Model][doInitialScan] Initial repository scan completed - repositories (1), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2024-08-10 10:15:24.582 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-08-10 10:15:24.587 [info] > git config --local branch.main.vscode-merge-base [1ms]
+2024-08-10 10:15:24.593 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/main refs/remotes/origin/main [1ms]
+2024-08-10 10:15:24.829 [info] > git show --textconv :index.tex [85ms]
+2024-08-10 10:15:24.830 [info] > git ls-files --stage -- /home/urielsantiago/Documents/GitHub/dissertation/index.tex [2ms]
+2024-08-10 10:15:24.836 [info] > git cat-file -s f7279848b0ac19daf892298de020298f1b873b3a [1ms]
+2024-08-10 10:15:24.959 [info] > git check-ignore -v -z --stdin [1ms]

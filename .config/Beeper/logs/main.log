@@ -1,0 +1,5 @@
+[2024-08-11 09:21:49.172] [info]  @todesktop/runtime: AutoUpdater: @todesktop/runtime: skipping autoUpdater initialization because application is not in AppImage.
+[2024-08-11 09:21:49.419] [debug] @todesktop/runtime: AutoUpdater: electron will-finish-launching event emitted { appVersion: '3.108.3', runtimeVersion: '1.4.0' }
+[2024-08-11 09:22:19.431] [info]  @todesktop/runtime: AutoUpdater: .checkForUpdates called
+[2024-08-11 09:24:47.874] [info]  Beeper : MacContacts : contactsHelper, returning early since contacts does not exist
+[2024-08-11 09:24:47.878] [info]  Beeper : MacContacts : contactsHelper, returning early since contacts does not exist

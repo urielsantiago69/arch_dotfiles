@@ -1,0 +1,33 @@
+[Default Applications]
+x-scheme-handler/x-github-client=github-desktop.desktop
+x-scheme-handler/x-github-desktop-auth=github-desktop.desktop
+x-scheme-handler/viber=viber.desktop
+x-scheme-handler/http=google-chrome.desktop
+x-scheme-handler/https=google-chrome.desktop
+text/html=google-chrome.desktop
+x-scheme-handler/element=Beeper.desktop
+x-scheme-handler/mailto=userapp-Thunderbird-ALOGS2.desktop
+message/rfc822=userapp-Thunderbird-ALOGS2.desktop
+x-scheme-handler/mid=userapp-Thunderbird-ALOGS2.desktop
+x-scheme-handler/news=userapp-Thunderbird-A94GS2.desktop
+x-scheme-handler/snews=userapp-Thunderbird-A94GS2.desktop
+x-scheme-handler/nntp=userapp-Thunderbird-A94GS2.desktop
+x-scheme-handler/feed=userapp-Thunderbird-QGZIS2.desktop
+application/rss+xml=userapp-Thunderbird-QGZIS2.desktop
+application/x-extension-rss=userapp-Thunderbird-QGZIS2.desktop
+x-scheme-handler/webcal=userapp-Thunderbird-U1BKS2.desktop
+text/calendar=userapp-Thunderbird-U1BKS2.desktop
+application/x-extension-ics=userapp-Thunderbird-U1BKS2.desktop
+x-scheme-handler/webcals=userapp-Thunderbird-U1BKS2.desktop
+
+[Added Associations]
+x-scheme-handler/mailto=userapp-Thunderbird-ALOGS2.desktop;
+x-scheme-handler/mid=userapp-Thunderbird-ALOGS2.desktop;
+x-scheme-handler/news=userapp-Thunderbird-A94GS2.desktop;
+x-scheme-handler/snews=userapp-Thunderbird-A94GS2.desktop;
+x-scheme-handler/nntp=userapp-Thunderbird-A94GS2.desktop;
+x-scheme-handler/feed=userapp-Thunderbird-QGZIS2.desktop;
+application/rss+xml=userapp-Thunderbird-QGZIS2.desktop;
+application/x-extension-rss=userapp-Thunderbird-QGZIS2.desktop;
+x-scheme-handler/webcal=userapp-Thunderbird-U1BKS2.desktop;
+x-scheme-handler/webcals=userapp-Thunderbird-U1BKS2.desktop;

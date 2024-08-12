@@ -1,0 +1,11 @@
+2024/08/05-08:18:13.073 7d3 Creating DB /home/urielsantiago/.config/google-chrome/Default/IndexedDB/https_www.biccamera.com_0.indexeddb.leveldb since it was missing.
+2024/08/05-08:18:13.115 7d3 Reusing MANIFEST /home/urielsantiago/.config/google-chrome/Default/IndexedDB/https_www.biccamera.com_0.indexeddb.leveldb/MANIFEST-000001
+2024/08/05-08:18:13.163 7d3 Manual compaction at level-0 from '\x00\x02\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x03\x00\x00\x00' @ 0 : 0; will stop at (end)
+2024/08/05-08:18:13.175 7ba Level-0 table #5: started
+2024/08/05-08:18:13.188 7ba Level-0 table #5: 1070 bytes OK
+2024/08/05-08:18:13.207 7ba Delete type=0 #3
+2024/08/05-08:18:13.207 7ba Manual compaction at level-0 from '\x00\x01\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x02\x00\x00\x00' @ 0 : 0; will stop at (end)
+2024/08/05-08:18:25.038 7ba Level-0 table #7: started
+2024/08/05-08:18:25.044 7ba Level-0 table #7: 1606 bytes OK
+2024/08/05-08:18:25.056 7ba Delete type=0 #4
+2024/08/05-08:18:25.056 7ba Manual compaction at level-0 from '\x00\x05\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x06\x00\x00\x00' @ 0 : 0; will stop at (end)

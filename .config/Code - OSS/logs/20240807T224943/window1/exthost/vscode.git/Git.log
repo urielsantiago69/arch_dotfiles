@@ -1,0 +1,33 @@
+2024-08-07 22:49:45.060 [info] [main] Log level: Info
+2024-08-07 22:49:45.061 [info] [main] Validating found git in: "git"
+2024-08-07 22:49:45.061 [info] [main] Using git "2.46.0" from "git"
+2024-08-07 22:49:45.061 [info] [Model][doInitialScan] Initial repository scan started
+2024-08-07 22:49:45.061 [info] > git rev-parse --show-toplevel [2ms]
+2024-08-07 22:49:45.062 [info] > git rev-parse --git-dir --git-common-dir [7ms]
+2024-08-07 22:49:45.064 [info] [Model][openRepository] Opened repository: /home/urielsantiago/Documents/GitHub/dissertation
+2024-08-07 22:49:45.074 [info] > git config --get commit.template [4ms]
+2024-08-07 22:49:45.089 [info] > git rev-parse --show-toplevel [3ms]
+2024-08-07 22:49:45.089 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/dev refs/remotes/dev [8ms]
+2024-08-07 22:49:45.102 [info] > git rev-parse --show-toplevel [4ms]
+2024-08-07 22:49:45.109 [info] > git status -z -uall [16ms]
+2024-08-07 22:49:45.116 [info] > git rev-parse --show-toplevel [10ms]
+2024-08-07 22:49:45.124 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/dev refs/remotes/dev [10ms]
+2024-08-07 22:49:45.130 [info] > git config --local branch.dev.vscode-merge-base [2ms]
+2024-08-07 22:49:45.133 [info] > git rev-parse --show-toplevel [10ms]
+2024-08-07 22:49:45.134 [info] > git config --get commit.template [14ms]
+2024-08-07 22:49:45.140 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/main refs/remotes/origin/main [7ms]
+2024-08-07 22:49:45.144 [info] > git rev-parse --show-toplevel [5ms]
+2024-08-07 22:49:45.159 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/dev refs/remotes/dev [16ms]
+2024-08-07 22:49:45.164 [info] > git rev-parse --show-toplevel [5ms]
+2024-08-07 22:49:45.170 [info] > git status -z -uall [8ms]
+2024-08-07 22:49:45.178 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/dev refs/remotes/dev [3ms]
+2024-08-07 22:49:45.182 [info] > git rev-parse --show-toplevel [12ms]
+2024-08-07 22:49:45.190 [info] > git rev-parse --show-toplevel [3ms]
+2024-08-07 22:49:45.190 [info] [Model][doInitialScan] Initial repository scan completed - repositories (1), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2024-08-07 22:49:45.190 [info] > git config --local branch.dev.vscode-merge-base [8ms]
+2024-08-07 22:49:45.196 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/main refs/remotes/origin/main [2ms]
+2024-08-07 22:49:45.603 [info] > git check-ignore -v -z --stdin [14ms]
+2024-08-07 22:49:47.237 [info] > git check-ignore -v -z --stdin [2ms]
+2024-08-07 22:50:30.182 [info] > git show --textconv :index.tex [6ms]
+2024-08-07 22:50:30.182 [info] > git ls-files --stage -- /home/urielsantiago/Documents/GitHub/dissertation/index.tex [1ms]
+2024-08-07 22:50:30.188 [info] > git cat-file -s f7279848b0ac19daf892298de020298f1b873b3a [0ms]

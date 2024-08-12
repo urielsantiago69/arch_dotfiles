@@ -1,0 +1,49 @@
+[
+    {
+        "data": [
+            {
+                "autoRotation": "InTabletMode",
+                "brightness": 1,
+                "colorProfileSource": "sRGB",
+                "connectorName": "HDMI-A-1",
+                "edidHash": "27f39c83fe4825595c9505d65e31d561",
+                "edidIdentifier": "RTK 9088 0 23 2023 0",
+                "highDynamicRange": false,
+                "iccProfilePath": "",
+                "mode": {
+                    "height": 1080,
+                    "refreshRate": 60000,
+                    "width": 1920
+                },
+                "overscan": 0,
+                "rgbRange": "Automatic",
+                "scale": 1,
+                "sdrBrightness": 417,
+                "sdrGamutWideness": 0,
+                "transform": "Normal",
+                "vrrPolicy": "Automatic",
+                "wideColorGamut": false
+            }
+        ],
+        "name": "outputs"
+    },
+    {
+        "data": [
+            {
+                "lidClosed": false,
+                "outputs": [
+                    {
+                        "enabled": true,
+                        "outputIndex": 0,
+                        "position": {
+                            "x": 0,
+                            "y": 0
+                        },
+                        "priority": 0
+                    }
+                ]
+            }
+        ],
+        "name": "setups"
+    }
+]

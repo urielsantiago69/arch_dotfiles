@@ -1,0 +1,31 @@
+[Desktop Entry]
+FullScreen=false
+
+[General]
+LockSidebar=true
+ShowSidebar=true
+
+[MainWindow]
+ToolBarsMovable=Disabled
+
+[Recent Files]
+File1[$e]=$HOME/Downloads/therac.pdf
+File10[$e]=$HOME/Downloads/IBP Memorandum Circular 07-10-24 Re Member Info Update (08-07-24).pdf
+File2[$e]=$HOME/Downloads/Ford PMS.pdf
+File3[$e]=/run/media/urielsantiago/ORBITKEY/LastPass OTP.pdf
+File4[$e]=$HOME/Downloads/LastPass OTP.pdf
+File5[$e]=$HOME/Downloads/SOA_FLEX GOLD VISA_AUG 04 2024_8005.pdf
+File6[$e]=$HOME/Downloads/ESB-Aug2024 Statement.pdf
+File7[$e]=$HOME/Downloads/SDNEA2024001.pdf
+File8[$e]=$HOME/Downloads/LLM faculty meeting_Agenda_08062024.pdf
+File9[$e]=$HOME/Downloads/Effective-NeoVim-Setup-for-2024---Plugins---Tips---SinDev-UfY3W4gCvhUm.pdf
+Name1[$e]=therac.pdf
+Name10[$e]=IBP Memorandum Circular 07-10-24 Re Member Info Update (08-07-24).pdf
+Name2[$e]=Ford PMS.pdf
+Name3[$e]=LastPass OTP.pdf
+Name4[$e]=LastPass OTP.pdf
+Name5[$e]=SOA_FLEX GOLD VISA_AUG 04 2024_8005.pdf
+Name6[$e]=ESB-Aug2024 Statement.pdf
+Name7[$e]=SDNEA2024001.pdf
+Name8[$e]=LLM faculty meeting_Agenda_08062024.pdf
+Name9[$e]=Effective-NeoVim-Setup-for-2024---Plugins---Tips---SinDev-UfY3W4gCvhUm.pdf

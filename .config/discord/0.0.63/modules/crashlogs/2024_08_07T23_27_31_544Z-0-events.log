@@ -1,0 +1,33 @@
+2024-08-07T23:27:31.547Z 0: 
+
+----------------------------------------------
+2024-08-07T23:27:31.560Z 1: Discord starting: {"releaseChannel":"stable","version":"0.0.63"}, modulepath: /home/urielsantiago/.config/discord/0.0.63/modules
+2024-08-07T23:27:31.574Z 2: ✅ webContents.created web1 ""
+2024-08-07T23:27:31.586Z 3: ✅ window.created win1 "discord"
+2024-08-07T23:27:31.700Z 4: ✅ webContents.did-finish-load web1
+2024-08-07T23:27:39.802Z 5: ✅ webContents.created web2 ""
+2024-08-07T23:27:39.808Z 6: ✅ window.created win2 "Discord"
+2024-08-07T23:27:53.839Z 7: ✅ webContents.did-finish-load web2
+2024-08-07T23:27:53.939Z 8: window.close win1
+2024-08-07T23:27:53.966Z 9: webContents.destroyed web1
+2024-08-07T23:27:53.975Z 10: window.closed win1
+2024-08-07T23:33:51.993Z 11: window.close win2
+2024-08-07T23:34:14.960Z 12: before-quit
+2024-08-07T23:34:14.970Z 13: window.close win2
+2024-08-07T23:34:21.894Z 0: 
+
+----------------------------------------------
+2024-08-07T23:34:21.908Z 1: Discord starting: {"releaseChannel":"stable","version":"0.0.63"}, modulepath: /home/urielsantiago/.config/discord/0.0.63/modules
+2024-08-07T23:34:21.918Z 2: ✅ webContents.created web1 "index.html"
+2024-08-07T23:34:21.927Z 3: ✅ window.created win1 "discord"
+2024-08-07T23:34:22.041Z 4: ✅ webContents.did-finish-load web1
+2024-08-07T23:34:22.462Z 5: ✅ webContents.created web2 ""
+2024-08-07T23:34:22.470Z 6: ✅ window.created win2 "Discord"
+2024-08-07T23:34:23.825Z 7: ✅ webContents.did-finish-load web2
+2024-08-07T23:34:23.924Z 8: window.close win1
+2024-08-07T23:34:23.950Z 9: webContents.destroyed web1
+2024-08-07T23:34:23.957Z 10: window.closed win1
+2024-08-07T23:35:21.827Z 11: window.close win2
+2024-08-07T23:52:13.464Z 12: before-quit
+2024-08-07T23:52:13.473Z 13: window.close win2
+2024-08-07T23:52:13.514Z 14: webContents.destroyed web2

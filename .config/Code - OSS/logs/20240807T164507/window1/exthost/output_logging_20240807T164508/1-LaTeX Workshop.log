@@ -1,0 +1,186 @@
+[16:45:14.671][Logger] New log placeholder %WS1% registered for /home/urielsantiago/Documents/GitHub/dissertation .
+[16:45:14.671][Extension] Initializing LaTeX Workshop.
+[16:45:14.780][Build][Recipe] Set $LATEXWORKSHOP_DOCKER_LATEX: ""
+[16:45:14.780][Build][Recipe] Set $LATEXWORKSHOP_DOCKER_PATH: "docker"
+[16:45:14.807][Server] Creating LaTeX Workshop http and websocket server.
+[16:45:14.859][Format][Bib] Bibtex format config: {"tab":"  ","case":"lowercase","left":"{","right":"}","trailingComma":false,"sort":["key"],"alignOnEqual":true,"sortFields":false,"fieldsOrder":[],"firstEntries":["string","xdata"]}
+[16:45:14.887][Server] Server successfully started: {"address":"127.0.0.1","family":"IPv4","port":43413} .
+[16:45:14.888][Extension] Extension root: /home/urielsantiago/.vscode-oss/extensions/james-yu.latex-workshop-10.1.0-universal
+[16:45:14.888][Extension] $PATH: /home/urielsantiago/go/bin:/home/urielsantiago/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/bin:/usr/lib/jvm/default/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl:/var/lib/snapd/snap/bin
+[16:45:14.888][Extension] $SHELL: /bin/bash
+[16:45:14.888][Extension] $LANG: en_US.UTF-8
+[16:45:14.889][Extension] $LC_ALL: undefined
+[16:45:14.889][Extension] process.platform: linux
+[16:45:14.889][Extension] process.arch: x64
+[16:45:14.889][Extension] vscode.env.appName: Code - OSS
+[16:45:14.889][Extension] vscode.env.remoteName: undefined
+[16:45:14.889][Extension] vscode.env.uiKind: 1
+[16:45:14.910][Extension] Trigger characters for intellisense of LaTeX documents: ["\\",",","{","}"]
+[16:45:14.911][Root] Current workspace folders: ["file://%WS1%"]
+[16:45:14.911][Extension] LaTeX Workshop initialized.
+[16:45:14.912][Root] Found root file from active editor: %WS1%/index.tex
+[16:45:14.912][Root] Root file changed: from %WS1%/index.tex to %WS1%/index.tex, langID latex . Refresh dependencies
+[16:45:14.913][Event] ROOT_FILE_CHANGED: "%WS1%/index.tex"
+[16:45:14.913][Cacher][Watcher] Reset.
+[16:45:14.913][Cacher][Watcher] Reset.
+[16:45:14.915][Cacher] Adding %WS1%/index.tex .
+[16:45:14.916][Cacher][Watcher] Watched %WS1%/index.tex with a new .* watcher on %WS1% .
+[16:45:14.916][Event] FILE_WATCHED: "%WS1%/index.tex"
+[16:45:14.917][Cacher] Caching %WS1%/index.tex .
+[16:45:14.917][Event] ROOT_FILE_SEARCHED
+[16:45:14.919][Server] valdOrigin is http://127.0.0.1:43413
+[16:45:14.940][Cacher] Input %WS1%/sections/01-introduction.tex from %WS1%/index.tex .
+[16:45:14.941][Cacher] Adding %WS1%/sections/01-introduction.tex .
+[16:45:14.941][Cacher][Watcher] Watched %WS1%/sections/01-introduction.tex with a new .* watcher on %WS1%/sections .
+[16:45:14.941][Event] FILE_WATCHED: "%WS1%/sections/01-introduction.tex"
+[16:45:14.941][Cacher] Caching %WS1%/sections/01-introduction.tex .
+[16:45:14.942][Cacher] Input %WS1%/sections/02-computational_law.tex from %WS1%/index.tex .
+[16:45:14.942][Cacher] Adding %WS1%/sections/02-computational_law.tex .
+[16:45:14.942][Cacher][Watcher] Watched %WS1%/sections/02-computational_law.tex by the .* watcher.
+[16:45:14.942][Event] FILE_WATCHED: "%WS1%/sections/02-computational_law.tex"
+[16:45:14.943][Cacher] Caching %WS1%/sections/02-computational_law.tex .
+[16:45:14.943][Cacher] Input %WS1%/sections/03-legal_computability.tex from %WS1%/index.tex .
+[16:45:14.943][Cacher] Adding %WS1%/sections/03-legal_computability.tex .
+[16:45:14.943][Cacher][Watcher] Watched %WS1%/sections/03-legal_computability.tex by the .* watcher.
+[16:45:14.944][Event] FILE_WATCHED: "%WS1%/sections/03-legal_computability.tex"
+[16:45:14.944][Cacher] Caching %WS1%/sections/03-legal_computability.tex .
+[16:45:14.945][Cacher] Updated inputs of %WS1%/sections/01-introduction.tex .
+[16:45:14.945][Cacher] Parse LaTeX AST: %WS1%/sections/01-introduction.tex .
+[16:45:14.945][Cacher] Updated inputs of %WS1%/sections/02-computational_law.tex .
+[16:45:14.945][Cacher] Parse LaTeX AST: %WS1%/sections/02-computational_law.tex .
+[16:45:14.946][Cacher] Input %WS1%/sections/04-encoding_analysis_overview.tex from %WS1%/index.tex .
+[16:45:14.946][Cacher] Adding %WS1%/sections/04-encoding_analysis_overview.tex .
+[16:45:14.946][Cacher][Watcher] Watched %WS1%/sections/04-encoding_analysis_overview.tex by the .* watcher.
+[16:45:14.946][Event] FILE_WATCHED: "%WS1%/sections/04-encoding_analysis_overview.tex"
+[16:45:14.946][Cacher] Caching %WS1%/sections/04-encoding_analysis_overview.tex .
+[16:45:14.947][Cacher] Input %WS1%/sections/07-relevance_testing.tex from %WS1%/index.tex .
+[16:45:14.947][Cacher] Adding %WS1%/sections/07-relevance_testing.tex .
+[16:45:14.947][Cacher][Watcher] Watched %WS1%/sections/07-relevance_testing.tex by the .* watcher.
+[16:45:14.947][Event] FILE_WATCHED: "%WS1%/sections/07-relevance_testing.tex"
+[16:45:14.947][Cacher] Caching %WS1%/sections/07-relevance_testing.tex .
+[16:45:14.948][Cacher] Updated inputs of %WS1%/index.tex .
+[16:45:14.948][Cacher] Parse LaTeX AST: %WS1%/index.tex .
+[16:45:14.948][Cacher] Updated inputs of %WS1%/sections/03-legal_computability.tex .
+[16:45:14.949][Cacher] Parse LaTeX AST: %WS1%/sections/03-legal_computability.tex .
+[16:45:14.949][Cacher] Updated inputs of %WS1%/sections/04-encoding_analysis_overview.tex .
+[16:45:14.949][Cacher] Parse LaTeX AST: %WS1%/sections/04-encoding_analysis_overview.tex .
+[16:45:14.949][Cacher] Updated inputs of %WS1%/sections/07-relevance_testing.tex .
+[16:45:14.950][Cacher] Parse LaTeX AST: %WS1%/sections/07-relevance_testing.tex .
+[16:45:15.018][Cacher] Parsed LaTeX AST in 72.94 ms: %WS1%/sections/01-introduction.tex .
+[16:45:15.019][File] Calling kpsewhich to resolve subfiles.cls .
+[16:45:15.075][File] kpsewhich returned with '/usr/share/texmf-dist/tex/latex/subfiles/subfiles.cls'.
+[16:45:15.085][Cacher] Updated elements in 66.21 ms: %WS1%/sections/01-introduction.tex .
+[16:45:15.085][Event] FILE_PARSED: "%WS1%/sections/01-introduction.tex"
+[16:45:15.099][Cacher] Parsed LaTeX AST in 153.14 ms: %WS1%/sections/02-computational_law.tex .
+[16:45:15.099][File] kpsewhich cache hit on subfiles.cls: /usr/share/texmf-dist/tex/latex/subfiles/subfiles.cls .
+[16:45:15.104][Cacher] Updated elements in 5.07 ms: %WS1%/sections/02-computational_law.tex .
+[16:45:15.104][Event] FILE_PARSED: "%WS1%/sections/02-computational_law.tex"
+[16:45:15.107][Cacher] Parsed LaTeX AST in 158.55 ms: %WS1%/index.tex .
+[16:45:15.107][File] Calling kpsewhich to resolve article.cls .
+[16:45:15.140][File] kpsewhich returned with '/usr/share/texmf-dist/tex/latex/base/article.cls'.
+[16:45:15.143][Cacher] Bib %WS1%/bibliography.bib from %WS1%/index.tex .
+[16:45:15.143][Intelli][Citation] Parsing .bib entries from %WS1%/bibliography.bib
+[16:45:15.144][Intelli][Citation] Parse BibTeX AST from %WS1%/bibliography.bib .
+[16:45:15.144][Cacher][Watcher] Watched %WS1%/bibliography.bib with a new .bib watcher on %WS1% .
+[16:45:15.144][Event] FILE_WATCHED: "%WS1%/bibliography.bib"
+[16:45:15.144][Cacher] Updated elements in 37.28 ms: %WS1%/index.tex .
+[16:45:15.144][Event] FILE_PARSED: "%WS1%/index.tex"
+[16:45:15.158][Cacher] Parsed LaTeX AST in 207.53 ms: %WS1%/sections/03-legal_computability.tex .
+[16:45:15.159][File] kpsewhich cache hit on subfiles.cls: /usr/share/texmf-dist/tex/latex/subfiles/subfiles.cls .
+[16:45:15.163][Cacher] Updated elements in 3.80 ms: %WS1%/sections/03-legal_computability.tex .
+[16:45:15.163][Event] FILE_PARSED: "%WS1%/sections/03-legal_computability.tex"
+[16:45:15.168][Cacher] Parsing .fls %WS1%/index.fls .
+[16:45:15.188][Cacher] Adding %WS1%/images/box_threshold_tests.png .
+[16:45:15.188][Cacher][Watcher] Watched %WS1%/images/box_threshold_tests.png with a new .* watcher on %WS1%/images .
+[16:45:15.188][Event] FILE_WATCHED: "%WS1%/images/box_threshold_tests.png"
+[16:45:15.189][Cacher] Adding %WS1%/images/example_class_hierarchy.png .
+[16:45:15.189][Cacher][Watcher] Watched %WS1%/images/example_class_hierarchy.png by the .* watcher.
+[16:45:15.189][Event] FILE_WATCHED: "%WS1%/images/example_class_hierarchy.png"
+[16:45:15.190][Cacher] Adding %WS1%/images/init_class_diagram.png .
+[16:45:15.190][Cacher][Watcher] Watched %WS1%/images/init_class_diagram.png by the .* watcher.
+[16:45:15.190][Event] FILE_WATCHED: "%WS1%/images/init_class_diagram.png"
+[16:45:15.191][Cacher] Found .aux %WS1%/index.aux from .fls %WS1%/index.fls , parsing.
+[16:45:15.192][Cacher] Parsed .aux %WS1%/index.aux .
+[16:45:15.192][Cacher] Parsed .fls %WS1%/index.fls .
+[16:45:15.230][Cacher] Parsed LaTeX AST in 280.59 ms: %WS1%/sections/04-encoding_analysis_overview.tex .
+[16:45:15.230][File] kpsewhich cache hit on subfiles.cls: /usr/share/texmf-dist/tex/latex/subfiles/subfiles.cls .
+[16:45:15.236][Cacher] Updated elements in 6.06 ms: %WS1%/sections/04-encoding_analysis_overview.tex .
+[16:45:15.237][Event] FILE_PARSED: "%WS1%/sections/04-encoding_analysis_overview.tex"
+[16:45:15.238][Cacher] Parsed LaTeX AST in 288.48 ms: %WS1%/sections/07-relevance_testing.tex .
+[16:45:15.238][File] kpsewhich cache hit on subfiles.cls: /usr/share/texmf-dist/tex/latex/subfiles/subfiles.cls .
+[16:45:15.239][Cacher] Updated elements in 0.55 ms: %WS1%/sections/07-relevance_testing.tex .
+[16:45:15.239][Event] FILE_PARSED: "%WS1%/sections/07-relevance_testing.tex"
+[16:45:15.242][Structure] Structure force updated with 0 root sections for %WS1%/index.tex .
+[16:45:15.242][Event] STRUCTURE_UPDATED
+[16:45:15.246][Intelli][Citation] Parsed 60 bib entries from %WS1%/bibliography.bib .
+[16:45:15.246][Event] FILE_PARSED: "%WS1%/bibliography.bib"
+[16:45:15.249][Structure] Structure force updated with 6 root sections for %WS1%/index.tex .
+[16:45:15.249][Event] STRUCTURE_UPDATED
+[16:45:16.949][Commander] BUILD command invoked.
+[16:45:16.949][Build] The document of the active editor: file://%WS1%/index.tex
+[16:45:16.949][Build] The languageId of the document: latex
+[16:45:16.949][Root] Current workspace folders: ["file://%WS1%"]
+[16:45:16.950][Root] Found root file from active editor: %WS1%/index.tex
+[16:45:16.950][Root] Keep using the same root file: %WS1%/index.tex
+[16:45:16.951][Event] ROOT_FILE_SEARCHED
+[16:45:16.952][Event] STRUCTURE_UPDATED
+[16:45:16.952][Build] Building root file: %WS1%/index.tex
+[16:45:16.952][Build][Recipe] Build root file %WS1%/index.tex
+[16:45:16.954][Build][Recipe] Preparing to run recipe: latexmk.
+[16:45:16.954][Build][Recipe] Prepared 1 tools.
+[16:45:16.970][Build][Recipe] outDir: %WS1% .
+[16:45:16.971][Build] Recipe step 1 The command is latexmk:["-synctex=1","-interaction=nonstopmode","-file-line-error","-pdf","-outdir=%WS1%","%WS1%/index"].
+[16:45:16.971][Build] env: {}
+[16:45:16.971][Build] root: %WS1%/index.tex
+[16:45:16.972][Build] cwd: %WS1%
+[16:45:16.978][Build] LaTeX build process spawned with PID 23067.
+[16:45:17.264][Parser][TexLog] Logged 3 messages.
+[16:45:17.265][Build] Recipe returns with error code 12/null on PID 23067.
+[16:45:17.265][Build] Does the executable exist? $PATH: /home/urielsantiago/go/bin:/home/urielsantiago/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/bin:/usr/lib/jvm/default/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl:/var/lib/snapd/snap/bin, $Path: undefined, $SHELL: /bin/bash
+[16:45:17.265][Build] sh: line 1: biber: command not found
+Latexmk: Missing input file 'IEEEtrantools.sty' (or dependence on it) from following:
+  ! LaTeX Error: File `IEEEtrantools.sty' not found.
+Latexmk: Sometimes, the -f option can be used to get latexmk
+  to try to force complete processing.
+  But normally, you will need to correct the file(s) that caused the
+  error, and then rerun latexmk.
+  In some cases, it is best to clean out generated files before rerunning
+  latexmk after you've corrected the files.
+
+[16:45:17.266][Build] Cleaning auxiliary files and retrying build after toolchain error.
+[16:45:17.266][Cleaner] Clean temporary files command The command is latexmk:["-outdir=%WS1%","-c","%WS1%/index.tex"].
+[16:45:17.271][Build] Recipe step 1 The command is latexmk:["-synctex=1","-interaction=nonstopmode","-file-line-error","-pdf","-outdir=%WS1%","%WS1%/index"].
+[16:45:17.272][Build] env: {}
+[16:45:17.272][Build] root: %WS1%/index.tex
+[16:45:17.272][Build] cwd: %WS1%
+[16:45:17.276][Build] LaTeX build process spawned with PID 23089.
+[16:45:17.323][Event] AUTO_CLEANED
+[16:45:17.487][Parser][TexLog] Logged 3 messages.
+[16:45:17.487][Build] Recipe returns with error code 12/null on PID 23089.
+[16:45:17.487][Build] Does the executable exist? $PATH: /home/urielsantiago/go/bin:/home/urielsantiago/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/bin:/usr/lib/jvm/default/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl:/var/lib/snapd/snap/bin, $Path: undefined, $SHELL: /bin/bash
+[16:45:17.487][Build] Latexmk: Missing input file 'IEEEtrantools.sty' (or dependence on it) from following:
+  ! LaTeX Error: File `IEEEtrantools.sty' not found.
+Latexmk: Sometimes, the -f option can be used to get latexmk
+  to try to force complete processing.
+  But normally, you will need to correct the file(s) that caused the
+  error, and then rerun latexmk.
+  In some cases, it is best to clean out generated files before rerunning
+  latexmk after you've corrected the files.
+
+[16:45:18.884][Commander] VIEW command invoked with mode: file://%WS1%/index.tex.
+[16:45:18.884][Root] Current workspace folders: ["file://%WS1%"]
+[16:45:18.884][Root] Found root file from active editor: %WS1%/index.tex
+[16:45:18.885][Root] Keep using the same root file: %WS1%/index.tex
+[16:45:18.885][Event] ROOT_FILE_SEARCHED
+[16:45:18.885][Event] STRUCTURE_UPDATED
+[16:45:18.928][Viewer][Panel] Internal PDF viewer at http://127.0.0.1:43413/viewer.html?file=pdf..ZmlsZSUzQSUyRiUyRiUyRmhvbWUlMkZ1cmllbHNhbnRpYWdvJTJGRG9jdW1lbnRzJTJGR2l0SHViJTJGZGlzc2VydGF0aW9uJTJGaW5kZXgucGRm .
+[16:45:18.928][Cacher][Watcher] Watched %WS1%/index.pdf with a new .pdf watcher on %WS1% .
+[16:45:18.929][Event] FILE_WATCHED: "%WS1%/index.pdf"
+[16:45:18.950][Event] STRUCTURE_UPDATED
+[16:45:18.957][Viewer] Open PDF tab for file://%WS1%/index.pdf
+[16:45:19.050][Viewer] Handle data type: open
+[16:45:19.086][Server] Preview PDF file: file://%WS1%/index.pdf
+[16:45:19.204][Viewer] Handle data type: loaded
+[16:45:19.204][Event] VIEWER_PAGE_LOADED
+[16:49:00.843][Cacher][Watcher] Reset.
+[16:49:00.843][Cacher][Watcher] Reset.

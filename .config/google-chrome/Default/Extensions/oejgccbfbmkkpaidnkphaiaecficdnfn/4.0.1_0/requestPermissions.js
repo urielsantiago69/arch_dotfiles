@@ -1,0 +1,2 @@
+import"./assets/modulepreload-polyfill.js";import{B as e}from"./assets/browser-polyfill.js";(()=>{var s;document!==null&&((s=document.querySelector("button#requestPermissions"))==null||s.addEventListener("click",async()=>{if(await e.permissions.request({origins:["*://*.toggl.com/*","*://toggl.com/*"]})){const t=e.runtime.getURL("src/pages/postInstallLP/index.html");e.tabs.update({url:t})}}))})();
+//# sourceMappingURL=requestPermissions.js.map

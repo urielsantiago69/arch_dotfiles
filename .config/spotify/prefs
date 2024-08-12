@@ -1,0 +1,15 @@
+autologin.username="emerson.banez"
+autologin.saved_credentials="{\"emerson.banez\":[\"emerson.banez\",\"FPKPD3CCzLtmuIN//fxUX58LyO9cmK2aREqsw0SWUqPC7szjCOn/DsqSiChXX8kH6ZDyjNFkrjXOnaTMUoBBtcCX4H/sQfOdQbF+Y+wNNC7ZKKvWu0UascS5epjeo1Ua/f+UKqO2Cdx2ZsTUZFTIjlf0TnCLo+6SJAy5MgiCOFKjkFqh8wW2LiOGUdxlc1hacu+wHolTLZFFpWxF1snoCnNmvXj8wJbhOloJfX2EeVmiAQS2dgHGR9KCRhz2AoQQBR4cCxy+mHsG56u6W/P0sNcOZr5Z2wU/r4C+oyB9xYRWXfkVlSLPnB6urS0xaxuh\"]}"
+autologin.blob="FPKPD3CCzLtmuIN//fxUX58LyO9cmK2aREqsw0SWUqPC7szjCOn/DsqSiChXX8kH6ZDyjNFkrjXOnaTMUoBBtcCX4H/sQfOdQbF+Y+wNNC7ZKKvWu0UascS5epjeo1Ua/f+UKqO2Cdx2ZsTUZFTIjlf0TnCLo+6SJAy5MgiCOFKjkFqh8wW2LiOGUdxlc1hacu+wHolTLZFFpWxF1snoCnNmvXj8wJbhOloJfX2EeVmiAQS2dgHGR9KCRhz2AoQQBR4cCxy+mHsG56u6W/P0sNcOZr5Z2wU/r4C+oyB9xYRWXfkVlSLPnB6urS0xaxuh"
+es.send-on-startup=true
+core.clock_delta=0
+autologin.canonical_username="emerson.banez"
+app.enable-chrome-runtime=true
+app.window.state=2
+app.window.position.saved=true
+app.window.position.height=1008
+app.window.position.y=28
+storage.last-location="/home/urielsantiago/.cache/spotify/Storage"
+app.window.state.saved=true
+app.window.position.width=1920
+app.last-launched-version="1.2.42.290.g242057a2"

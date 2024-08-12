@@ -1,0 +1,316 @@
+[16:49:03.636][Logger] New log placeholder %WS1% registered for /home/urielsantiago/Documents/GitHub/dissertation .
+[16:49:03.636][Extension] Initializing LaTeX Workshop.
+[16:49:03.684][Build][Recipe] Set $LATEXWORKSHOP_DOCKER_LATEX: ""
+[16:49:03.685][Build][Recipe] Set $LATEXWORKSHOP_DOCKER_PATH: "docker"
+[16:49:03.702][Server] Creating LaTeX Workshop http and websocket server.
+[16:49:03.729][Format][Bib] Bibtex format config: {"tab":"  ","case":"lowercase","left":"{","right":"}","trailingComma":false,"sort":["key"],"alignOnEqual":true,"sortFields":false,"fieldsOrder":[],"firstEntries":["string","xdata"]}
+[16:49:03.745][Server] Server successfully started: {"address":"127.0.0.1","family":"IPv4","port":43797} .
+[16:49:03.749][Extension] Extension root: /home/urielsantiago/.vscode-oss/extensions/james-yu.latex-workshop-10.1.0-universal
+[16:49:03.749][Extension] $PATH: /home/urielsantiago/go/bin:/home/urielsantiago/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/bin:/usr/lib/jvm/default/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl:/var/lib/snapd/snap/bin
+[16:49:03.749][Extension] $SHELL: /bin/bash
+[16:49:03.749][Extension] $LANG: en_US.UTF-8
+[16:49:03.749][Extension] $LC_ALL: undefined
+[16:49:03.749][Extension] process.platform: linux
+[16:49:03.749][Extension] process.arch: x64
+[16:49:03.749][Extension] vscode.env.appName: Code - OSS
+[16:49:03.749][Extension] vscode.env.remoteName: undefined
+[16:49:03.749][Extension] vscode.env.uiKind: 1
+[16:49:03.769][Extension] Trigger characters for intellisense of LaTeX documents: ["\\",",","{","}"]
+[16:49:03.770][Root] Current workspace folders: ["file://%WS1%"]
+[16:49:03.770][Extension] LaTeX Workshop initialized.
+[16:49:03.771][Root] Found root file from active editor: %WS1%/index.tex
+[16:49:03.771][Root] Root file changed: from %WS1%/index.tex to %WS1%/index.tex, langID latex . Refresh dependencies
+[16:49:03.771][Event] ROOT_FILE_CHANGED: "%WS1%/index.tex"
+[16:49:03.771][Cacher][Watcher] Reset.
+[16:49:03.771][Cacher][Watcher] Reset.
+[16:49:03.773][Cacher] Adding %WS1%/index.tex .
+[16:49:03.773][Cacher][Watcher] Watched %WS1%/index.tex with a new .* watcher on %WS1% .
+[16:49:03.773][Event] FILE_WATCHED: "%WS1%/index.tex"
+[16:49:03.774][Cacher] Caching %WS1%/index.tex .
+[16:49:03.774][Event] ROOT_FILE_SEARCHED
+[16:49:03.800][Server] valdOrigin is http://127.0.0.1:43797
+[16:49:03.827][Cacher] Input %WS1%/sections/01-introduction.tex from %WS1%/index.tex .
+[16:49:03.828][Cacher] Adding %WS1%/sections/01-introduction.tex .
+[16:49:03.828][Cacher][Watcher] Watched %WS1%/sections/01-introduction.tex with a new .* watcher on %WS1%/sections .
+[16:49:03.828][Event] FILE_WATCHED: "%WS1%/sections/01-introduction.tex"
+[16:49:03.828][Cacher] Caching %WS1%/sections/01-introduction.tex .
+[16:49:03.830][Viewer][Panel] Internal PDF viewer at http://127.0.0.1:43797/viewer.html?file=pdf..ZmlsZSUzQSUyRiUyRiUyRmhvbWUlMkZ1cmllbHNhbnRpYWdvJTJGRG9jdW1lbnRzJTJGR2l0SHViJTJGZGlzc2VydGF0aW9uJTJGaW5kZXgucGRm .
+[16:49:03.831][Cacher][Watcher] Watched %WS1%/index.pdf with a new .pdf watcher on %WS1% .
+[16:49:03.831][Event] FILE_WATCHED: "%WS1%/index.pdf"
+[16:49:03.847][Cacher] Input %WS1%/sections/02-computational_law.tex from %WS1%/index.tex .
+[16:49:03.848][Cacher] Adding %WS1%/sections/02-computational_law.tex .
+[16:49:03.848][Cacher][Watcher] Watched %WS1%/sections/02-computational_law.tex by the .* watcher.
+[16:49:03.848][Event] FILE_WATCHED: "%WS1%/sections/02-computational_law.tex"
+[16:49:03.848][Cacher] Caching %WS1%/sections/02-computational_law.tex .
+[16:49:03.857][Cacher] Updated inputs of %WS1%/sections/01-introduction.tex .
+[16:49:03.857][Cacher] Parse LaTeX AST: %WS1%/sections/01-introduction.tex .
+[16:49:03.886][Cacher] Input %WS1%/sections/03-legal_computability.tex from %WS1%/index.tex .
+[16:49:03.886][Cacher] Adding %WS1%/sections/03-legal_computability.tex .
+[16:49:03.886][Cacher][Watcher] Watched %WS1%/sections/03-legal_computability.tex by the .* watcher.
+[16:49:03.886][Event] FILE_WATCHED: "%WS1%/sections/03-legal_computability.tex"
+[16:49:03.887][Cacher] Caching %WS1%/sections/03-legal_computability.tex .
+[16:49:03.901][Cacher] Updated inputs of %WS1%/sections/02-computational_law.tex .
+[16:49:03.902][Cacher] Parse LaTeX AST: %WS1%/sections/02-computational_law.tex .
+[16:49:03.904][Cacher] Input %WS1%/sections/04-encoding_analysis_overview.tex from %WS1%/index.tex .
+[16:49:03.905][Cacher] Adding %WS1%/sections/04-encoding_analysis_overview.tex .
+[16:49:03.905][Cacher][Watcher] Watched %WS1%/sections/04-encoding_analysis_overview.tex by the .* watcher.
+[16:49:03.905][Event] FILE_WATCHED: "%WS1%/sections/04-encoding_analysis_overview.tex"
+[16:49:03.905][Cacher] Caching %WS1%/sections/04-encoding_analysis_overview.tex .
+[16:49:03.911][Cacher] Updated inputs of %WS1%/sections/03-legal_computability.tex .
+[16:49:03.911][Cacher] Parse LaTeX AST: %WS1%/sections/03-legal_computability.tex .
+[16:49:03.921][Cacher] Input %WS1%/sections/07-relevance_testing.tex from %WS1%/index.tex .
+[16:49:03.921][Cacher] Adding %WS1%/sections/07-relevance_testing.tex .
+[16:49:03.921][Cacher][Watcher] Watched %WS1%/sections/07-relevance_testing.tex by the .* watcher.
+[16:49:03.922][Event] FILE_WATCHED: "%WS1%/sections/07-relevance_testing.tex"
+[16:49:03.922][Cacher] Caching %WS1%/sections/07-relevance_testing.tex .
+[16:49:03.922][Cacher] Updated inputs of %WS1%/index.tex .
+[16:49:03.923][Cacher] Parse LaTeX AST: %WS1%/index.tex .
+[16:49:03.938][Cacher] Updated inputs of %WS1%/sections/04-encoding_analysis_overview.tex .
+[16:49:03.939][Cacher] Parse LaTeX AST: %WS1%/sections/04-encoding_analysis_overview.tex .
+[16:49:03.964][Cacher] Parsed LaTeX AST in 106.59 ms: %WS1%/sections/01-introduction.tex .
+[16:49:03.964][File] Calling kpsewhich to resolve subfiles.cls .
+[16:49:04.006][File] kpsewhich returned with '/usr/share/texmf-dist/tex/latex/subfiles/subfiles.cls'.
+[16:49:04.014][Cacher] Updated elements in 50.45 ms: %WS1%/sections/01-introduction.tex .
+[16:49:04.015][Event] FILE_PARSED: "%WS1%/sections/01-introduction.tex"
+[16:49:04.026][Cacher] Parsed LaTeX AST in 124.46 ms: %WS1%/sections/02-computational_law.tex .
+[16:49:04.027][File] kpsewhich cache hit on subfiles.cls: /usr/share/texmf-dist/tex/latex/subfiles/subfiles.cls .
+[16:49:04.032][Cacher] Updated elements in 5.52 ms: %WS1%/sections/02-computational_law.tex .
+[16:49:04.033][Event] FILE_PARSED: "%WS1%/sections/02-computational_law.tex"
+[16:49:04.046][Cacher] Updated inputs of %WS1%/sections/07-relevance_testing.tex .
+[16:49:04.046][Cacher] Parse LaTeX AST: %WS1%/sections/07-relevance_testing.tex .
+[16:49:04.096][Cacher] Parsed LaTeX AST in 184.40 ms: %WS1%/sections/03-legal_computability.tex .
+[16:49:04.096][File] kpsewhich cache hit on subfiles.cls: /usr/share/texmf-dist/tex/latex/subfiles/subfiles.cls .
+[16:49:04.099][Cacher] Updated elements in 3.44 ms: %WS1%/sections/03-legal_computability.tex .
+[16:49:04.100][Event] FILE_PARSED: "%WS1%/sections/03-legal_computability.tex"
+[16:49:04.110][Cacher] Parsed LaTeX AST in 187.52 ms: %WS1%/index.tex .
+[16:49:04.111][File] Calling kpsewhich to resolve article.cls .
+[16:49:04.149][File] kpsewhich returned with '/usr/share/texmf-dist/tex/latex/base/article.cls'.
+[16:49:04.151][Cacher] Bib %WS1%/bibliography.bib from %WS1%/index.tex .
+[16:49:04.151][Intelli][Citation] Parsing .bib entries from %WS1%/bibliography.bib
+[16:49:04.151][Intelli][Citation] Parse BibTeX AST from %WS1%/bibliography.bib .
+[16:49:04.151][Cacher][Watcher] Watched %WS1%/bibliography.bib with a new .bib watcher on %WS1% .
+[16:49:04.152][Event] FILE_WATCHED: "%WS1%/bibliography.bib"
+[16:49:04.152][Cacher] Updated elements in 40.66 ms: %WS1%/index.tex .
+[16:49:04.152][Event] FILE_PARSED: "%WS1%/index.tex"
+[16:49:04.190][Cacher] Parsing .fls %WS1%/index.fls .
+[16:49:04.208][Cacher] Parsed LaTeX AST in 269.16 ms: %WS1%/sections/04-encoding_analysis_overview.tex .
+[16:49:04.208][File] kpsewhich cache hit on subfiles.cls: /usr/share/texmf-dist/tex/latex/subfiles/subfiles.cls .
+[16:49:04.215][Cacher] Updated elements in 6.53 ms: %WS1%/sections/04-encoding_analysis_overview.tex .
+[16:49:04.215][Event] FILE_PARSED: "%WS1%/sections/04-encoding_analysis_overview.tex"
+[16:49:04.225][Cacher] Parsed LaTeX AST in 178.83 ms: %WS1%/sections/07-relevance_testing.tex .
+[16:49:04.226][File] kpsewhich cache hit on subfiles.cls: /usr/share/texmf-dist/tex/latex/subfiles/subfiles.cls .
+[16:49:04.226][Cacher] Updated elements in 0.68 ms: %WS1%/sections/07-relevance_testing.tex .
+[16:49:04.226][Event] FILE_PARSED: "%WS1%/sections/07-relevance_testing.tex"
+[16:49:04.229][Structure] Structure force updated with 0 root sections for %WS1%/index.tex .
+[16:49:04.229][Event] STRUCTURE_UPDATED
+[16:49:04.246][Intelli][Citation] Parsed 60 bib entries from %WS1%/bibliography.bib .
+[16:49:04.247][Event] FILE_PARSED: "%WS1%/bibliography.bib"
+[16:49:04.249][Structure] Structure force updated with 6 root sections for %WS1%/index.tex .
+[16:49:04.249][Event] STRUCTURE_UPDATED
+[16:49:04.261][Cacher] Parsed .fls %WS1%/index.fls .
+[16:49:04.287][Viewer] Handle data type: open
+[16:49:04.328][Server] Preview PDF file: file://%WS1%/index.pdf
+[16:49:04.448][Viewer] Handle data type: loaded
+[16:49:04.449][Event] VIEWER_PAGE_LOADED
+[16:49:07.928][Commander] VIEW command invoked with mode: file://%WS1%/index.tex.
+[16:49:07.928][Root] Current workspace folders: ["file://%WS1%"]
+[16:49:07.929][Root] Found root file from active editor: %WS1%/index.tex
+[16:49:07.929][Root] Keep using the same root file: %WS1%/index.tex
+[16:49:07.929][Event] ROOT_FILE_SEARCHED
+[16:49:07.929][Event] STRUCTURE_UPDATED
+[16:49:07.953][Viewer] Open PDF tab for file://%WS1%/index.pdf
+[16:49:10.656][Commander] VIEW command invoked with mode: file://%WS1%/index.tex.
+[16:49:10.657][Root] Current workspace folders: ["file://%WS1%"]
+[16:49:10.657][Root] Found root file from active editor: %WS1%/index.tex
+[16:49:10.658][Root] Keep using the same root file: %WS1%/index.tex
+[16:49:10.658][Event] ROOT_FILE_SEARCHED
+[16:49:10.658][Event] STRUCTURE_UPDATED
+[16:49:10.675][Viewer] Open PDF tab for file://%WS1%/index.pdf
+[16:49:11.850][Commander] BUILD command invoked.
+[16:49:11.851][Build] The document of the active editor: file://%WS1%/index.tex
+[16:49:11.851][Build] The languageId of the document: latex
+[16:49:11.851][Root] Current workspace folders: ["file://%WS1%"]
+[16:49:11.851][Root] Found root file from active editor: %WS1%/index.tex
+[16:49:11.852][Root] Keep using the same root file: %WS1%/index.tex
+[16:49:11.852][Event] ROOT_FILE_SEARCHED
+[16:49:11.852][Event] STRUCTURE_UPDATED
+[16:49:11.852][Build] Building root file: %WS1%/index.tex
+[16:49:11.852][Build][Recipe] Build root file %WS1%/index.tex
+[16:49:11.855][Build][Recipe] Preparing to run recipe: latexmk.
+[16:49:11.856][Build][Recipe] Prepared 1 tools.
+[16:49:11.864][Build][Recipe] outDir: %WS1% .
+[16:49:11.865][Build] Recipe step 1 The command is latexmk:["-synctex=1","-interaction=nonstopmode","-file-line-error","-pdf","-outdir=%WS1%","%WS1%/index"].
+[16:49:11.865][Build] env: {}
+[16:49:11.865][Build] root: %WS1%/index.tex
+[16:49:11.865][Build] cwd: %WS1%
+[16:49:11.869][Build] LaTeX build process spawned with PID 24234.
+[16:49:11.920][Build] Recipe returns with error code 12/null on PID 24234.
+[16:49:11.920][Build] Does the executable exist? $PATH: /home/urielsantiago/go/bin:/home/urielsantiago/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/bin:/usr/lib/jvm/default/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl:/var/lib/snapd/snap/bin, $Path: undefined, $SHELL: /bin/bash
+[16:49:11.920][Build] Latexmk: Sometimes, the -f option can be used to get latexmk
+  to try to force complete processing.
+  But normally, you will need to correct the file(s) that caused the
+  error, and then rerun latexmk.
+  In some cases, it is best to clean out generated files before rerunning
+  latexmk after you've corrected the files.
+
+[16:49:11.921][Build] Cleaning auxiliary files and retrying build after toolchain error.
+[16:49:11.921][Cleaner] Clean temporary files command The command is latexmk:["-outdir=%WS1%","-c","%WS1%/index.tex"].
+[16:49:11.926][Build] Recipe step 1 The command is latexmk:["-synctex=1","-interaction=nonstopmode","-file-line-error","-pdf","-outdir=%WS1%","%WS1%/index"].
+[16:49:11.927][Build] env: {}
+[16:49:11.927][Build] root: %WS1%/index.tex
+[16:49:11.927][Build] cwd: %WS1%
+[16:49:11.932][Build] LaTeX build process spawned with PID 24236.
+[16:49:11.979][Event] AUTO_CLEANED
+[16:49:14.016][Parser][TexLog] Logged 30 messages.
+[16:49:14.016][Build] Recipe returns with error code 12/null on PID 24236.
+[16:49:14.016][Build] Does the executable exist? $PATH: /home/urielsantiago/go/bin:/home/urielsantiago/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/bin:/usr/lib/jvm/default/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl:/var/lib/snapd/snap/bin, $Path: undefined, $SHELL: /bin/bash
+[16:49:14.016][Build] sh: line 1: biber: command not found
+Latexmk: Sometimes, the -f option can be used to get latexmk
+  to try to force complete processing.
+  But normally, you will need to correct the file(s) that caused the
+  error, and then rerun latexmk.
+  In some cases, it is best to clean out generated files before rerunning
+  latexmk after you've corrected the files.
+
+[16:58:59.412][Commander] VIEW command invoked with mode: file://%WS1%/index.tex.
+[16:58:59.413][Root] Current workspace folders: ["file://%WS1%"]
+[16:58:59.413][Root] Found root file from active editor: %WS1%/index.tex
+[16:58:59.414][Root] Keep using the same root file: %WS1%/index.tex
+[16:58:59.414][Event] ROOT_FILE_SEARCHED
+[16:58:59.414][Event] STRUCTURE_UPDATED
+[16:58:59.439][Viewer] Open PDF tab for file://%WS1%/index.pdf
+[16:59:00.799][Commander] BUILD command invoked.
+[16:59:00.800][Build] The document of the active editor: file://%WS1%/index.tex
+[16:59:00.800][Build] The languageId of the document: latex
+[16:59:00.800][Root] Current workspace folders: ["file://%WS1%"]
+[16:59:00.800][Root] Found root file from active editor: %WS1%/index.tex
+[16:59:00.801][Root] Keep using the same root file: %WS1%/index.tex
+[16:59:00.801][Event] ROOT_FILE_SEARCHED
+[16:59:00.801][Event] STRUCTURE_UPDATED
+[16:59:00.801][Build] Building root file: %WS1%/index.tex
+[16:59:00.801][Build][Recipe] Build root file %WS1%/index.tex
+[16:59:00.803][Build][Recipe] Preparing to run recipe: latexmk.
+[16:59:00.804][Build][Recipe] Prepared 1 tools.
+[16:59:00.804][Build][Recipe] outDir: %WS1% .
+[16:59:00.805][Build] Recipe step 1 The command is latexmk:["-synctex=1","-interaction=nonstopmode","-file-line-error","-pdf","-outdir=%WS1%","%WS1%/index"].
+[16:59:00.805][Build] env: {}
+[16:59:00.805][Build] root: %WS1%/index.tex
+[16:59:00.805][Build] cwd: %WS1%
+[16:59:00.811][Build] LaTeX build process spawned with PID 25281.
+[16:59:00.877][Build] Recipe returns with error code 12/null on PID 25281.
+[16:59:00.877][Build] Does the executable exist? $PATH: /home/urielsantiago/go/bin:/home/urielsantiago/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/bin:/usr/lib/jvm/default/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl:/var/lib/snapd/snap/bin, $Path: undefined, $SHELL: /bin/bash
+[16:59:00.877][Build] Latexmk: Sometimes, the -f option can be used to get latexmk
+  to try to force complete processing.
+  But normally, you will need to correct the file(s) that caused the
+  error, and then rerun latexmk.
+  In some cases, it is best to clean out generated files before rerunning
+  latexmk after you've corrected the files.
+
+[16:59:00.878][Build] Cleaning auxiliary files and retrying build after toolchain error.
+[16:59:00.878][Cleaner] Clean temporary files command The command is latexmk:["-outdir=%WS1%","-c","%WS1%/index.tex"].
+[16:59:00.883][Build] Recipe step 1 The command is latexmk:["-synctex=1","-interaction=nonstopmode","-file-line-error","-pdf","-outdir=%WS1%","%WS1%/index"].
+[16:59:00.883][Build] env: {}
+[16:59:00.883][Build] root: %WS1%/index.tex
+[16:59:00.883][Build] cwd: %WS1%
+[16:59:00.887][Build] LaTeX build process spawned with PID 25283.
+[16:59:00.941][Event] AUTO_CLEANED
+[16:59:01.390][Cacher][Watcher] "change" emitted on %WS1%/index.pdf after polling for 588801 ms.
+[16:59:01.390][Event] FILE_CHANGED: "%WS1%/index.pdf"
+[16:59:03.251][Cacher][Watcher] "change" emitted on %WS1%/index.pdf after polling for 1751 ms.
+[16:59:03.251][Event] FILE_CHANGED: "%WS1%/index.pdf"
+[16:59:05.131][Cacher][Watcher] "change" emitted on %WS1%/index.pdf after polling for 1754 ms.
+[16:59:05.132][Event] FILE_CHANGED: "%WS1%/index.pdf"
+[16:59:06.569][Parser][TexLog] Logged 27 messages.
+[16:59:06.570][Build] Recipe returns with error code 12/null on PID 25283.
+[16:59:06.570][Build] Does the executable exist? $PATH: /home/urielsantiago/go/bin:/home/urielsantiago/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/bin:/usr/lib/jvm/default/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl:/var/lib/snapd/snap/bin, $Path: undefined, $SHELL: /bin/bash
+[16:59:06.570][Build] Latexmk: Sometimes, the -f option can be used to get latexmk
+  to try to force complete processing.
+  But normally, you will need to correct the file(s) that caused the
+  error, and then rerun latexmk.
+  In some cases, it is best to clean out generated files before rerunning
+  latexmk after you've corrected the files.
+
+[16:59:37.503][Event] STRUCTURE_UPDATED
+[16:59:38.783][Event] STRUCTURE_UPDATED
+[16:59:44.847][Root] Current workspace folders: ["file://%WS1%"]
+[16:59:44.849][Root] Current workspaceRootDir: file://%WS1% .
+[16:59:44.951][Root] Found root file from '.fls': %WS1%/index.tex
+[16:59:44.951][Root] Keep using the same root file: %WS1%/index.tex
+[16:59:44.951][Event] ROOT_FILE_SEARCHED
+[16:59:44.951][Event] STRUCTURE_UPDATED
+[16:59:44.952][Event] STRUCTURE_UPDATED
+[16:59:52.766][Root] Current workspace folders: ["file://%WS1%"]
+[16:59:52.767][Root] Found subfile root %WS1%/index.tex from active.
+[16:59:52.768][Root] Keep using the same root file: %WS1%/index.tex
+[16:59:52.768][Event] ROOT_FILE_SEARCHED
+[16:59:52.768][Event] STRUCTURE_UPDATED
+[16:59:52.768][Event] STRUCTURE_UPDATED
+[17:01:20.338][Format][Bib] Exit formatting. The active textEditor is not of bibtex type.
+[17:01:22.136][Format][Bib] Exit formatting. The active textEditor is not of bibtex type.
+[17:10:09.212][Commander] BUILD command invoked.
+[17:10:09.212][Build] The document of the active editor: output:extension-output-James-Yu.latex-workshop-%232-LaTeX Compiler
+[17:10:09.213][Build] The languageId of the document: Log
+[17:10:09.213][Build] Cannot find LaTeX root file. See https://github.com/James-Yu/LaTeX-Workshop/wiki/Compile#the-root-file
+[17:10:13.571][Event] STRUCTURE_UPDATED
+[17:10:15.107][Event] STRUCTURE_UPDATED
+[17:10:16.706][Commander] VIEW command invoked with mode: file://%WS1%/sections/04-encoding_analysis_overview.tex.
+[17:10:16.706][Root] Current workspace folders: ["file://%WS1%"]
+[17:10:16.707][Root] Found subfile root %WS1%/index.tex from active.
+[17:10:16.707][Root] Keep using the same root file: %WS1%/index.tex
+[17:10:16.707][Event] ROOT_FILE_SEARCHED
+[17:10:16.707][Event] STRUCTURE_UPDATED
+[17:10:20.627][Event] STRUCTURE_UPDATED
+[17:10:20.636][Viewer] Open PDF tab for file://%WS1%/index.pdf
+[17:10:23.232][Commander] BUILD command invoked.
+[17:10:23.232][Build] The document of the active editor: file://%WS1%/sections/04-encoding_analysis_overview.tex
+[17:10:23.232][Build] The languageId of the document: latex
+[17:10:23.232][Root] Current workspace folders: ["file://%WS1%"]
+[17:10:23.233][Root] Found subfile root %WS1%/index.tex from active.
+[17:10:23.233][Root] Keep using the same root file: %WS1%/index.tex
+[17:10:23.233][Event] ROOT_FILE_SEARCHED
+[17:10:23.233][Event] STRUCTURE_UPDATED
+[17:10:24.128][Build] Building root file: %WS1%/sections/04-encoding_analysis_overview.tex
+[17:10:24.128][Build][Recipe] Build root file %WS1%/sections/04-encoding_analysis_overview.tex
+[17:10:24.133][Build][Recipe] Preparing to run recipe: latexmk.
+[17:10:24.133][Build][Recipe] Prepared 1 tools.
+[17:10:24.133][Build][Recipe] outDir: %WS1% .
+[17:10:24.133][Build] Recipe step 1 The command is latexmk:["-synctex=1","-interaction=nonstopmode","-file-line-error","-pdf","-outdir=%WS1%/sections","%WS1%/sections/04-encoding_analysis_overview"].
+[17:10:24.133][Build] env: {}
+[17:10:24.133][Build] root: %WS1%/sections/04-encoding_analysis_overview.tex
+[17:10:24.134][Build] cwd: %WS1%
+[17:10:24.138][Build] LaTeX build process spawned with PID 26696.
+[17:10:25.502][Commander] VIEW command invoked with mode: file://%WS1%/sections/04-encoding_analysis_overview.tex.
+[17:10:25.502][Root] Current workspace folders: ["file://%WS1%"]
+[17:10:25.503][Root] Found subfile root %WS1%/index.tex from active.
+[17:10:25.503][Root] Keep using the same root file: %WS1%/index.tex
+[17:10:25.503][Event] ROOT_FILE_SEARCHED
+[17:10:25.503][Event] STRUCTURE_UPDATED
+[17:10:26.564][Parser][TexLog] Logged 13 messages.
+[17:10:26.565][Build] Recipe returns with error code 12/null on PID 26696.
+[17:10:26.565][Build] Does the executable exist? $PATH: /home/urielsantiago/go/bin:/home/urielsantiago/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/bin:/usr/lib/jvm/default/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl:/var/lib/snapd/snap/bin, $Path: undefined, $SHELL: /bin/bash
+[17:10:26.565][Build] sh: line 1: biber: command not found
+Latexmk: Sometimes, the -f option can be used to get latexmk
+  to try to force complete processing.
+  But normally, you will need to correct the file(s) that caused the
+  error, and then rerun latexmk.
+  In some cases, it is best to clean out generated files before rerunning
+  latexmk after you've corrected the files.
+
+[17:10:26.565][Build] Cleaning auxiliary files and retrying build after toolchain error.
+[17:10:26.565][Cleaner] Clean temporary files command The command is latexmk:["-outdir=%WS1%/sections","-c","%WS1%/sections/04-encoding_analysis_overview.tex"].
+[17:10:26.570][Build] Recipe step 1 The command is latexmk:["-synctex=1","-interaction=nonstopmode","-file-line-error","-pdf","-outdir=%WS1%/sections","%WS1%/sections/04-encoding_analysis_overview"].
+[17:10:26.570][Build] env: {}
+[17:10:26.570][Build] root: %WS1%/sections/04-encoding_analysis_overview.tex
+[17:10:26.570][Build] cwd: %WS1%
+[17:10:26.574][Build] LaTeX build process spawned with PID 26757.
+[17:10:26.631][Event] AUTO_CLEANED
+[17:10:30.186][Parser][TexLog] Logged 13 messages.
+[17:10:30.186][Build] Recipe returns with error code 12/null on PID 26757.
+[17:10:30.186][Build] Does the executable exist? $PATH: /home/urielsantiago/go/bin:/home/urielsantiago/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/bin:/usr/lib/jvm/default/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl:/var/lib/snapd/snap/bin, $Path: undefined, $SHELL: /bin/bash
+[17:10:30.186][Build] Latexmk: Sometimes, the -f option can be used to get latexmk
+  to try to force complete processing.
+  But normally, you will need to correct the file(s) that caused the
+  error, and then rerun latexmk.
+  In some cases, it is best to clean out generated files before rerunning
+  latexmk after you've corrected the files.
+

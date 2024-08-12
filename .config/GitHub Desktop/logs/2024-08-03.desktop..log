@@ -1,0 +1,67 @@
+2024-08-03T05:24:50.224Z - info: [ui] [AppStore] loading 1 repositories from store
+2024-08-03T05:24:50.226Z - info: [ui] [AppStore] found account: emersonbanez (Emerson Banez)
+2024-08-03T05:24:50.528Z - info: [ui] launching: 3.4.2-linux1 (Linux 6.10.2-arch1-1)
+2024-08-03T05:24:50.528Z - info: [ui] execPath: '/opt/github-desktop/github-desktop'
+2024-08-03T05:24:50.983Z - info: [ui] Subscribed 'emersonbanez' to Alive channel
+2024-08-03T05:24:51.771Z - info: [ui] Stats reported.
+2024-08-03T05:25:15.940Z - info: [ui] credential-helper: found GitHub credential for https://github.com/ in store
+2024-08-03T05:25:16.819Z - info: [ui] credential-helper: found GitHub credential for https://github.com/ in store
+2024-08-03T05:25:17.541Z - info: [ui] Executing updateRemoteHEAD: git remote set-head -a origin (took 1.020s)
+2024-08-03T05:27:24.914Z - info: [ui] [AppStore] removing account emersonbanez (Emerson Banez) from store
+2024-08-03T05:27:24.917Z - info: [ui] Unubscribed 'emersonbanez' from Alive channel
+2024-08-03T05:27:29.693Z - info: [ui] [SignInStore] initializing OAuth flow
+2024-08-03T05:27:29.697Z - info: [main] opening in browser: https://github.com/login/oauth/authorize?client_id=3a723b10ac5575cc5bb9&scope=repo%20user%20workflow&state=a956f0a5-9701-4139-ae5f-a1958e089159
+2024-08-03T05:27:29.697Z - info: [ui] [SignInStore] account resolved
+2024-08-03T05:31:47.660Z - info: [main] Received possible protocol arguments: 3
+2024-08-03T05:31:47.660Z - info: [main] Processing protocol url
+2024-08-03T05:31:47.725Z - info: [main] Received possible protocol arguments: 2
+2024-08-03T05:31:47.728Z - info: [main] Processing protocol url
+2024-08-03T05:31:49.616Z - info: [ui] [AppStore] adding account urielsantiago69 (urielsantiago69) to store
+2024-08-03T05:31:50.905Z - info: [ui] Subscribed 'urielsantiago69' to Alive channel
+2024-08-03T05:34:04.832Z - info: [ui] credential-helper: found GitHub credential for https://github.com/ in store
+2024-08-03T05:34:12.095Z - info: [ui] Executing clone: git -c init.defaultBranch=main clone --recursive --progress -- https://github.com/emersonbanez/admin-law-book.git /home/urielsantiago/Documents/GitHub/admin-law-book (took 7.614s)
+2024-08-03T05:34:12.115Z - info: [ui] [AppStore] adding repository at /home/urielsantiago/Documents/GitHub/admin-law-book to store
+2024-08-03T05:34:12.392Z - error: [ui] Could not load new contents for syntax highlighting
+Error: ENOENT: no such file or directory, open '/home/urielsantiago/Documents/GitHub/admin-law-book/pdflatex52316.fls'
+2024-08-03T05:34:12.393Z - info: [ui] [BranchPruner] Last prune took place 9 minutes ago - skipping
+2024-08-03T05:34:12.469Z - error: [ui] Could not load new contents for syntax highlighting
+Error: ENOENT: no such file or directory, open '/home/urielsantiago/Documents/GitHub/admin-law-book/main.synctex(busy)'
+2024-08-03T05:34:23.087Z - error: [ui] Could not load new contents for syntax highlighting
+Error: ENOENT: no such file or directory, open '/home/urielsantiago/Documents/GitHub/admin-law-book/main.synctex(busy)'
+2024-08-03T05:35:40.207Z - info: [ui] credential-helper: found GitHub credential for https://github.com/ in store
+2024-08-03T05:35:40.959Z - info: [ui] Executing fetch: git fetch --progress --prune --recurse-submodules=on-demand origin (took 1.080s)
+2024-08-03T05:35:41.369Z - info: [ui] credential-helper: found GitHub credential for https://github.com/ in store
+2024-08-03T05:35:42.087Z - info: [ui] Executing updateRemoteHEAD: git remote set-head -a origin (took 1.126s)
+2024-08-03T05:35:49.919Z - info: [main] opening in browser: https://git-scm.com/docs/gitignore
+2024-08-03T05:38:10.551Z - info: [ui] [BranchPruner] Last prune took place 13 minutes ago - skipping
+2024-08-03T05:39:52.882Z - info: [ui] [Timing] Action 'create branch' for 'emersonbanez/admin-law-book' took 0.033s
+2024-08-03T05:42:40.207Z - info: [ui] [Timing] Action 'checkout branch from list' for 'emersonbanez/admin-law-book' took 0.000s
+2024-08-03T05:42:43.874Z - info: [ui] [Timing] Action 'stash and checkout' for 'emersonbanez/admin-law-book' took 0.126s
+2024-08-03T05:43:10.520Z - info: [ui] [Timing] Action 'create commit' for 'emersonbanez/admin-law-book' took 0.068s
+2024-08-03T05:43:20.022Z - info: [ui] credential-helper: found GitHub credential for https://github.com/ in store
+2024-08-03T05:43:21.143Z - info: [ui] Executing push: git push origin test --set-upstream --progress (took 1.625s)
+2024-08-03T05:43:21.650Z - info: [ui] credential-helper: found GitHub credential for https://github.com/ in store
+2024-08-03T05:43:22.475Z - info: [ui] Executing fetch: git fetch --progress --prune --recurse-submodules=on-demand origin (took 1.330s)
+2024-08-03T05:43:22.772Z - info: [ui] credential-helper: found GitHub credential for https://github.com/ in store
+2024-08-03T09:34:07.299Z - info: [ui] [AppStore] loading 1 repositories from store
+2024-08-03T09:34:07.301Z - info: [ui] [AppStore] found account: urielsantiago69 (urielsantiago69)
+2024-08-03T09:34:07.348Z - info: [ui] [BranchPruner] Last prune took place 4 hours ago - skipping
+2024-08-03T09:34:07.632Z - info: [ui] launching: 3.4.2-linux1 (Linux 6.10.2-arch1-1)
+2024-08-03T09:34:07.633Z - info: [ui] execPath: '/opt/github-desktop/github-desktop'
+2024-08-03T09:34:07.907Z - info: [ui] Subscribed 'urielsantiago69' to Alive channel
+2024-08-03T09:34:36.236Z - info: [ui] credential-helper: found GitHub credential for https://github.com/ in store
+2024-08-03T09:34:36.948Z - info: [ui] Executing fetch: git fetch --progress --prune --recurse-submodules=on-demand origin (took 1.284s)
+2024-08-03T09:34:37.351Z - info: [ui] credential-helper: found GitHub credential for https://github.com/ in store
+2024-08-03T09:34:37.973Z - info: [ui] Executing updateRemoteHEAD: git remote set-head -a origin (took 1.023s)
+2024-08-03T09:34:40.141Z - info: [ui] credential-helper: found GitHub credential for https://github.com/ in store
+2024-08-03T09:34:56.508Z - info: [ui] Executing clone: git -c init.defaultBranch=main clone --recursive --progress -- https://github.com/emersonbanez/dissertation.git /home/urielsantiago/Documents/GitHub/dissertation (took 16.800s)
+2024-08-03T09:34:56.516Z - info: [ui] [AppStore] adding repository at /home/urielsantiago/Documents/GitHub/dissertation to store
+2024-08-03T09:34:56.683Z - info: [ui] [BranchPruner] Last prune took place 4 hours ago - skipping
+2024-08-03T09:37:10.437Z - info: [ui] [Timing] Action 'create branch' for 'emersonbanez/dissertation' took 0.178s
+2024-08-03T09:39:30.113Z - info: [ui] [BranchPruner] Last prune took place 5 minutes ago - skipping
+2024-08-03T09:39:44.598Z - info: [ui] [BranchPruner] Last prune took place 4 hours ago - skipping
+2024-08-03T09:40:14.360Z - info: [ui] [BranchPruner] Last prune took place 5 minutes ago - skipping
+2024-08-03T09:40:14.761Z - info: [ui] credential-helper: found GitHub credential for https://github.com/ in store
+2024-08-03T09:40:15.485Z - info: [ui] Executing fetch: git fetch --progress --prune --recurse-submodules=on-demand origin (took 1.164s)
+2024-08-03T09:40:15.890Z - info: [ui] credential-helper: found GitHub credential for https://github.com/ in store
+2024-08-03T09:40:16.710Z - info: [ui] Executing updateRemoteHEAD: git remote set-head -a origin (took 1.224s)

@@ -1,0 +1,71 @@
+\documentclass[11pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath,amsthm,amsfonts,amssymb,amscd}
+\usepackage{multirow,booktabs}
+\usepackage[table]{xcolor}
+\usepackage{fullpage}
+\usepackage{lastpage}
+\usepackage{enumitem}
+\usepackage{fancyhdr}
+\usepackage{mathrsfs}
+\usepackage{wrapfig}
+\usepackage{setspace}
+\usepackage{calc}
+\usepackage{multicol}
+\usepackage{cancel}
+%\usepackage[retainorgcmds]{IEEEtrantools}
+\usepackage[margin=3cm]{geometry}
+\usepackage{amsmath}
+\usepackage{csquotes}
+\newlength{\tabcont}
+\setlength{\parindent}{0.0in}
+\setlength{\parskip}{0.05in}
+\usepackage{empheq}
+\usepackage{framed}
+\usepackage[most]{tcolorbox}
+\usepackage{xcolor}
+\usepackage[style=verbose]{biblatex}
+\usepackage{url}
+\usepackage{subfiles}
+\usepackage{outlines}
+\colorlet{shadecolor}{orange!15}
+\parindent 0in
+\parskip 12pt
+\geometry{margin=1in, headsep=0.25in}
+\theoremstyle{definition}
+\newtheorem{defn}{Definition}
+\newtheorem{reg}{Rule}
+\newtheorem{exer}{Exercise}
+\newtheorem{note}{Note}
+
+\addbibresource{bibliography.bib}
+\begin{document}
+\setcounter{section}{0}
+\title{Lecture 1 Notes}
+
+\thispagestyle{empty}
+
+\begin{center}
+
+    {\LARGE \bf Administrative Law}\\
+  
+\end{center}
+
+% Chapter 1 - Introduction
+\subfile{sections/01-introduction.tex}
+
+% Chapter 2 - Administrative Agencies
+\subfile{sections/02-admin_agencies.tex}
+
+% Chapter 3 - Administrative Rulemaking
+\subfile{sections/03-rulemaking.tex}
+
+% Chapter 4 - Administrative Adjudication
+\subfile{sections/04-adjudication.tex}
+
+% Chapter 5 - Judicial Review
+\subfile{sections/05-judicial_review.tex}
+
+% Chapter 6 - Control of Administrative Agencies
+\subfile{sections/06-agency_control.tex}
+\end{document}

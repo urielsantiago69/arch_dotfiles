@@ -1,0 +1,144 @@
+ReadyRc files read:
+  NONE
+Latexmk: This is Latexmk, John Collins, 31 Jan. 2024. Version 4.83.
+Latexmk: applying rule 'biber index'...
+Rule 'biber index':  Reasons for rerun
+Changed files or newly in use/created:
+  ./bibliography.bib
+Category 'changed_user':
+  ./bibliography.bib
+
+------------
+Run number 1 of rule 'biber index'
+------------
+------------
+Running 'biber  "index.bcf"'
+------------
+sh: line 1: biber: command not found
+Biber warning: [348] Biber.pm:131> WARN - ISBN '978-3-319-16020-7 978-3-319-16021-4' in entry 'Armgardt2015Present' is invalid - run biber with '--validate_datamodel' for details.
+Biber warning: [349] Biber.pm:131> WARN - ISBN '13: 978-1-4987-6665-4' in entry 'Wolfram2019Computational' is invalid - run biber with '--validate_datamodel' for details.
+Biber warning: [349] Biber.pm:131> WARN - ISBN '978-1-4842-6551-2 978-1-4842-6552-9' in entry 'Baptiste2021Ontologies' is invalid - run biber with '--validate_datamodel' for details.
+Biber warning: [349] Biber.pm:131> WARN - ISBN '978-90-481-9472-8 978-90-481-9473-5' in entry 'VanEemeren2014Handbook' is invalid - run biber with '--validate_datamodel' for details.
+Latexmk: Found biber source file(s) [bibliography.bib, index.bcf]
+Latexmk: Error return from 'biber index'
+I will add to its source list, anything cached from analysis of bcf file.
+Latexmk: Some rule(s) failed, but user file(s) changed so keep trying
+ Reasons for rerun
+Category 'changed_user':
+  /home/urielsantiago/Documents/GitHub/dissertation/index.tex
+Category 'rules_to_apply':
+  pdflatex
+
+Latexmk: applying rule 'pdflatex'...
+Rule 'pdflatex':  Reasons for rerun
+Category 'other':
+  Rerun of 'pdflatex' forced or previously required:
+    Reason or flag: 'Changed user file'
+
+------------
+Run number 1 of rule 'pdflatex'
+------------
+------------
+Running 'pdflatex  -synctex=1 -interaction=nonstopmode -file-line-error -recorder  "/home/urielsantiago/Documents/GitHub/dissertation/index.tex"'
+------------
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024/Arch Linux) (preloaded format=pdflatex)
+ restricted \write18 enabled.
+entering extended mode
+(/home/urielsantiago/Documents/GitHub/dissertation/index.tex
+LaTeX2e <2023-11-01> patch level 1
+L3 programming layer <2024-02-20>
+(/usr/share/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2023/05/17 v1.4n Standard LaTeX document class
+(/usr/share/texmf-dist/tex/latex/base/size12.clo)) (/usr/share/texmf-dist/tex/latex/base/inputenc.sty) (/usr/share/texmf-dist/tex/latex/amsmath/amsmath.sty
+For additional information on amsmath, use the `?' option.
+(/usr/share/texmf-dist/tex/latex/amsmath/amstext.sty (/usr/share/texmf-dist/tex/latex/amsmath/amsgen.sty)) (/usr/share/texmf-dist/tex/latex/amsmath/amsbsy.sty) (/usr/share/texmf-dist/tex/latex/amsmath/amsopn.sty)) (/usr/share/texmf-dist/tex/latex/amscls/amsthm.sty) (/usr/share/texmf-dist/tex/latex/amsfonts/amsfonts.sty) (/usr/share/texmf-dist/tex/latex/amsfonts/amssymb.sty) (/usr/share/texmf-dist/tex/latex/amsmath/amscd.sty) (/usr/share/texmf-dist/tex/latex/multirow/multirow.sty) (/usr/share/texmf-dist/tex/latex/booktabs/booktabs.sty) (/usr/share/texmf-dist/tex/latex/xcolor/xcolor.sty (/usr/share/texmf-dist/tex/latex/graphics-cfg/color.cfg) (/usr/share/texmf-dist/tex/latex/graphics-def/pdftex.def) (/usr/share/texmf-dist/tex/latex/graphics/mathcolor.ltx)) (/usr/share/texmf-dist/tex/latex/colortbl/colortbl.sty (/usr/share/texmf-dist/tex/latex/tools/array.sty)) (/usr/share/texmf-dist/tex/latex/preprint/fullpage.sty) (/usr/share/texmf-dist/tex/latex/lastpage/lastpage.sty (/usr/share/texmf-dist/tex/latex/lastpage/lastpage2e.sty (/usr/share/texmf-dist/tex/latex/lastpage/lastpagemodern.sty) 
+)) (/usr/share/texmf-dist/tex/latex/enumitem/enumitem.sty) (/usr/share/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty) (/usr/share/texmf-dist/tex/latex/jknapltx/mathrsfs.sty) (/usr/share/texmf-dist/tex/latex/wrapfig/wrapfig.sty) (/usr/share/texmf-dist/tex/latex/setspace/setspace.sty) (/usr/share/texmf-dist/tex/latex/tools/calc.sty) (/usr/share/texmf-dist/tex/latex/tools/multicol.sty) (/usr/share/texmf-dist/tex/latex/cancel/cancel.sty)
+
+! LaTeX Error: File `IEEEtrantools.sty' not found.
+
+Type X to quit or <RETURN> to proceed,
+or enter new name. (Default extension: sty)
+
+Enter file name: 
+/home/urielsantiago/Documents/GitHub/dissertation/index.tex:17: Emergency stop.
+<read *> 
+         
+l.17 \usepackage
+                [a4paper, total={6in, 8in}]{geometry}^^M
+/home/urielsantiago/Documents/GitHub/dissertation/index.tex:17:  ==> Fatal error occurred, no output PDF file produced!
+Transcript written on index.log.
+Latexmk: Missing input file 'IEEEtrantools.sty' (or dependence on it) from following:
+  ! LaTeX Error: File `IEEEtrantools.sty' not found.
+Latexmk: Sometimes, the -f option can be used to get latexmk
+  to try to force complete processing.
+  But normally, you will need to correct the file(s) that caused the
+  error, and then rerun latexmk.
+  In some cases, it is best to clean out generated files before rerunning
+  latexmk after you've corrected the files.
+Latexmk: Getting log file 'index.log'
+Latexmk: Examining 'index.fls'
+Latexmk: Examining 'index.log'
+Latexmk: Errors, so I did not complete making targets
+Collected error summary (may duplicate other messages):
+  biber index: Command for 'biber index' gave return code 127
+  pdflatex: Command for 'pdflatex' gave return code 1
+      Refer to 'index.log' and/or above output for details
+
+Rc files read:
+  NONE
+Latexmk: This is Latexmk, John Collins, 31 Jan. 2024. Version 4.83.
+No existing .aux file, so I'll make a simple one, and require run of *latex.
+Latexmk: applying rule 'pdflatex'...
+Rule 'pdflatex':  Reasons for rerun
+Category 'other':
+  Rerun of 'pdflatex' forced or previously required:
+    Reason or flag: 'Initial setup'
+
+------------
+Run number 1 of rule 'pdflatex'
+------------
+------------
+Running 'pdflatex  -synctex=1 -interaction=nonstopmode -file-line-error -recorder  "/home/urielsantiago/Documents/GitHub/dissertation/index.tex"'
+------------
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024/Arch Linux) (preloaded format=pdflatex)
+ restricted \write18 enabled.
+entering extended mode
+(/home/urielsantiago/Documents/GitHub/dissertation/index.tex
+LaTeX2e <2023-11-01> patch level 1
+L3 programming layer <2024-02-20>
+(/usr/share/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2023/05/17 v1.4n Standard LaTeX document class
+(/usr/share/texmf-dist/tex/latex/base/size12.clo)) (/usr/share/texmf-dist/tex/latex/base/inputenc.sty) (/usr/share/texmf-dist/tex/latex/amsmath/amsmath.sty
+For additional information on amsmath, use the `?' option.
+(/usr/share/texmf-dist/tex/latex/amsmath/amstext.sty (/usr/share/texmf-dist/tex/latex/amsmath/amsgen.sty)) (/usr/share/texmf-dist/tex/latex/amsmath/amsbsy.sty) (/usr/share/texmf-dist/tex/latex/amsmath/amsopn.sty)) (/usr/share/texmf-dist/tex/latex/amscls/amsthm.sty) (/usr/share/texmf-dist/tex/latex/amsfonts/amsfonts.sty) (/usr/share/texmf-dist/tex/latex/amsfonts/amssymb.sty) (/usr/share/texmf-dist/tex/latex/amsmath/amscd.sty) (/usr/share/texmf-dist/tex/latex/multirow/multirow.sty) (/usr/share/texmf-dist/tex/latex/booktabs/booktabs.sty) (/usr/share/texmf-dist/tex/latex/xcolor/xcolor.sty (/usr/share/texmf-dist/tex/latex/graphics-cfg/color.cfg) (/usr/share/texmf-dist/tex/latex/graphics-def/pdftex.def) (/usr/share/texmf-dist/tex/latex/graphics/mathcolor.ltx)) (/usr/share/texmf-dist/tex/latex/colortbl/colortbl.sty (/usr/share/texmf-dist/tex/latex/tools/array.sty)) (/usr/share/texmf-dist/tex/latex/preprint/fullpage.sty) (/usr/share/texmf-dist/tex/latex/lastpage/lastpage.sty (/usr/share/texmf-dist/tex/latex/lastpage/lastpage2e.sty (/usr/share/texmf-dist/tex/latex/lastpage/lastpagemodern.sty) 
+)) (/usr/share/texmf-dist/tex/latex/enumitem/enumitem.sty) (/usr/share/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty) (/usr/share/texmf-dist/tex/latex/jknapltx/mathrsfs.sty) (/usr/share/texmf-dist/tex/latex/wrapfig/wrapfig.sty) (/usr/share/texmf-dist/tex/latex/setspace/setspace.sty) (/usr/share/texmf-dist/tex/latex/tools/calc.sty) (/usr/share/texmf-dist/tex/latex/tools/multicol.sty) (/usr/share/texmf-dist/tex/latex/cancel/cancel.sty)
+
+! LaTeX Error: File `IEEEtrantools.sty' not found.
+
+Type X to quit or <RETURN> to proceed,
+or enter new name. (Default extension: sty)
+
+Enter file name: 
+/home/urielsantiago/Documents/GitHub/dissertation/index.tex:17: Emergency stop.
+<read *> 
+         
+l.17 \usepackage
+                [a4paper, total={6in, 8in}]{geometry}^^M
+/home/urielsantiago/Documents/GitHub/dissertation/index.tex:17:  ==> Fatal error occurred, no output PDF file produced!
+Transcript written on index.log.
+Latexmk: Missing input file 'IEEEtrantools.sty' (or dependence on it) from following:
+  ! LaTeX Error: File `IEEEtrantools.sty' not found.
+Latexmk: Sometimes, the -f option can be used to get latexmk
+  to try to force complete processing.
+  But normally, you will need to correct the file(s) that caused the
+  error, and then rerun latexmk.
+  In some cases, it is best to clean out generated files before rerunning
+  latexmk after you've corrected the files.
+Latexmk: Getting log file 'index.log'
+Latexmk: Examining 'index.fls'
+Latexmk: Examining 'index.log'
+Latexmk: Errors, so I did not complete making targets
+Collected error summary (may duplicate other messages):
+  pdflatex: Command for 'pdflatex' gave return code 1
+      Refer to 'index.log' and/or above output for details
+

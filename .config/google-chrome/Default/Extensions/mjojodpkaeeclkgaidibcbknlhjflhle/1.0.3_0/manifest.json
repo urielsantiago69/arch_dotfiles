@@ -1,0 +1,19 @@
+{
+   "app": {
+      "launch": {
+         "web_url": "http://bufferapp.com/cws"
+      },
+      "urls": [ "*://bufferapp.com/" ]
+   },
+   "description": "Buffer is your easier way to share. Manage and organise your timeline, see detailed analytics and quickly create new posts.",
+   "icons": {
+      "128": "icons/icon128.png",
+      "16": "icons/icon16.png",
+      "48": "icons/icon48.png"
+   },
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCXAPON07iBHvTOd2BFBtp4TS3si//PkWViSXP9uHkpnfAMoAVqweLLm9TOMPBuK55VE+lUA0WLeoe/JCTz73/XAZP7U/OEXJXIa/UFCe4T756DqBVhqzfvPbvCCyD4CJ/JWPMBHX1HlNdUxt3gww2QQC828AJxOkE3tAhA9iHweQIDAQAB",
+   "manifest_version": 2,
+   "name": "Buffer",
+   "update_url": "http://clients2.google.com/service/update2/crx",
+   "version": "1.0.3"
+}

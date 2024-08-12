@@ -1,0 +1,7 @@
+2024/08/07-11:03:31.232 7f1 Reusing MANIFEST /home/urielsantiago/.config/google-chrome/Default/IndexedDB/https_www.disneyplus.com_0.indexeddb.leveldb/MANIFEST-000001
+2024/08/07-11:03:31.232 7f1 Recovering log #3
+2024/08/07-11:03:31.232 7f1 Reusing old log /home/urielsantiago/.config/google-chrome/Default/IndexedDB/https_www.disneyplus.com_0.indexeddb.leveldb/000003.log 
+2024/08/07-11:03:33.252 7f1 Level-0 table #5: started
+2024/08/07-11:03:33.258 7f1 Level-0 table #5: 4685 bytes OK
+2024/08/07-11:03:33.268 7f1 Delete type=0 #3
+2024/08/07-11:03:33.268 7f1 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

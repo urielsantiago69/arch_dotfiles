@@ -1,0 +1,12 @@
+2024/08/05-23:58:27.903 7b8 Reusing MANIFEST /home/urielsantiago/.config/google-chrome/Default/IndexedDB/https_app.todoist.com_0.indexeddb.leveldb/MANIFEST-000001
+2024/08/05-23:58:27.903 7b8 Recovering log #4
+2024/08/05-23:58:27.912 7b8 Level-0 table #7: started
+2024/08/05-23:58:27.922 7b8 Level-0 table #7: 874599 bytes OK
+2024/08/05-23:58:27.935 7b8 Delete type=0 #4
+2024/08/05-23:58:28.500 7d1 Moved #7 to level-1 874599 bytes OK: files[ 0 1 1 0 0 0 0 ]
+2024/08/05-23:58:32.532 7b8 Compacting 1@1 + 1@2 files
+2024/08/05-23:58:32.541 7b8 Generated table #9@1: 67 keys, 27057 bytes
+2024/08/05-23:58:32.541 7b8 Compacted 1@1 + 1@2 files => 27057 bytes
+2024/08/05-23:58:32.565 7b8 compacted to: files[ 0 0 1 0 0 0 0 ]
+2024/08/05-23:58:32.565 7b8 Delete type=2 #5
+2024/08/05-23:58:32.565 7b8 Delete type=2 #7

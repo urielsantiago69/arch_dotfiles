@@ -1,0 +1,108 @@
+2024-08-08T00:10:58.566Z - info: [ui] credential-helper: found GitHub credential for https://github.com/ in store
+2024-08-08T00:10:59.425Z - info: [ui] credential-helper: found GitHub credential for https://github.com/ in store
+2024-08-08T00:41:31.555Z - info: [ui] credential-helper: found GitHub credential for https://github.com/ in store
+2024-08-08T00:41:32.766Z - info: [ui] credential-helper: found GitHub credential for https://github.com/ in store
+2024-08-08T00:41:33.585Z - info: [ui] Executing updateRemoteHEAD: git remote set-head -a origin (took 1.384s)
+2024-08-08T01:12:04.560Z - info: [ui] credential-helper: found GitHub credential for https://github.com/ in store
+2024-08-08T01:12:05.542Z - info: [ui] credential-helper: found GitHub credential for https://github.com/ in store
+2024-08-08T01:42:37.552Z - info: [ui] credential-helper: found GitHub credential for https://github.com/ in store
+2024-08-08T01:42:38.621Z - info: [ui] credential-helper: found GitHub credential for https://github.com/ in store
+2024-08-08T01:42:39.651Z - info: [ui] Executing updateRemoteHEAD: git remote set-head -a origin (took 1.435s)
+2024-08-08T02:13:10.549Z - info: [ui] credential-helper: found GitHub credential for https://github.com/ in store
+2024-08-08T02:13:11.282Z - info: [ui] Executing fetch: git fetch --progress --prune --recurse-submodules=on-demand origin (took 1.046s)
+2024-08-08T02:13:11.838Z - info: [ui] credential-helper: found GitHub credential for https://github.com/ in store
+2024-08-08T02:13:12.368Z - info: [ui] Executing updateRemoteHEAD: git remote set-head -a origin (took 1.085s)
+2024-08-08T02:43:43.745Z - info: [ui] credential-helper: found GitHub credential for https://github.com/ in store
+2024-08-08T02:43:44.456Z - info: [ui] Executing fetch: git fetch --progress --prune --recurse-submodules=on-demand origin (took 1.219s)
+2024-08-08T02:43:44.762Z - info: [ui] credential-helper: found GitHub credential for https://github.com/ in store
+2024-08-08T10:00:57.155Z - info: [ui] credential-helper: found GitHub credential for https://github.com/ in store
+2024-08-08T10:00:58.073Z - info: [ui] credential-helper: found GitHub credential for https://github.com/ in store
+2024-08-08T10:01:37.786Z - info: [ui] [BranchPruner] Last prune took place 11 hours ago - skipping
+2024-08-08T10:31:29.218Z - info: [ui] credential-helper: found GitHub credential for https://github.com/ in store
+2024-08-08T10:31:29.941Z - info: [ui] Executing fetch: git fetch --progress --prune --recurse-submodules=on-demand origin (took 1.153s)
+2024-08-08T10:31:30.449Z - info: [ui] credential-helper: found GitHub credential for https://github.com/ in store
+2024-08-08T10:31:31.077Z - info: [ui] Executing updateRemoteHEAD: git remote set-head -a origin (took 1.136s)
+2024-08-08T11:02:02.190Z - info: [ui] credential-helper: found GitHub credential for https://github.com/ in store
+2024-08-08T11:02:03.195Z - info: [ui] Executing fetch: git fetch --progress --prune --recurse-submodules=on-demand origin (took 1.407s)
+2024-08-08T11:02:03.528Z - info: [ui] credential-helper: found GitHub credential for https://github.com/ in store
+2024-08-08T11:02:04.401Z - info: [ui] Executing updateRemoteHEAD: git remote set-head -a origin (took 1.205s)
+2024-08-08T11:32:41.189Z - info: [ui] credential-helper: found GitHub credential for https://github.com/ in store
+2024-08-08T11:32:41.911Z - info: [ui] Executing fetch: git fetch --progress --prune --recurse-submodules=on-demand origin (took 6.124s)
+2024-08-08T11:32:42.316Z - info: [ui] credential-helper: found GitHub credential for https://github.com/ in store
+2024-08-08T12:03:14.166Z - info: [ui] credential-helper: found GitHub credential for https://github.com/ in store
+2024-08-08T12:03:14.859Z - info: [ui] Executing fetch: git fetch --progress --prune --recurse-submodules=on-demand origin (took 1.071s)
+2024-08-08T12:03:16.206Z - info: [ui] credential-helper: found GitHub credential for https://github.com/ in store
+2024-08-08T12:03:16.826Z - info: [ui] Executing updateRemoteHEAD: git remote set-head -a origin (took 1.966s)
+2024-08-08T12:33:48.279Z - info: [ui] credential-helper: found GitHub credential for https://github.com/ in store
+2024-08-08T12:33:49.025Z - info: [ui] Executing fetch: git fetch --progress --prune --recurse-submodules=on-demand origin (took 1.238s)
+2024-08-08T12:33:49.443Z - info: [ui] credential-helper: found GitHub credential for https://github.com/ in store
+2024-08-08T12:33:50.152Z - info: [ui] Executing updateRemoteHEAD: git remote set-head -a origin (took 1.126s)
+2024-08-08T12:37:50.574Z - info: [ui] [BranchPruner] Last prune took place 14 hours ago - skipping
+2024-08-08T12:37:50.985Z - info: [ui] credential-helper: found GitHub credential for https://github.com/ in store
+2024-08-08T12:37:51.571Z - info: [ui] Executing fetch: git fetch --progress --prune --recurse-submodules=on-demand origin (took 1.047s)
+2024-08-08T12:37:51.906Z - info: [ui] credential-helper: found GitHub credential for https://github.com/ in store
+2024-08-08T12:37:52.353Z - info: [ui] [RepositoryIndicatorUpdater]: Refreshing sidebar indicators for 2 repositories took 5.8s of which 0.0s paused, total 5.8s
+2024-08-08T12:37:52.626Z - info: [ui] Executing updateRemoteHEAD: git remote set-head -a origin (took 1.054s)
+2024-08-08T12:41:28.839Z - info: [ui] [BranchPruner] Last prune took place 14 hours ago - skipping
+2024-08-08T12:41:39.582Z - info: [ui] [BranchPruner] Last prune took place 14 hours ago - skipping
+2024-08-08T12:42:38.875Z - info: [ui] [AppStore] loading 2 repositories from store
+2024-08-08T12:42:38.879Z - info: [ui] [AppStore] found account: urielsantiago69 (urielsantiago69)
+2024-08-08T12:42:38.909Z - info: [ui] [BranchPruner] Last prune took place 14 hours ago - skipping
+2024-08-08T12:42:39.177Z - info: [ui] launching: 3.4.2-linux1 (Linux 6.10.3-arch1-2)
+2024-08-08T12:42:39.178Z - info: [ui] execPath: '/opt/github-desktop/github-desktop'
+2024-08-08T12:42:39.614Z - info: [ui] Subscribed 'urielsantiago69' to Alive channel
+2024-08-08T12:43:59.481Z - info: [ui] [Timing] Action 'create commit' for 'emersonbanez/dissertation' took 0.123s
+2024-08-08T12:44:06.125Z - info: [ui] credential-helper: found GitHub credential for https://github.com/ in store
+2024-08-08T12:44:08.374Z - info: [ui] Executing push: git push origin dev --set-upstream --progress (took 2.797s)
+2024-08-08T12:44:08.724Z - info: [ui] credential-helper: found GitHub credential for https://github.com/ in store
+2024-08-08T12:44:09.709Z - info: [ui] Executing fetch: git fetch --progress --prune --recurse-submodules=on-demand origin (took 1.333s)
+2024-08-08T12:44:10.164Z - info: [ui] credential-helper: found GitHub credential for https://github.com/ in store
+2024-08-08T12:44:10.934Z - info: [ui] Executing updateRemoteHEAD: git remote set-head -a origin (took 1.224s)
+2024-08-08T12:44:26.997Z - info: [main] opening in browser: https://github.com/emersonbanez/dissertation/pull/new/main...dev
+2024-08-08T12:45:11.622Z - info: [ui] [RepositoryIndicatorUpdater]: Refreshing sidebar indicators for 1 repositories took 0.6s of which 0.0s paused, total 0.6s
+2024-08-08T12:55:18.318Z - info: [ui] [AppStore] loading 2 repositories from store
+2024-08-08T12:55:18.319Z - info: [ui] [AppStore] found account: urielsantiago69 (urielsantiago69)
+2024-08-08T12:55:18.344Z - info: [ui] [BranchPruner] Last prune took place 14 hours ago - skipping
+2024-08-08T12:55:18.606Z - info: [ui] launching: 3.4.2-linux1 (Linux 6.10.3-arch1-2)
+2024-08-08T12:55:18.606Z - info: [ui] execPath: '/opt/github-desktop/github-desktop'
+2024-08-08T12:55:24.648Z - info: [ui] Subscribed 'urielsantiago69' to Alive channel
+2024-08-08T12:57:22.619Z - info: [ui] [AppStore] loading 2 repositories from store
+2024-08-08T12:57:22.620Z - info: [ui] [AppStore] found account: urielsantiago69 (urielsantiago69)
+2024-08-08T12:57:22.645Z - info: [ui] [BranchPruner] Last prune took place 14 hours ago - skipping
+2024-08-08T12:57:22.890Z - info: [ui] launching: 3.4.2-linux1 (Linux 6.10.3-arch1-2)
+2024-08-08T12:57:22.890Z - info: [ui] execPath: '/opt/github-desktop/github-desktop'
+2024-08-08T12:57:23.696Z - info: [ui] Subscribed 'urielsantiago69' to Alive channel
+2024-08-08T12:57:51.190Z - info: [ui] [BranchPruner] Last prune took place 14 hours ago - skipping
+2024-08-08T12:58:03.667Z - info: [ui] [Timing] Action 'checkout branch from list' for 'emersonbanez/dissertation' took 0.130s
+2024-08-08T12:58:19.861Z - info: [ui] [RepositoryIndicatorUpdater]: Refreshing sidebar indicators for 1 repositories took 0.5s of which 0.0s paused, total 0.5s
+2024-08-08T12:58:25.852Z - info: [ui] [Timing] Action 'checkout branch from list' for 'emersonbanez/dissertation' took 0.000s
+2024-08-08T12:58:28.113Z - error: [ui] Could not load new contents for syntax highlighting
+Error: ENOENT: no such file or directory, open '/home/urielsantiago/Documents/GitHub/dissertation/.vscode/settings.json'
+2024-08-08T12:58:28.173Z - info: [ui] [Timing] Action 'stash and checkout' for 'emersonbanez/dissertation' took 0.131s
+2024-08-08T12:58:31.273Z - info: [ui] [BranchPruner] Last prune took place 14 hours ago - skipping
+2024-08-08T12:58:38.582Z - info: [ui] [BranchPruner] Last prune took place 14 hours ago - skipping
+2024-08-08T12:58:54.293Z - info: [ui] [Timing] Action 'checkout branch from list' for 'emersonbanez/dissertation' took 0.122s
+2024-08-08T12:59:01.228Z - info: [ui] [Timing] Action 'checkout branch from list' for 'emersonbanez/dissertation' took 0.000s
+2024-08-08T12:59:03.676Z - info: [ui] [BranchPruner] Last prune took place 14 hours ago - skipping
+2024-08-08T12:59:08.942Z - info: [ui] [Timing] Action 'checkout branch from list' for 'emersonbanez/dissertation' took 0.114s
+2024-08-08T13:02:44.818Z - info: [ui] [Timing] Action 'checkout branch from list' for 'emersonbanez/dissertation' took 0.124s
+2024-08-08T13:02:49.950Z - info: [ui] [Timing] Action 'checkout branch from list' for 'emersonbanez/dissertation' took 0.117s
+2024-08-08T13:02:54.734Z - info: [ui] [Timing] Action 'checkout branch from list' for 'emersonbanez/dissertation' took 0.116s
+2024-08-08T13:03:00.204Z - info: [ui] [Timing] Action 'checkout branch from list' for 'emersonbanez/dissertation' took 0.119s
+2024-08-08T13:03:17.117Z - info: [ui] [AppStore. _dropStashEntry] dropped stash with commit id b51d62a0d62c942a9062fb865cb469913feece81
+2024-08-08T13:03:20.197Z - info: [ui] [Timing] Action 'checkout branch from list' for 'emersonbanez/dissertation' took 0.110s
+2024-08-08T13:03:23.531Z - info: [ui] [Timing] Action 'checkout branch from list' for 'emersonbanez/dissertation' took 0.107s
+2024-08-08T13:03:39.204Z - info: [ui] [AppStore] loading 2 repositories from store
+2024-08-08T13:03:39.206Z - info: [ui] [AppStore] found account: urielsantiago69 (urielsantiago69)
+2024-08-08T13:03:39.230Z - info: [ui] [BranchPruner] Last prune took place 14 hours ago - skipping
+2024-08-08T13:03:39.446Z - info: [ui] launching: 3.4.2-linux1 (Linux 6.10.3-arch1-2)
+2024-08-08T13:03:39.446Z - info: [ui] execPath: '/opt/github-desktop/github-desktop'
+2024-08-08T13:03:40.203Z - info: [ui] Subscribed 'urielsantiago69' to Alive channel
+2024-08-08T13:03:48.928Z - info: [ui] credential-helper: found GitHub credential for https://github.com/ in store
+2024-08-08T13:03:49.905Z - info: [ui] Executing deleteRemoteBranch: git push origin :dev (took 1.374s)
+2024-08-08T13:03:55.915Z - info: [ui] credential-helper: found GitHub credential for https://github.com/ in store
+2024-08-08T13:03:56.664Z - info: [ui] Executing fetch: git fetch --progress --prune --recurse-submodules=on-demand origin (took 1.102s)
+2024-08-08T13:03:57.048Z - info: [ui] credential-helper: found GitHub credential for https://github.com/ in store
+2024-08-08T13:03:57.787Z - info: [ui] Executing updateRemoteHEAD: git remote set-head -a origin (took 1.121s)
+2024-08-08T13:05:10.561Z - info: [main] opening in browser: https://git-scm.com/docs/gitignore
+2024-08-08T13:06:56.131Z - info: [ui] [RepositoryIndicatorUpdater]: Refreshing sidebar indicators for 1 repositories took 0.5s of which 0.0s paused, total 0.5s

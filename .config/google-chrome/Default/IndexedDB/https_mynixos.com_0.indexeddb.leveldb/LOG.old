@@ -1,0 +1,7 @@
+2024/08/07-22:22:32.540 7c1 Reusing MANIFEST /home/urielsantiago/.config/google-chrome/Default/IndexedDB/https_mynixos.com_0.indexeddb.leveldb/MANIFEST-000001
+2024/08/07-22:22:32.540 7c1 Recovering log #4
+2024/08/07-22:22:32.541 7c1 Reusing old log /home/urielsantiago/.config/google-chrome/Default/IndexedDB/https_mynixos.com_0.indexeddb.leveldb/000004.log 
+2024/08/07-22:22:32.660 7db Level-0 table #8: started
+2024/08/07-22:22:32.666 7db Level-0 table #8: 927 bytes OK
+2024/08/07-22:22:32.675 7db Delete type=0 #4
+2024/08/07-22:22:32.676 7c1 Manual compaction at level-0 from '\x00\x06\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x07\x00\x00\x00' @ 0 : 0; will stop at (end)

@@ -1,0 +1,127 @@
+[22:01:49.737][Logger] New log placeholder %WS1% registered for /home/urielsantiago/Documents/GitHub/dissertation .
+[22:01:49.737][Extension] Initializing LaTeX Workshop.
+[22:01:49.782][Build][Recipe] Set $LATEXWORKSHOP_DOCKER_LATEX: ""
+[22:01:49.782][Build][Recipe] Set $LATEXWORKSHOP_DOCKER_PATH: "docker"
+[22:01:49.801][Server] Creating LaTeX Workshop http and websocket server.
+[22:01:49.828][Format][Bib] Bibtex format config: {"tab":"  ","case":"lowercase","left":"{","right":"}","trailingComma":false,"sort":["key"],"alignOnEqual":true,"sortFields":false,"fieldsOrder":[],"firstEntries":["string","xdata"]}
+[22:01:49.843][Server] Server successfully started: {"address":"127.0.0.1","family":"IPv4","port":44495} .
+[22:01:49.847][Extension] Extension root: /home/urielsantiago/.vscode-oss/extensions/james-yu.latex-workshop-10.1.0-universal
+[22:01:49.847][Extension] $PATH: /home/urielsantiago/go/bin:/home/urielsantiago/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/bin:/usr/lib/jvm/default/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl:/var/lib/snapd/snap/bin
+[22:01:49.847][Extension] $SHELL: /bin/bash
+[22:01:49.847][Extension] $LANG: en_US.UTF-8
+[22:01:49.847][Extension] $LC_ALL: undefined
+[22:01:49.847][Extension] process.platform: linux
+[22:01:49.847][Extension] process.arch: x64
+[22:01:49.847][Extension] vscode.env.appName: Code - OSS
+[22:01:49.847][Extension] vscode.env.remoteName: undefined
+[22:01:49.848][Extension] vscode.env.uiKind: 1
+[22:01:49.864][Extension] Trigger characters for intellisense of LaTeX documents: ["\\",",","{","}"]
+[22:01:49.865][Root] Current workspace folders: ["file://%WS1%"]
+[22:01:49.865][Extension] LaTeX Workshop initialized.
+[22:01:49.865][Root] Current workspaceRootDir: file://%WS1% .
+[22:01:49.895][Server] valdOrigin is http://127.0.0.1:44495
+[22:01:49.927][Viewer][Panel] Internal PDF viewer at http://127.0.0.1:44495/viewer.html?file=pdf..ZmlsZSUzQSUyRiUyRiUyRmhvbWUlMkZ1cmllbHNhbnRpYWdvJTJGRG9jdW1lbnRzJTJGR2l0SHViJTJGZGlzc2VydGF0aW9uJTJGaW5kZXgucGRm .
+[22:01:49.927][Cacher][Watcher] Watched %WS1%/index.pdf with a new .pdf watcher on %WS1% .
+[22:01:49.928][Event] FILE_WATCHED: "%WS1%/index.pdf"
+[22:01:50.163][Viewer] Handle data type: open
+[22:01:50.236][Server] Preview PDF file: file://%WS1%/index.pdf
+[22:01:50.266][Root] Found files that might be root, choose the first one: %WS1%/sections/08-threshold_testing.tex,%WS1%/sections/02-computational_law.tex,%WS1%/sections/07-relevance_testing.tex,%WS1%/sections/01-introduction.tex,%WS1%/sections/04-encoding_analysis_overview.tex,%WS1%/sections/03-legal_computability.tex,%WS1%/proposal/proposal.tex,%WS1%/debates/debates.tex,%WS1%/presentations/02-crs_jul18/presentation_02_jul18.tex,%WS1%/presentations/02-crs_jul18/crs_july04_submission.tex,%WS1%/lecture_outline/outline_qdai.tex,%WS1%/lecture_outline/outline.tex,%WS1%/index.tex,%WS1%/asli/asli.tex,%WS1%/presentations/01-crs_feb01/presentation_01_feb01.tex,%WS1%/asli/presentation/asli_presentation.tex .
+[22:01:50.266][Root] Root file changed: from %WS1%/sections/08-threshold_testing.tex to %WS1%/sections/08-threshold_testing.tex, langID latex . Refresh dependencies
+[22:01:50.267][Event] ROOT_FILE_CHANGED: "%WS1%/sections/08-threshold_testing.tex"
+[22:01:50.267][Cacher][Watcher] Reset.
+[22:01:50.267][Cacher][Watcher] Reset.
+[22:01:50.268][Cacher] Adding %WS1%/sections/08-threshold_testing.tex .
+[22:01:50.269][Cacher][Watcher] Watched %WS1%/sections/08-threshold_testing.tex with a new .* watcher on %WS1%/sections .
+[22:01:50.269][Event] FILE_WATCHED: "%WS1%/sections/08-threshold_testing.tex"
+[22:01:50.270][Cacher] Caching %WS1%/sections/08-threshold_testing.tex .
+[22:01:50.270][Event] ROOT_FILE_SEARCHED
+[22:01:50.271][Cacher] Updated inputs of %WS1%/sections/08-threshold_testing.tex .
+[22:01:50.271][Cacher] Parse LaTeX AST: %WS1%/sections/08-threshold_testing.tex .
+[22:01:50.276][Cacher] Parsed LaTeX AST in 4.90 ms: %WS1%/sections/08-threshold_testing.tex .
+[22:01:50.276][File] Calling kpsewhich to resolve subfiles.cls .
+[22:01:50.314][File] kpsewhich returned with '/usr/share/texmf-dist/tex/latex/subfiles/subfiles.cls'.
+[22:01:50.315][Cacher] Updated elements in 38.97 ms: %WS1%/sections/08-threshold_testing.tex .
+[22:01:50.315][Event] FILE_PARSED: "%WS1%/sections/08-threshold_testing.tex"
+[22:01:50.316][Structure] Structure force updated with 0 root sections for %WS1%/sections/08-threshold_testing.tex .
+[22:01:50.316][Event] STRUCTURE_UPDATED
+[22:01:50.317][Cacher] Parsing .fls %WS1%/sections/08-threshold_testing.fls .
+[22:01:50.353][Cacher] Parsed .fls %WS1%/sections/08-threshold_testing.fls .
+[22:01:50.358][Viewer] Handle data type: loaded
+[22:01:50.358][Event] VIEWER_PAGE_LOADED
+[22:01:52.232][Cacher] Error loading cache: %WS1%/index.tex . Forcing.
+[22:01:52.233][Cacher] Caching %WS1%/index.tex .
+[22:01:52.236][Cacher] Input %WS1%/sections/01-introduction.tex from %WS1%/index.tex .
+[22:01:52.237][Cacher] Adding %WS1%/sections/01-introduction.tex .
+[22:01:52.237][Cacher][Watcher] Watched %WS1%/sections/01-introduction.tex by the .* watcher.
+[22:01:52.237][Event] FILE_WATCHED: "%WS1%/sections/01-introduction.tex"
+[22:01:52.238][Cacher] Caching %WS1%/sections/01-introduction.tex .
+[22:01:52.239][Cacher] Input %WS1%/sections/02-computational_law.tex from %WS1%/index.tex .
+[22:01:52.239][Cacher] Adding %WS1%/sections/02-computational_law.tex .
+[22:01:52.239][Cacher][Watcher] Watched %WS1%/sections/02-computational_law.tex by the .* watcher.
+[22:01:52.239][Event] FILE_WATCHED: "%WS1%/sections/02-computational_law.tex"
+[22:01:52.239][Cacher] Caching %WS1%/sections/02-computational_law.tex .
+[22:01:52.240][Cacher] Updated inputs of %WS1%/sections/01-introduction.tex .
+[22:01:52.240][Cacher] Parse LaTeX AST: %WS1%/sections/01-introduction.tex .
+[22:01:52.241][Cacher] Input %WS1%/sections/03-legal_computability.tex from %WS1%/index.tex .
+[22:01:52.241][Cacher] Adding %WS1%/sections/03-legal_computability.tex .
+[22:01:52.241][Cacher][Watcher] Watched %WS1%/sections/03-legal_computability.tex by the .* watcher.
+[22:01:52.242][Event] FILE_WATCHED: "%WS1%/sections/03-legal_computability.tex"
+[22:01:52.242][Cacher] Caching %WS1%/sections/03-legal_computability.tex .
+[22:01:52.243][Cacher] Updated inputs of %WS1%/sections/02-computational_law.tex .
+[22:01:52.244][Cacher] Parse LaTeX AST: %WS1%/sections/02-computational_law.tex .
+[22:01:52.244][Cacher] Input %WS1%/sections/04-encoding_analysis_overview.tex from %WS1%/index.tex .
+[22:01:52.244][Cacher] Adding %WS1%/sections/04-encoding_analysis_overview.tex .
+[22:01:52.244][Cacher][Watcher] Watched %WS1%/sections/04-encoding_analysis_overview.tex by the .* watcher.
+[22:01:52.244][Event] FILE_WATCHED: "%WS1%/sections/04-encoding_analysis_overview.tex"
+[22:01:52.244][Cacher] Caching %WS1%/sections/04-encoding_analysis_overview.tex .
+[22:01:52.246][Cacher] Updated inputs of %WS1%/sections/03-legal_computability.tex .
+[22:01:52.246][Cacher] Parse LaTeX AST: %WS1%/sections/03-legal_computability.tex .
+[22:01:52.246][Cacher] Input %WS1%/sections/07-relevance_testing.tex from %WS1%/index.tex .
+[22:01:52.246][Cacher] Adding %WS1%/sections/07-relevance_testing.tex .
+[22:01:52.246][Cacher][Watcher] Watched %WS1%/sections/07-relevance_testing.tex by the .* watcher.
+[22:01:52.246][Event] FILE_WATCHED: "%WS1%/sections/07-relevance_testing.tex"
+[22:01:52.247][Cacher] Caching %WS1%/sections/07-relevance_testing.tex .
+[22:01:52.247][Cacher] Updated inputs of %WS1%/index.tex .
+[22:01:52.247][Cacher] Parse LaTeX AST: %WS1%/index.tex .
+[22:01:52.247][Cacher] Updated inputs of %WS1%/sections/04-encoding_analysis_overview.tex .
+[22:01:52.247][Cacher] Parse LaTeX AST: %WS1%/sections/04-encoding_analysis_overview.tex .
+[22:01:52.248][Cacher] Updated inputs of %WS1%/sections/07-relevance_testing.tex .
+[22:01:52.248][Cacher] Parse LaTeX AST: %WS1%/sections/07-relevance_testing.tex .
+[22:01:52.303][Cacher] Parsed LaTeX AST in 62.69 ms: %WS1%/sections/01-introduction.tex .
+[22:01:52.304][File] kpsewhich cache hit on subfiles.cls: /usr/share/texmf-dist/tex/latex/subfiles/subfiles.cls .
+[22:01:52.312][Cacher] Updated elements in 8.90 ms: %WS1%/sections/01-introduction.tex .
+[22:01:52.313][Event] FILE_PARSED: "%WS1%/sections/01-introduction.tex"
+[22:01:52.362][Cacher] Parsed LaTeX AST in 117.97 ms: %WS1%/sections/02-computational_law.tex .
+[22:01:52.362][File] kpsewhich cache hit on subfiles.cls: /usr/share/texmf-dist/tex/latex/subfiles/subfiles.cls .
+[22:01:52.367][Cacher] Updated elements in 4.77 ms: %WS1%/sections/02-computational_law.tex .
+[22:01:52.367][Event] FILE_PARSED: "%WS1%/sections/02-computational_law.tex"
+[22:01:52.404][Cacher] Parsed LaTeX AST in 158.11 ms: %WS1%/sections/03-legal_computability.tex .
+[22:01:52.404][File] kpsewhich cache hit on subfiles.cls: /usr/share/texmf-dist/tex/latex/subfiles/subfiles.cls .
+[22:01:52.406][Cacher] Updated elements in 2.00 ms: %WS1%/sections/03-legal_computability.tex .
+[22:01:52.407][Event] FILE_PARSED: "%WS1%/sections/03-legal_computability.tex"
+[22:01:52.411][Cacher] Parsed LaTeX AST in 163.56 ms: %WS1%/index.tex .
+[22:01:52.411][File] Calling kpsewhich to resolve article.cls .
+[22:01:52.445][File] kpsewhich returned with '/usr/share/texmf-dist/tex/latex/base/article.cls'.
+[22:01:52.446][Cacher] Bib %WS1%/bibliography.bib from %WS1%/index.tex .
+[22:01:52.447][Intelli][Citation] Parsing .bib entries from %WS1%/bibliography.bib
+[22:01:52.447][Intelli][Citation] Parse BibTeX AST from %WS1%/bibliography.bib .
+[22:01:52.447][Cacher][Watcher] Watched %WS1%/bibliography.bib with a new .bib watcher on %WS1% .
+[22:01:52.447][Event] FILE_WATCHED: "%WS1%/bibliography.bib"
+[22:01:52.448][Cacher] Updated elements in 36.78 ms: %WS1%/index.tex .
+[22:01:52.448][Event] FILE_PARSED: "%WS1%/index.tex"
+[22:01:52.484][Cacher] Parsed LaTeX AST in 236.06 ms: %WS1%/sections/04-encoding_analysis_overview.tex .
+[22:01:52.484][File] kpsewhich cache hit on subfiles.cls: /usr/share/texmf-dist/tex/latex/subfiles/subfiles.cls .
+[22:01:52.490][Cacher] Updated elements in 6.33 ms: %WS1%/sections/04-encoding_analysis_overview.tex .
+[22:01:52.491][Event] FILE_PARSED: "%WS1%/sections/04-encoding_analysis_overview.tex"
+[22:01:52.493][Cacher] Parsed LaTeX AST in 244.60 ms: %WS1%/sections/07-relevance_testing.tex .
+[22:01:52.493][File] kpsewhich cache hit on subfiles.cls: /usr/share/texmf-dist/tex/latex/subfiles/subfiles.cls .
+[22:01:52.493][Cacher] Updated elements in 0.57 ms: %WS1%/sections/07-relevance_testing.tex .
+[22:01:52.494][Event] FILE_PARSED: "%WS1%/sections/07-relevance_testing.tex"
+[22:01:52.494][Structure] Structure force updated with 0 root sections for %WS1%/sections/08-threshold_testing.tex .
+[22:01:52.494][Event] STRUCTURE_UPDATED
+[22:01:52.500][Intelli][Citation] Parsed 60 bib entries from %WS1%/bibliography.bib .
+[22:01:52.501][Event] FILE_PARSED: "%WS1%/bibliography.bib"
+[22:01:52.501][Structure] Structure force updated with 0 root sections for %WS1%/sections/08-threshold_testing.tex .
+[22:01:52.501][Event] STRUCTURE_UPDATED
+[22:02:15.338][Cacher][Watcher] Reset.
+[22:02:15.338][Cacher][Watcher] Reset.

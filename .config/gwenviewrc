@@ -1,0 +1,22 @@
+[General]
+LastUsedVersion=210800
+SideBarPage=operations
+
+[MainWindow]
+MenuBar=Disabled
+ToolBarsMovable=Disabled
+
+[Recent Files]
+File1[$e]=trash:/0-cc40fc73-6281-4b8a-b018-b395b56c5f9a.jpg
+File2[$e]=$HOME/Downloads/LPOTP.png
+File3[$e]=$HOME/Downloads/dd85102f-7029-43e4-b81f-a99c8aed12e2.jpg
+File4[$e]=$HOME/Documents/Guardianfall/ara-athienza-as-darna.jpeg
+Name1[$e]=0-cc40fc73-6281-4b8a-b018-b395b56c5f9a.jpg
+Name2[$e]=LPOTP.png
+Name3[$e]=dd85102f-7029-43e4-b81f-a99c8aed12e2.jpg
+Name4[$e]=ara-athienza-as-darna.jpeg
+
+[SideBar]
+InformationSplitterSizes=220,255
+IsVisible ViewMode=true
+SideBarSplitterSizes=227,1389
