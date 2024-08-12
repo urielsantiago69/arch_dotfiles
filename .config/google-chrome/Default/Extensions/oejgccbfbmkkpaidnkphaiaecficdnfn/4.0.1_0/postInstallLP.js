@@ -1,2 +1,0 @@
-import"./assets/modulepreload-polyfill.js";import{B as e}from"./assets/browser-polyfill.js";(()=>{if(window.browser){e.permissions.contains({origins:["*://*.toggl.com/*","*://toggl.com/*"]}).then(t=>{t||e.tabs.update({url:e.runtime.getURL("src/pages/requestPermission/index.html")})});const o=document.getElementById("FFPin"),i=document.getElementById("chromePin");o&&(o.style.display="block"),i&&(i.style.display="none")}})();
-//# sourceMappingURL=postInstallLP.js.map

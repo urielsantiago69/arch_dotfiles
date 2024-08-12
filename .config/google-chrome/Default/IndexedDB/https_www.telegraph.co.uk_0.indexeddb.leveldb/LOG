@@ -1,6 +1,0 @@
-2024/08/05-21:20:10.268 7d4 Creating DB /home/urielsantiago/.config/google-chrome/Default/IndexedDB/https_www.telegraph.co.uk_0.indexeddb.leveldb since it was missing.
-2024/08/05-21:20:10.287 7d4 Reusing MANIFEST /home/urielsantiago/.config/google-chrome/Default/IndexedDB/https_www.telegraph.co.uk_0.indexeddb.leveldb/MANIFEST-000001
-2024/08/05-21:20:58.163 7b7 Level-0 table #5: started
-2024/08/05-21:20:58.173 7b7 Level-0 table #5: 186268 bytes OK
-2024/08/05-21:20:58.186 7b7 Delete type=0 #3
-2024/08/05-21:20:58.187 7b7 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

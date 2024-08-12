@@ -1,1 +1,0 @@
-togglbutton.render(".modal-content .card_container:not(.toggl)",{observe:!0},function(t){const n=$(".card_container .body a.title",t).textContent.trim(),o=togglbutton.createTimerLink({className:"sprintly",description:n});$(".card_container .card .top",t).appendChild(o)});

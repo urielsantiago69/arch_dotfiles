@@ -1,1 +1,0 @@
-togglbutton.render("#docs-bars:not(.toggl)",{},function(e){const n=function(){const t=$(".docs-title-input");return t?t.value:""},o=togglbutton.createTimerLink({className:"google-docs",description:n});$("#docs-menubar").appendChild(o)});

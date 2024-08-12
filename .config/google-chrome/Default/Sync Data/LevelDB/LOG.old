@@ -1,6 +1,0 @@
-2024/08/12-15:12:18.513 ccb Reusing MANIFEST /home/urielsantiago/.config/google-chrome/Default/Sync Data/LevelDB/MANIFEST-000001
-2024/08/12-15:12:18.515 ccb Recovering log #180
-2024/08/12-15:12:18.521 ccb Reusing old log /home/urielsantiago/.config/google-chrome/Default/Sync Data/LevelDB/000180.log 
-2024/08/12-15:14:22.003 cca Level-0 table #184: started
-2024/08/12-15:14:22.012 cca Level-0 table #184: 102510 bytes OK
-2024/08/12-15:14:22.024 cca Delete type=0 #180

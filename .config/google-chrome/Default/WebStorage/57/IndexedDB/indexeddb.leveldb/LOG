@@ -1,7 +1,0 @@
-2024/08/08-00:03:28.029 7c1 Reusing MANIFEST /home/urielsantiago/.config/google-chrome/Default/WebStorage/57/IndexedDB/indexeddb.leveldb/MANIFEST-000001
-2024/08/08-00:03:28.029 7c1 Recovering log #3
-2024/08/08-00:03:28.030 7c1 Reusing old log /home/urielsantiago/.config/google-chrome/Default/WebStorage/57/IndexedDB/indexeddb.leveldb/000003.log 
-2024/08/08-00:04:21.703 7c1 Level-0 table #5: started
-2024/08/08-00:04:21.711 7c1 Level-0 table #5: 57562 bytes OK
-2024/08/08-00:04:21.722 7c1 Delete type=0 #3
-2024/08/08-00:04:21.722 7c1 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

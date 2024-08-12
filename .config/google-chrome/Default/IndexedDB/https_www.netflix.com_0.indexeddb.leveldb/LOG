@@ -1,6 +1,0 @@
-2024/08/12-12:40:31.124 7da Reusing MANIFEST /home/urielsantiago/.config/google-chrome/Default/IndexedDB/https_www.netflix.com_0.indexeddb.leveldb/MANIFEST-000001
-2024/08/12-12:40:31.124 7da Recovering log #17
-2024/08/12-12:40:31.137 7da Reusing old log /home/urielsantiago/.config/google-chrome/Default/IndexedDB/https_www.netflix.com_0.indexeddb.leveldb/000017.log 
-2024/08/12-12:41:19.230 7be Level-0 table #22: started
-2024/08/12-12:41:19.247 7be Level-0 table #22: 2507329 bytes OK
-2024/08/12-12:41:19.260 7be Delete type=0 #17

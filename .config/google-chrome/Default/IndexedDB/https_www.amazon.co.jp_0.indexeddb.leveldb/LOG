@@ -1,6 +1,0 @@
-2024/08/08-10:31:57.906 7f6 Creating DB /home/urielsantiago/.config/google-chrome/Default/IndexedDB/https_www.amazon.co.jp_0.indexeddb.leveldb since it was missing.
-2024/08/08-10:31:57.916 7f6 Reusing MANIFEST /home/urielsantiago/.config/google-chrome/Default/IndexedDB/https_www.amazon.co.jp_0.indexeddb.leveldb/MANIFEST-000001
-2024/08/08-11:53:02.914 810 Level-0 table #5: started
-2024/08/08-11:53:02.932 810 Level-0 table #5: 553977 bytes OK
-2024/08/08-11:53:02.946 810 Delete type=0 #3
-2024/08/08-11:53:02.947 7f6 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

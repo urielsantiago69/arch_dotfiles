@@ -1,6 +1,0 @@
-2024/08/04-10:51:14.131 9b1 Creating DB /home/urielsantiago/.config/google-chrome/Default/IndexedDB/https_adminconsole.adobe.com_0.indexeddb.leveldb since it was missing.
-2024/08/04-10:51:14.164 9b1 Reusing MANIFEST /home/urielsantiago/.config/google-chrome/Default/IndexedDB/https_adminconsole.adobe.com_0.indexeddb.leveldb/MANIFEST-000001
-2024/08/04-10:51:14.802 9b1 Level-0 table #5: started
-2024/08/04-10:51:14.809 9b1 Level-0 table #5: 571 bytes OK
-2024/08/04-10:51:14.821 9b1 Delete type=0 #3
-2024/08/04-10:51:14.822 99c Manual compaction at level-0 from '\x00\x01\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x02\x00\x00\x00' @ 0 : 0; will stop at (end)

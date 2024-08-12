@@ -1,7 +1,0 @@
-2024/08/04-12:12:23.727 99b Creating DB /home/urielsantiago/.config/google-chrome/Default/WebStorage/31/IndexedDB/indexeddb.leveldb since it was missing.
-2024/08/04-12:12:23.745 99b Reusing MANIFEST /home/urielsantiago/.config/google-chrome/Default/WebStorage/31/IndexedDB/indexeddb.leveldb/MANIFEST-000001
-2024/08/04-12:12:23.779 9af Manual compaction at level-0 from '\x00\x02\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x03\x00\x00\x00' @ 0 : 0; will stop at (end)
-2024/08/04-12:15:43.358 99b Level-0 table #5: started
-2024/08/04-12:15:43.366 99b Level-0 table #5: 22848 bytes OK
-2024/08/04-12:15:43.380 99b Delete type=0 #3
-2024/08/04-12:15:43.380 99b Manual compaction at level-0 from (begin) .. (end); will stop at (end)

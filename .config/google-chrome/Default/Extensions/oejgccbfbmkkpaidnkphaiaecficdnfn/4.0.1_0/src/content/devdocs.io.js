@@ -1,1 +1,0 @@
-togglbutton.render("._nav:not(.toggl)",{observe:!0},function(){const e=function(){return document.title},t=togglbutton.createTimerLink({className:"devdocs",description:e}),n=$("nav._nav");n&&(t.classList.add("_nav-link"),t.style.marginTop="0.8rem",n.insertBefore(t,n.firstChild))});
