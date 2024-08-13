@@ -2,8 +2,8 @@
 size = 12.0
 
 [font.normal]
-family = "FiraCode"
-style = "Regular"
+family = "FiraCode Nerd Font"
+style = "Medium"
 
 [window]
 opacity = 0.8
