@@ -45,3 +45,11 @@ export PATH=$JAVA_HOME/bin:$PATH
 if command -v tmux &> /dev/null && [ -n "$PS1" ] && [[ ! "$TERM" =~ screen ]] && [[ ! "$TERM" =~ tmux ]] && [ -z "$TMUX" ]; then
   exec tmux
 fi
+
+# start up fish shell by default
+
+if [[ $(ps --no-header --pid=$PPID --format=comm) != "fish" && -z ${BASH_EXECUTION_STRING} ]]
+then
+  shopt -q login_shell && LOGIN_OPTION='--login' || LOGIN_OPTION=''
+  exec fish $LOGIN_OPTION
+fi
